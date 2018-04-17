@@ -1,0 +1,17 @@
+package test;
+
+import com.github.xjtushilei.core.Spider;
+
+public class TestSpider {
+	
+	//爬取《交大新闻网》的所有信息，并将信息输出到文本文件！
+	
+	public static void main(String[] args){
+		Spider.build()
+        .setProcessor(myPageProcessor)
+        .setSaver(mySaver)
+        .addUrlSeed("http://news.xjtu.edu.cn")
+        .addRegexRule("http://news.xjtu.edu.cn/.*htm") //只爬取新闻类的页面
+        .run();
+	}
+}

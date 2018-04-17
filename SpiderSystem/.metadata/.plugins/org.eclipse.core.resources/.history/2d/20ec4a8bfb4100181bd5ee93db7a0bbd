@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.zzy</groupId>
+    <artifactId>SpiderSystem</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>ScriptSpider</artifactId>
+  
+  <name>ScriptSpider</name>
+	<description>ScriptSpider(SS) is a Java distributed crawler framework that supports hot swappable components.
+		SS是一个java版本的分布式的通用爬虫，可以热插拔各个组件（提供默认的），自动切换代理，自动结构化数据与存储。使用redis，分布式调度等技术。
+	</description>
+	<url>https://github.com/xjtushilei/ScriptSpider</url>
+
+    <licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>shilei</name>
+			<email>xjtushilei@foxmail.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>
+			scm:git:https://github.com/xjtushilei/ScriptSpider.git
+		</connection>
+		<developerConnection>
+			scm:git:https://github.com/xjtushilei/ScriptSpider.git
+		</developerConnection>
+		<url>https://github.com/xjtushilei/ScriptSpider</url>
+	</scm>
+  
+  
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

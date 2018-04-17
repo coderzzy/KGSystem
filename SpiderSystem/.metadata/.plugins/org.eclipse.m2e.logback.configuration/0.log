@@ -1,0 +1,778 @@
+2018-04-16 21:58:47,434 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml
+2018-04-16 21:58:48,816 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 21:58:49,860 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/main/java
+2018-04-16 21:58:49,860 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpiderSystem/src/main/resources
+2018-04-16 21:58:49,861 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/test/java
+2018-04-16 21:58:52,078 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2018-04-16 21:58:53,177 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 21:58:53,195 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 21:58:53,199 [Worker-12] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 21:58:53,199 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:01:53,347 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 22:01:54,715 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:01:54,719 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:01:54,722 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:01:54,722 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:01:54,723 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpiderSystem
+2018-04-16 22:01:54,724 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpiderSystem
+2018-04-16 22:01:54,731 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:01:56,781 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:01:56,789 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:01:56,792 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:01:56,794 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:04:20,609 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:04:20,612 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:04:20,613 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:04:20,614 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:05:24,816 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:05:24,832 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:05:24,834 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:05:24,835 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:05:25,868 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:05:25,870 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:05:25,871 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:05:25,872 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:06:21,016 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:06:21,020 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:06:21,023 [Worker-39] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:06:21,024 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:07:30,449 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:07:30,450 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:07:30,451 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:07:30,452 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:07:49,724 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:07:49,730 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:07:49,732 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:07:49,732 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:09:33,686 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:09:33,688 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:09:33,689 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:09:33,690 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:09:48,194 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+2018-04-16 22:09:48,262 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom
+2018-04-16 22:09:48,336 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+2018-04-16 22:09:48,423 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-parent/1.2.3/logback-parent-1.2.3.pom
+2018-04-16 22:09:48,472 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+2018-04-16 22:09:48,562 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.pom
+2018-04-16 22:09:48,636 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2018-04-16 22:09:48,710 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2018-04-16 22:09:48,784 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+2018-04-16 22:09:48,846 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-parent/1.7.25/slf4j-parent-1.7.25.pom
+2018-04-16 22:09:48,975 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.pom
+2018-04-16 22:09:49,059 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.pom
+2018-04-16 22:09:49,152 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.pom
+2018-04-16 22:09:49,200 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.pom
+2018-04-16 22:09:49,275 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/redis/clients/jedis/2.9.0/jedis-2.9.0.pom
+2018-04-16 22:09:49,339 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/redis/clients/jedis/2.9.0/jedis-2.9.0.pom
+2018-04-16 22:09:49,407 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-04-16 22:09:49,460 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/sonatype/oss/oss-parent/7/oss-parent-7.pom
+2018-04-16 22:09:49,533 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.pom
+2018-04-16 22:09:49,594 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.pom
+2018-04-16 22:09:49,713 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom
+2018-04-16 22:09:49,787 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom
+2018-04-16 22:09:49,881 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcomponents-client/4.5.3/httpcomponents-client-4.5.3.pom
+2018-04-16 22:09:49,939 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcomponents-client/4.5.3/httpcomponents-client-4.5.3.pom
+2018-04-16 22:09:50,014 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/project/7/project-7.pom
+2018-04-16 22:09:50,116 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/project/7/project-7.pom
+2018-04-16 22:09:50,211 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
+2018-04-16 22:09:50,263 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.pom
+2018-04-16 22:09:50,371 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
+2018-04-16 22:09:50,451 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcomponents-core/4.4.6/httpcomponents-core-4.4.6.pom
+2018-04-16 22:09:50,578 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+2018-04-16 22:09:50,636 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/google/code/gson/gson/2.8.2/gson-2.8.2.pom
+2018-04-16 22:09:50,702 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+2018-04-16 22:09:50,747 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/google/code/gson/gson-parent/2.8.2/gson-parent-2.8.2.pom
+2018-04-16 22:09:50,954 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.6/commons-io-2.6.pom
+2018-04-16 22:09:51,004 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.6/commons-io-2.6.pom
+2018-04-16 22:09:51,073 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/42/commons-parent-42.pom
+2018-04-16 22:09:51,187 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-parent/42/commons-parent-42.pom
+2018-04-16 22:09:51,247 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/apache/18/apache-18.pom
+2018-04-16 22:09:51,295 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/apache/18/apache-18.pom
+2018-04-16 22:09:51,359 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+2018-04-16 22:09:51,553 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar
+2018-04-16 22:09:51,656 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2018-04-16 22:09:51,770 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-access/1.2.3/logback-access-1.2.3.jar
+2018-04-16 22:09:51,840 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+2018-04-16 22:09:52,136 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar
+2018-04-16 22:09:52,195 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2018-04-16 22:09:52,252 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2018-04-16 22:09:52,311 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
+2018-04-16 22:09:52,551 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/jsoup/jsoup/1.11.2/jsoup-1.11.2.jar
+2018-04-16 22:09:52,638 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/redis/clients/jedis/2.9.0/jedis-2.9.0.jar
+2018-04-16 22:09:52,970 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/redis/clients/jedis/2.9.0/jedis-2.9.0.jar
+2018-04-16 22:09:53,038 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar
+2018-04-16 22:09:53,258 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar
+2018-04-16 22:09:53,338 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+2018-04-16 22:09:53,761 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar
+2018-04-16 22:09:53,866 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+2018-04-16 22:09:54,087 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar
+2018-04-16 22:09:54,174 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+2018-04-16 22:09:54,346 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar
+2018-04-16 22:09:54,444 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.6/commons-io-2.6.jar
+2018-04-16 22:09:54,625 [Worker-34] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-io/commons-io/2.6/commons-io-2.6.jar
+2018-04-16 22:14:59,841 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-16 22:15:00,374 [Worker-45] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 22:15:01,579 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/main/java
+2018-04-16 22:15:01,580 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpiderSystem/src/main/resources
+2018-04-16 22:15:01,580 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/test/java
+2018-04-16 22:15:02,281 [Worker-45] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpiderSystem
+2018-04-16 22:15:02,293 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-04-16 22:15:03,123 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:15:03,127 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:15:03,129 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:15:03,129 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:15:03,130 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpiderSystem
+2018-04-16 22:15:03,130 [Worker-51] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpiderSystem
+2018-04-16 22:15:03,136 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:15:57,634 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:15:57,644 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:15:57,645 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:15:57,646 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:16:06,827 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-16 22:16:06,828 [Worker-51] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-16 22:16:10,984 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:16:10,994 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:16:10,995 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:16:10,996 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:19:39,481 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-16 22:19:39,902 [Worker-52] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 22:19:40,636 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/main/java
+2018-04-16 22:19:40,641 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpiderSystem/src/main/resources
+2018-04-16 22:19:40,641 [Worker-52] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/test/java
+2018-04-16 22:19:41,748 [Worker-52] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpiderSystem
+2018-04-16 22:19:41,757 [Worker-52] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2018-04-16 22:19:42,157 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:19:42,159 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:19:42,163 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:19:42,164 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:19:42,164 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpiderSystem
+2018-04-16 22:19:42,165 [Worker-53] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpiderSystem
+2018-04-16 22:19:42,172 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:19:42,518 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:19:42,521 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:19:42,522 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:19:42,522 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:20:07,016 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-16 22:20:07,255 [Worker-54] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 22:20:07,800 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/main/java
+2018-04-16 22:20:07,800 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /SpiderSystem/src/main/resources
+2018-04-16 22:20:07,801 [Worker-54] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpiderSystem/src/test/java
+2018-04-16 22:20:08,175 [Worker-54] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpiderSystem
+2018-04-16 22:20:08,180 [Worker-54] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-04-16 22:20:08,832 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:20:08,834 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:20:08,841 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:20:08,841 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:20:08,841 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpiderSystem
+2018-04-16 22:20:08,842 [Worker-55] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpiderSystem
+2018-04-16 22:20:08,846 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:20:21,305 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-16 22:20:21,305 [Worker-53] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-16 22:20:28,443 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:20:28,446 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:20:28,448 [Worker-53] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:20:28,448 [Worker-53] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:22:30,305 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:22:30,309 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:22:30,312 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:22:30,313 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:32:51,677 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:32:51,679 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:32:51,681 [Worker-58] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:32:51,681 [Worker-58] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/src/test/resources
+2018-04-16 22:33:45,239 [Worker-61] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 22:35:01,552 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml
+2018-04-16 22:35:02,077 [Worker-63] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 22:35:02,896 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ScriptSpider/src/main/java
+2018-04-16 22:35:02,896 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ScriptSpider/src/main/resources
+2018-04-16 22:35:02,897 [Worker-63] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ScriptSpider/src/test/java
+2018-04-16 22:35:03,333 [Worker-63] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2018-04-16 22:35:03,634 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:35:03,635 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:35:03,638 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:35:03,639 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:35:03,850 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 22:35:04,248 [Worker-62] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 22:35:06,255 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:35:06,259 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:35:06,261 [Worker-67] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:35:06,262 [Worker-67] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:38:51,731 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:38:51,735 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-16 22:38:51,745 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:38:51,746 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:40:01,734 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:40:01,735 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-04-16 22:40:01,737 [Worker-62] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:40:01,738 [Worker-62] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:40:09,272 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:40:09,274 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:40:09,276 [Worker-63] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:40:09,277 [Worker-63] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:41:00,930 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:41:00,931 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:41:00,933 [Worker-60] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:41:00,933 [Worker-60] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:47:00,785 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-16 22:47:00,785 [Worker-62] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-16 22:47:07,675 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:47:07,685 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:47:07,686 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:47:07,687 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:47:19,976 [Worker-72] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider
+2018-04-16 22:47:19,976 [Worker-72] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-16 22:47:24,137 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:47:24,146 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:47:24,147 [Worker-73] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:47:24,148 [Worker-73] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:48:20,190 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:48:20,191 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:48:20,194 [Worker-72] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:48:20,194 [Worker-72] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 22:55:55,910 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:55:55,941 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 22:55:55,946 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 22:55:55,947 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:08:46,291 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2018-04-16 23:08:46,527 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.jar
+2018-04-16 23:08:47,233 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:08:47,691 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2018-04-16 23:08:47,870 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-jar-plugin/2.4/maven-jar-plugin-2.4.pom
+2018-04-16 23:08:48,176 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+2018-04-16 23:08:48,383 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-lang/commons-lang/2.1/commons-lang-2.1.pom
+2018-04-16 23:08:48,734 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+2018-04-16 23:08:49,036 [Worker-19] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-lang/commons-lang/2.1/commons-lang-2.1.jar
+2018-04-16 23:08:49,339 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:08:49,343 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:08:49,345 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:08:49,346 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:08:49,723 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:08:49,732 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:08:49,734 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:08:49,735 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:10:56,110 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-04-16 23:10:56,196 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 23:10:56,689 [Worker-22] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:10:56,901 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ScriptSpider/src/main/java
+2018-04-16 23:10:56,903 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ScriptSpider/src/main/resources
+2018-04-16 23:10:56,904 [Worker-22] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ScriptSpider/src/test/java
+2018-04-16 23:10:57,162 [Worker-22] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-04-16 23:10:57,581 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:10:57,585 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:10:57,587 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:10:57,588 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:11:07,629 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-16 23:11:07,630 [Worker-19] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-16 23:11:12,521 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:11:12,535 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:11:12,536 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:11:12,537 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:11:30,802 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider
+2018-04-16 23:11:30,803 [Worker-3] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-16 23:11:33,821 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:11:33,829 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:11:33,831 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:11:33,831 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:13:20,351 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:13:20,352 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:13:20,353 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:13:20,360 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:13:42,411 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:13:42,417 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:13:42,419 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:13:42,420 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:14:40,776 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:14:40,778 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:14:40,779 [Worker-3] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:14:40,780 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:15:03,428 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:15:03,433 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:15:03,435 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:15:03,435 [Worker-25] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:19:10,994 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:19:10,997 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:19:11,001 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:19:11,002 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:21:38,258 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 23:21:38,802 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:21:40,256 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:21:40,258 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:21:40,261 [Worker-22] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:21:40,262 [Worker-22] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:22:24,610 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 23:22:24,995 [Worker-29] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:22:26,430 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:22:26,441 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:22:26,444 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:22:26,444 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:26:47,608 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:26:47,629 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:26:47,634 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:26:47,635 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:30:57,128 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml
+2018-04-16 23:30:57,903 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:30:58,637 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Application/src/main/java
+2018-04-16 23:30:58,638 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /Application/src/main/resources
+2018-04-16 23:30:58,638 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Application/src/test/java
+2018-04-16 23:30:59,678 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 2 sec
+2018-04-16 23:31:00,471 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:31:00,474 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:31:00,476 [Worker-13] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:31:00,477 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:31:00,821 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-16 23:31:01,697 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:31:01,795 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:31:04,050 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:31:04,053 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:31:04,056 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:31:04,056 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:31:04,286 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:31:04,294 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:31:04,296 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:31:04,296 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:32:32,718 [Worker-30] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:32:33,495 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:32:33,496 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:32:33,499 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:32:33,500 [Worker-30] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:32:33,501 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Application
+2018-04-16 23:32:33,502 [Worker-30] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Application
+2018-04-16 23:32:33,513 [Worker-30] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:33:36,054 [Worker-28] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:33:36,706 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:33:36,706 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:33:36,708 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:33:36,709 [Worker-28] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:33:36,710 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Application
+2018-04-16 23:33:36,710 [Worker-28] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Application
+2018-04-16 23:33:36,715 [Worker-28] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:33:37,099 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:33:37,100 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:33:37,101 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:33:37,103 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:34:35,877 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:34:35,887 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:34:35,888 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:34:35,889 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:34:52,296 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:34:52,300 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:34:52,303 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:34:52,304 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:35:32,858 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:32,859 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:35:32,861 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:32,862 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:35:54,660 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:35:55,352 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:55,353 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:35:55,355 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:55,355 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:35:55,356 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Application
+2018-04-16 23:35:55,356 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Application
+2018-04-16 23:35:55,362 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:55,654 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:55,662 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:35:55,664 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:35:55,664 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:39:20,776 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:39:21,888 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:39:21,889 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:39:21,891 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:39:21,892 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:40:43,247 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-04-16 23:40:43,326 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2018-04-16 23:40:43,403 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-04-16 23:40:43,451 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2018-04-16 23:40:54,959 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml
+2018-04-16 23:40:55,044 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:40:55,158 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:40:55,556 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ScriptSpider/src/main/java
+2018-04-16 23:40:55,559 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ScriptSpider/src/test/java
+2018-04-16 23:40:55,628 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2018-04-16 23:40:56,001 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-16 23:40:56,001 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-16 23:40:56,002 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-16 23:40:56,002 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:40:56,041 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:40:56,043 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:40:56,044 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:40:56,045 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:41:30,083 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-16 23:41:30,431 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-16 23:41:30,431 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-16 23:41:30,434 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-16 23:41:30,434 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-16 23:41:54,864 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:41:54,867 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:41:54,868 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:41:54,869 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:42:49,442 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:42:49,443 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:42:49,446 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:42:49,447 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:43:25,330 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:43:25,331 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:43:25,333 [Worker-32] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:43:25,335 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:45:17,189 [Worker-36] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:45:18,164 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:18,167 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:45:18,167 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:18,169 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:45:18,170 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Application
+2018-04-16 23:45:18,170 [Worker-36] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Application
+2018-04-16 23:45:18,174 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:19,451 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:19,459 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:45:19,461 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:19,462 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:45:25,038 [Worker-35] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-16 23:45:25,557 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:25,558 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:45:25,559 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:25,560 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-16 23:45:25,560 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of Application
+2018-04-16 23:45:25,560 [Worker-35] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for Application
+2018-04-16 23:45:25,565 [Worker-35] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:26,861 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:26,870 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-16 23:45:26,871 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-16 23:45:26,872 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 12:47:42,734 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 12:47:42,774 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 12:47:42,779 [Worker-14] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 12:47:42,779 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 12:48:55,526 [main] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.zzy:SpiderSystem:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/pom.xml.
+2018-04-17 12:51:19,311 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:51:19,312 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:51:19,314 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:51:19,315 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:52:04,642 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 12:52:05,075 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:52:05,076 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:52:05,078 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:52:05,078 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:54:12,338 [Worker-27] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 12:54:12,551 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:54:12,552 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:54:12,554 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:54:12,554 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:55:26,984 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar
+2018-04-17 12:55:27,091 [Worker-11] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/apache/maven/plugins/maven-gpg-plugin/1.6/maven-gpg-plugin-1.6.jar
+2018-04-17 12:55:27,378 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 12:55:27,593 [Worker-11] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:Application:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/pom.xml.
+2018-04-17 12:55:27,883 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:55:27,884 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:55:27,886 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:55:27,886 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:55:29,446 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:55:29,447 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:55:29,448 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:55:29,448 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:55:29,655 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 12:55:29,663 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 12:55:29,665 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 12:55:29,666 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 12:55:50,095 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 12:55:50,096 [Worker-27] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 12:55:59,097 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:55:59,097 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:55:59,101 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:55:59,101 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:57:57,826 [Worker-7] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 12:57:57,997 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:57:57,997 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:57:57,998 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:57:57,998 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 12:58:12,512 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 12:58:12,512 [Worker-36] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 12:58:16,627 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:58:16,627 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 12:58:16,629 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 12:58:16,629 [Worker-35] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:00:57,294 [Worker-39] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 13:00:57,510 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:00:57,510 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:00:57,511 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:00:57,511 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:01:05,735 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 13:01:05,735 [Worker-38] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 13:01:10,425 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:01:10,425 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:01:10,427 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:01:10,427 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:01:10,434 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:01:10,443 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:01:10,445 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:01:10,445 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:06:34,438 [Worker-41] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 13:06:34,830 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:06:34,830 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:06:34,831 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:06:34,831 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:06:43,322 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 13:06:43,323 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 13:06:47,636 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:06:47,637 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:06:47,639 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:06:47,639 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:08:10,325 [Worker-43] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 13:08:10,509 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:10,509 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:08:10,518 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:10,518 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:08:25,896 [Worker-44] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.zzy:ScriptSpider:0.0.1-SNAPSHOT @ /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/pom.xml.
+2018-04-17 13:08:26,052 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:26,052 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:08:26,053 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:26,053 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:08:35,242 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 13:08:35,243 [Worker-45] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 13:08:42,363 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:42,364 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:08:42,365 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:42,365 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:08:42,373 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:08:42,374 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:08:42,375 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:08:42,376 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:08:54,678 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider
+2018-04-17 13:08:54,678 [Worker-48] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 13:08:59,099 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:59,099 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:08:59,100 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:08:59,100 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:09:07,076 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application
+2018-04-17 13:09:07,076 [Worker-43] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 13:09:13,312 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:09:13,313 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:09:13,315 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:09:13,315 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:10:00,365 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:10:00,365 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:10:00,366 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:10:00,367 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:11:11,370 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:11:11,371 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:11:11,372 [Worker-46] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:11:11,372 [Worker-46] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:11:22,988 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:11:22,989 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:11:22,994 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:11:22,994 [Worker-43] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:11:32,799 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:11:32,800 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:11:32,802 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:11:32,802 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:12:04,715 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:12:04,716 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:12:04,718 [Worker-49] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:12:04,719 [Worker-49] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:12:50,724 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:12:50,725 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:12:50,727 [Worker-45] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:12:50,728 [Worker-45] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:13:10,766 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:13:10,767 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:13:10,769 [Worker-47] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:13:10,769 [Worker-47] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:16:17,121 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:16:17,123 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:16:17,125 [Worker-51] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:16:17,125 [Worker-51] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:16:31,583 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:16:31,584 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:16:31,585 [Worker-52] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:16:31,586 [Worker-52] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:19:20,681 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:19:20,684 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:19:20,686 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:19:20,686 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:19:39,294 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:19:39,295 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:19:39,297 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:19:39,298 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:20:30,876 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:20:30,877 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:20:30,878 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:20:30,879 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:20:50,916 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:20:50,918 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:20:50,919 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:20:50,920 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:21:14,578 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:21:14,580 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:21:14,581 [Worker-56] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:21:14,581 [Worker-56] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:23:11,989 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:23:11,989 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:23:11,991 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:23:11,991 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:23:12,027 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:23:12,029 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:23:12,030 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:23:12,030 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:23:40,624 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:23:40,625 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:23:40,626 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:23:40,626 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:23:40,653 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:23:40,654 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:23:40,655 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:23:40,655 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:24:32,853 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:24:32,854 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:24:32,855 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:24:32,855 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:24:32,895 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:24:32,896 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:24:32,897 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:24:32,898 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:25:24,955 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:25:24,955 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:25:24,956 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:25:24,956 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:25:24,978 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:25:24,979 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:25:24,979 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:25:24,980 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:25:34,826 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:25:34,826 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 13:25:34,827 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 13:25:34,827 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 13:25:34,869 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:25:34,870 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:25:34,871 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:25:34,872 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:26:17,577 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:26:17,578 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:26:17,579 [Worker-50] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:26:17,580 [Worker-50] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:26:48,104 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:26:48,105 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:26:48,106 [Worker-44] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:26:48,107 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:27:03,357 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:27:03,357 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:27:03,359 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:27:03,359 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:31:19,661 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:31:19,662 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:31:19,663 [Worker-57] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:31:19,664 [Worker-57] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:32:36,494 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:32:36,495 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:32:36,497 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:32:36,497 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 13:32:48,664 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:32:48,665 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 13:32:48,667 [Worker-54] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 13:32:48,668 [Worker-54] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:02:46,542 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:02:46,547 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:02:46,550 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:02:46,552 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:02:58,803 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:02:58,812 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:02:58,813 [Worker-66] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:02:58,814 [Worker-66] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:08:40,633 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 14:08:40,634 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 14:08:40,635 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 14:08:40,636 [Worker-71] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 14:28:31,927 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:28:31,932 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:28:31,934 [Worker-79] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:28:31,935 [Worker-79] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:28:48,570 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:28:48,572 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:28:48,576 [Worker-84] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:28:48,577 [Worker-84] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:47:58,735 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:47:58,741 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:47:58,743 [Worker-100] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:47:58,744 [Worker-100] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:48:55,687 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:48:55,689 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:48:55,692 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:48:55,692 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:49:25,321 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:49:25,325 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:49:25,327 [Worker-101] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:49:25,327 [Worker-101] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:49:33,599 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:49:33,600 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:49:33,644 [Worker-98] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:49:33,645 [Worker-98] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:52:53,093 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:52:53,094 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:52:53,095 [Worker-91] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:52:53,096 [Worker-91] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:56:39,708 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:56:39,714 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:56:39,716 [Worker-99] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:56:39,717 [Worker-99] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 14:57:25,571 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:57:25,572 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 14:57:25,573 [Worker-104] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 14:57:25,574 [Worker-104] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 15:15:58,939 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application
+2018-04-17 15:15:58,941 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:16:03,670 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:16:03,674 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 15:16:03,676 [Worker-114] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:16:03,677 [Worker-114] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 15:16:24,626 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 15:16:24,626 [Worker-108] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:16:31,782 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:16:31,783 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 15:16:31,784 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:16:31,784 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 15:16:31,791 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:16:31,801 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 15:16:31,803 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:16:31,803 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 15:16:48,873 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider
+2018-04-17 15:16:48,873 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:16:52,942 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:16:52,944 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 15:16:52,945 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:16:52,945 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 15:17:03,799 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application
+2018-04-17 15:17:03,800 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:17:08,459 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:17:08,467 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 15:17:08,469 [Worker-117] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:17:08,470 [Worker-117] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 15:18:44,612 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 15:18:44,613 [Worker-111] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:18:50,476 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:18:50,477 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 15:18:50,478 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:18:50,479 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 15:18:50,484 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:18:50,487 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 15:18:50,488 [Worker-111] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:18:50,488 [Worker-111] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 15:19:15,554 [Worker-114] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider
+2018-04-17 15:19:15,555 [Worker-114] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:19:19,628 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:19:19,628 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 15:19:19,630 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:19:19,630 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 15:19:33,751 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application
+2018-04-17 15:19:33,752 [Worker-116] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:19:38,272 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:19:38,281 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 15:19:38,282 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:19:38,282 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
+2018-04-17 15:21:31,171 [Worker-115] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zzy/Desktop/SpiderSystem/SpiderSystem
+2018-04-17 15:21:31,172 [Worker-115] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-04-17 15:21:37,343 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:21:37,343 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/main/resources
+2018-04-17 15:21:37,344 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-04-17 15:21:37,344 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/ScriptSpider/src/test/resources
+2018-04-17 15:21:37,349 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:21:37,351 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-04-17 15:21:37,351 [Worker-115] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-04-17 15:21:37,352 [Worker-115] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/SpiderSystem/SpiderSystem/Application/src/test/resources
