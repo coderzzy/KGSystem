@@ -1,7 +1,0 @@
-package test;
-
-import com.github.xjtushilei.core.Spider;
-
-public class TestSpider {
-
-}

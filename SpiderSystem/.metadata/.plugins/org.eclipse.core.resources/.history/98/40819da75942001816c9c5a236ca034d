@@ -1,0 +1,21 @@
+package org.SpiderSystem.Web.controller;
+
+import org.SpiderSystem.Web.TestThreadAfterWeb;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value = "/spider")
+public class SpiderController {
+	
+	@RequestMapping(value="/start")
+	public String start(){
+		Thread t = null;
+		if(TestThreadAfterWeb.isNull()==true){
+			t = TestThreadAfterWeb.getSingleton();
+		}
+		t.start();
+		
+		return "spider_result";
+	}
+}

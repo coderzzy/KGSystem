@@ -1,0 +1,20 @@
+<html>
+<body>
+<h2>Hello World!</h2>
+
+<input value="click to spider" type="button" onclick="spider_start()">
+
+<input value="click to spider_check" type="button" onclick="spider_check()">
+
+
+	<script>
+		function spider_start(){
+			window.location.href = "${pageContext.request.contextPath}/spider/start";
+		}
+		
+		function spider_check(){
+			window.location.href = "${pageContext.request.contextPath}/spider/check";
+		}
+	</script>
+</body>
+</html>

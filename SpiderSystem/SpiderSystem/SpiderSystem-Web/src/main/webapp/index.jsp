@@ -2,11 +2,11 @@
 <body>
 <h2>Hello World!</h2>
 
-<input value="click to spider" type="button" onclick="spider()">
+<input value="click to spider_index" type="button" onclick="spider_index()">
 
 	<script>
-		function spider(){
-			window.location.href = "http://localhost:8080/SpiderSystem-Web/spider/start";
+		function spider_index(){
+			window.location.href = "${pageContext.request.contextPath}/spider/index";
 		}
 	</script>
 </body>

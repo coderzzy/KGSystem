@@ -7,7 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="ScriptSpider"/>
+			<item value="SpiderSystem-SpiderFramework"/>
 			<item value="SpiderSystem"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -59,6 +59,9 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="SpiderSystem-SpiderFramework"/>
+			<item value="SpiderSystem-Web"/>
+			<item value="SpiderSystem-web"/>
 			<item value="ScriptSpider"/>
 			<item value="Application"/>
 		</list>
@@ -85,15 +88,17 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.ScriptSpider"/>
-			<item value="org.Application"/>
+			<item value="org.SpiderSystem.SpiderFramework"/>
+			<item value="org.SpiderSystem.Web"/>
+			<item value="org.SpiderSystem.web"/>
 		</list>
 		<list key="groupId">
 			<item value="com.zzy"/>
 		</list>
 		<list key="artifactId">
-			<item value="ScriptSpider"/>
-			<item value="Application"/>
+			<item value="SpiderSystem-SpiderFramework"/>
+			<item value="SpiderSystem-Web"/>
+			<item value="SpiderSystem-web"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

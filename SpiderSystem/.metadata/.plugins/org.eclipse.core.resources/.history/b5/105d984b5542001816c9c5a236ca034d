@@ -1,0 +1,15 @@
+package org.SpiderSystem.Web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value = "/spider")
+public class SpiderController {
+	
+	@RequestMapping(value="/start")
+	public String start(){
+		// System.out.println("hello world");
+		return "spider_result";
+	}
+}
