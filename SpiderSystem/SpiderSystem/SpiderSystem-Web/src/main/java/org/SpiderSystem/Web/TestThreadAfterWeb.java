@@ -12,9 +12,10 @@ public class TestThreadAfterWeb extends Thread{
 	private TestThreadAfterWeb(){}
 	
 	public void run(){
-		for(int i=0;i<10000000 && runflag;i++){
+		for(int i=0;i<1000000 && runflag;i++){
 			System.out.println("hello world + "+i);
 		}
+		singleton = null;
 	}
 	
 	public void startme(){

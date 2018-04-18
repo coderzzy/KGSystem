@@ -13,6 +13,8 @@
 
 <input value="click to spider_stop" type="button" onclick="spider_stop()">
 
+<input value="click to spider_index" type="button" onclick="spider_index()">
+
 	<script>
 		function spider_start(){
 			window.location.href = "${pageContext.request.contextPath}/spider/start";
@@ -20,6 +22,10 @@
 		
 		function spider_stop(){
 			window.location.href = "${pageContext.request.contextPath}/spider/stop";
+		}
+		
+		function spider_index(){
+			window.location.href = "${pageContext.request.contextPath}/spider/index";
 		}
 	</script>
 
