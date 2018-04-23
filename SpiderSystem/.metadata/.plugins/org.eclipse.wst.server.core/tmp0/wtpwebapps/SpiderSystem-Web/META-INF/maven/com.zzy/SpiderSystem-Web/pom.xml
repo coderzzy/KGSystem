@@ -190,14 +190,15 @@
     </dependency>
     
     
-    
-    
     <dependency> 
     	<groupId>com.zzy</groupId> 
     	<artifactId>SpiderSystem-SpiderFramework</artifactId> 
     	<version>0.0.1-SNAPSHOT</version> 
     	<scope>jar</scope>
     </dependency>  
+    
+    
+    
   </dependencies>
   
   <build>

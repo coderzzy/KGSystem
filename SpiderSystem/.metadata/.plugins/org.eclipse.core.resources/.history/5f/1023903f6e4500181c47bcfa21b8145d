@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Login Page | SpiderSystem</title>
+		<!-- 以下代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit">
+		<!-- 以下代码取消第三方转码 -->
+		<meta name="Cache-Control" content="no-siteapp">
+
+		<link rel="alternate icon" type="image/png"
+			href="${pageContext.request.contextPath}/static/amazeui_assets/i/favicon.png">
+		<link rel="stylesheet"
+			href="${pageContext.request.contextPath}/static/amazeui_assets/css/amazeui.min.css">
+
+		<style>
+			.header {
+				text-align: center;
+			}
+			.header h1 {
+				font-size: 200%;
+				color: #333;
+				margin-top: 30px;
+			}
+			.header p {
+				font-size: 14px;
+			}
+		</style>
+	</head>
+<body>
+<div class="header">
+	<div class="am-g">
+		<h1>SpiderSystem知识图谱</h1>
+		<p>
+			基于ScriptSpider开源框架的新闻类爬虫管理及知识图谱构建系统
+			<br/>
+			All Rights Reserved Zzy
+		</p>
+	</div>
+	<hr/>
+</div>
+
+
+
+
+
+
+<input value="click to spider_index" type="button" onclick="spider_index()">
+
+	<script>
+		function spider_index(){
+			window.location.href = "${pageContext.request.contextPath}/spider/index";
+		}
+	</script>
+</body>
+</html>

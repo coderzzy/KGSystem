@@ -7,7 +7,6 @@
     <artifactId>SpiderSystem</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
   <artifactId>SpiderSystem-SpiderFramework</artifactId>
   <name>SpiderSystem-SpiderFramework</name>
 	<description>ScriptSpider(SS) is a Java distributed crawler framework that supports hot swappable components.

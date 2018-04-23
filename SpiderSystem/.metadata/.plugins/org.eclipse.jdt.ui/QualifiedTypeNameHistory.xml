@@ -6,4 +6,12 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.SpiderSystem.Web.TestThreadAfterWeb"/>
 <fullyQualifiedTypeName name="org.springframework.ui.Model"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.SpiderFramework.core.Spider"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.SpiderFramework.core.pageprocesser.PageProcessor"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.SpiderFramework.core.saver.Saver"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.pageprocesser.NewsPageProcessor"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.saver.NewsSaver"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.SpiderNewsService"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.MySpider"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.TestSpider"/>
 </qualifiedTypeNameHistroy>

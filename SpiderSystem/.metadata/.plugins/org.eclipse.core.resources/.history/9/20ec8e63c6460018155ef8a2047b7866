@@ -1,0 +1,52 @@
+package org.SpiderSystem.Web.controller;
+
+import java.util.HashMap;
+
+import org.SpiderSystem.Web.service.SpiderService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+@RequestMapping(value = "/spider")
+public class SpiderController {
+	
+	/**
+	 * 保存前端ajax传回的数据，无需刷新页面
+	 */
+	@RequestMapping(value="/save",method = RequestMethod.POST)
+	public void save(){
+		String jsonResult = getJSONString(request);
+	    renderData(response, jsonResult);
+	}
+	
+	
+	@SuppressWarnings("serial")
+	@RequestMapping(value="/start")
+	public String start(){
+		SpiderService.start("http://www.199it.com", "http://www.199it.com/.*html",
+				new HashMap<String,String>(){
+			{
+				put("title","h1.entry-title");
+				put("text","div.entry-content");
+				put("date","time.entry-date");
+			}
+		},
+				"mission1"
+		);
+		return "admin_index";
+	}
+	
+	@RequestMapping(value="/stop")
+	public String stop(){
+		SpiderService.stop();
+		return "admin_index";
+	}
+	
+	@RequestMapping(value="/check")
+	public String check(Model model){
+		SpiderService.check(model);
+		return "spider_result";
+	}
+}

@@ -1,3 +1,13 @@
 1523981973306	Rename resource 'spider_result.jsp'
 1523982174914	Delete element
 1523982179958	Delete element
+1524034438987	Rename type 'SpiderService'
+1524034546841	Delete element
+1524034617320	Delete element
+1524034702868	Delete element
+1524315996269	Rename resource 'assets'
+1524316192414	Move 'admin' to 'templates'
+1524316507899	Rename resource 'admin'
+1524320311589	Copy file
+1524320364184	Move 'favicon.png' to 'WEB-INF'
+1524320468550	Delete element

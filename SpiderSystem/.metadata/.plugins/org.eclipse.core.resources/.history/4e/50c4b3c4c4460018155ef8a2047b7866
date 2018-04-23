@@ -1,0 +1,10 @@
+package org.SpiderSystem.Web.util;
+
+/**
+ * 
+ * @author zzy
+ *
+ */
+public class SpiderProperties {
+
+}

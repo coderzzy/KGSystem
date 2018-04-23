@@ -1,0 +1,10 @@
+package org.SpiderSystem.Web.util;
+
+/**
+ * 爬虫配置工具类
+ * @author zzy
+ *
+ */
+public class SpiderProperties {
+
+}

@@ -1,0 +1,31 @@
+package org.SpiderSystem.Web.controller;
+
+import org.SpiderSystem.Web.service.SpiderService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value = "/spider")
+public class SpiderController {
+	
+	@RequestMapping(value="/start")
+	public String start(){
+		SpiderService.start("http://www.199it.com",
+				"http://www.199it.com/.*html",
+				new HashMap<String,String>(){{"title","h1.entry-title"},{"text",".d_detail"},{}});
+		return "admin_index";
+	}
+	
+	@RequestMapping(value="/stop")
+	public String stop(){
+		SpiderService.stop();
+		return "admin_index";
+	}
+	
+	@RequestMapping(value="/check")
+	public String check(Model model){
+		SpiderService.check(model);
+		return "spider_result";
+	}
+}

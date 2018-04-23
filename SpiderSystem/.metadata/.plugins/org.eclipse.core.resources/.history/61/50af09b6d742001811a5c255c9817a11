@@ -1,0 +1,19 @@
+package org.SpiderSystem.Web.service.spider.saver;
+
+import org.SpiderSystem.SpiderFramework.core.saver.Saver;
+import org.SpiderSystem.SpiderFramework.model.Page;
+
+/**
+ * 存储器
+ * @author zzy
+ *
+ */
+public class NewsSaver implements Saver{
+
+	@Override
+	public void save(Page page) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

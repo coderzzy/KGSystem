@@ -1,0 +1,15 @@
+package org.SpiderSystem.Web.util;
+
+import java.util.Map;
+
+/**
+ * 爬虫配置工具类
+ * @author zzy
+ *
+ */
+public class SpiderProperties {
+	private static String urlSeed;
+	private static String RegexRule;
+	private static Map<String,String> select_items;
+	private static String mission_name;
+}

@@ -1,0 +1,40 @@
+package org.SpiderSystem.Web.service;
+
+import org.SpiderSystem.Web.TestThreadAfterWeb;
+import org.SpiderSystem.Web.service.spider.MySpider;
+import org.SpiderSystem.Web.service.spider.pageprocesser.NewsPageProcessor;
+import org.SpiderSystem.Web.service.spider.saver.NewsSaver;
+
+/**
+ * 新闻爬取，http://www.199it.com/archives/category/dataindustry
+ * @author zzy
+ *
+ */
+public class SpiderNewsService{
+	public void start(){
+		MySpider t = null;
+		if(MySpider.isNull()){
+			// 获取单例对象，启动线程标志位
+			t = MySpider.getSingleton();
+			t.setProcessor(new NewsPageProcessor());
+			t.setSaver(new NewsSaver());
+			t.addUrlSeed("http://www.199it.com");
+			t.addRegexRule("http://www.199it.com/.*htm");
+			t.startme();
+		}		
+		if(t != null){
+			t.start();
+		}
+		
+	}
+	
+	
+	public void run(){
+		MySpider.build()
+        .setProcessor(new NewsPageProcessor())
+        .setSaver(new NewsSaver())
+        .addUrlSeed("http://www.199it.com/")
+        .addRegexRule("http://www.199it.com/.*htm")
+        .run();
+	}
+}

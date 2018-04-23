@@ -1,0 +1,26 @@
+[INFO] [2018-04-18 15:47:46][org.SpiderSystem.SpiderFramework.core.Spider]爬虫启动!
+[INFO] [2018-04-18 15:47:46][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:0   运行中：0  最大运行:0 等待队列:0
+[INFO] [2018-04-18 15:47:46][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:46][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:0   运行中：1  最大运行:1 等待队列:0
+[INFO] [2018-04-18 15:47:47][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:0   运行中：1  最大运行:1 等待队列:0
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：0  最大运行:1 等待队列:0
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/index.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：1  最大运行:2 等待队列:0
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/zyxw.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：2  最大运行:3 等待队列:0
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/zhxw.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：3  最大运行:4 等待队列:0
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/jyjx.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:0
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/kydt.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:1
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/wshd.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:2
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/zsjy.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:3
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/ybdt.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:4
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/dcsy.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/xysh.htm  优先级(默认:5):5
+[INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:6
