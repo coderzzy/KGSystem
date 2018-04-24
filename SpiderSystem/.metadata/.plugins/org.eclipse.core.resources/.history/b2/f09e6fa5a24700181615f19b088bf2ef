@@ -1,0 +1,7 @@
+package org.SpiderSystem.Web.service;
+
+public interface INoticeService {
+	
+	public Notice getNoticeById(int noticeId);
+
+}

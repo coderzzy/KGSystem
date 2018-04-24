@@ -98,16 +98,44 @@
             </ul>
           </li>
           -->
-          <li>
-            <a href="${pageContext.request.contextPath}/spider/check">
+          <li class="admin-parent">
+            <a class="am-cf" data-am-collapse="{target: '#collapse-spider'}">
               <span class="am-icon-bug"></span> 爬虫管理
+              <span class="am-icon-angle-right am-fr am-margin-right"></span>
             </a>
+            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-spider">
+              <li>
+                <a href="${pageContext.request.contextPath}/spider/check" class="am-cf">
+                  <span class="am-icon-bug"></span> 系统级爬虫
+                  <span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="am-icon-bug"></span> 用户级爬虫</a>
+                </li>
+            </ul>
           </li>
-          <li>
-            <a href="#">
+
+          <li class="admin-parent">
+            <a class="am-cf" data-am-collapse="{target: '#collapse-data'}">
               <span class="am-icon-table"></span> 数据库
+              <span class="am-icon-angle-right am-fr am-margin-right"></span>
             </a>
+            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-data">
+              <li>
+                <a href="${pageContext.request.contextPath}/notice/show">
+                  <span class="am-icon-pencil-square-o"></span> 公告表
+                </a>
+              </li>
+              <li>
+                <a href="${pageContext.request.contextPath}/news/show">
+                  <span class="am-icon-pencil-square-o"></span> 新闻表
+                </a>
+              </li>
+            </ul>
           </li>
+
         </ul>
 
         <div class="am-panel am-panel-default admin-sidebar-panel">
@@ -115,9 +143,7 @@
             <p>
               <span class="am-icon-bookmark"></span> 公 告
             </p>
-            <p>虽然对一个公司来说，赶上一次浪潮不能保证其长盛不衰；
-              但是，对一个人来说，一生赶上一次这样的浪潮就足够了。
-              一个弄潮的年轻人，最幸运的，莫过于赶上一波大潮。
+            <p>${notice.getText()}
             </p>
           </div>
         </div>

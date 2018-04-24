@@ -1,0 +1,5 @@
+package org.SpiderSystem.Web.service;
+
+public interface INewsService {
+	public boolean addNotice(int noticeId,String noticeText);
+}

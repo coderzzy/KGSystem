@@ -1,5 +1,0 @@
-package org.SpiderSystem.Web.service.spider.pageprocesser;
-
-public class NewsPageProcessor {
-
-}

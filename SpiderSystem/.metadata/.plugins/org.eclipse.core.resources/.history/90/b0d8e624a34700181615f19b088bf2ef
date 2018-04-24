@@ -1,0 +1,24 @@
+package org.SpiderSystem.Web.service.impl;
+
+import javax.annotation.Resource;
+
+import org.SpiderSystem.Web.dao.NoticeMapper;
+import org.SpiderSystem.Web.pojo.Notice;
+import org.SpiderSystem.Web.service.INoticeService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service
+@Transactional
+public class NoticeServiceImpl implements INoticeService{
+	
+	@Resource
+    public NoticeMapper noticeMapper;
+
+	@Override
+	public Notice getNoticeById(int noticeId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

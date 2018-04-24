@@ -2198,3 +2198,65 @@ java.net.SocketTimeoutException: Read timed out
 
 !ENTRY org.eclipse.jface.text 2 0 2018-04-23 15:05:47.703
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+!SESSION 2018-04-24 16:57:46.122 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/zzy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/zzy/.eclipse_keyring
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:05:41.510
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:05:41.524
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:24:03.866
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:24:03.867
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:37:24.615
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:37:24.616
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:48:25.735
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 17:48:25.736
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 20:42:36.024
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-04-24 20:42:36.029
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-25 00:51:11.783
+!MESSAGE The workspace will exit with unsaved changes in this session.
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-04-25 00:51:12.242
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.validation.internal.ValBuilderJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-04-25 00:51:12.251
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl$1
+
+!ENTRY org.eclipse.core.jobs 2 2 2018-04-25 00:51:12.252
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.wst.xml.core.internal.contentmodel.modelqueryimpl.CMDocumentManagerImpl$1
+!SESSION 2018-04-25 00:51:33.409 -----------------------------------------------
+eclipse.buildId=4.6.2.M20161124-1400
+java.version=1.8.0_40
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/zzy/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/zzy/.eclipse_keyring
+
+!ENTRY org.eclipse.core.resources 2 10035 2018-04-25 00:51:39.508
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jst.server.tomcat.core 4 0 2018-04-25 00:52:48.567
+!MESSAGE Port 8080 required by Tomcat v9.0 Server at localhost is already in use. The server may already be running in another process, or a system process may be using the port. To start this server you will need to stop the other process or change the port number(s).

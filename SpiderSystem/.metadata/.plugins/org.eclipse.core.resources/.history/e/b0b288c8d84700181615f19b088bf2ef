@@ -1,0 +1,14 @@
+package org.SpiderSystem.Web.service.spider.pageprocesser;
+
+import org.SpiderSystem.SpiderFramework.core.pageprocesser.PageProcessor;
+import org.SpiderSystem.SpiderFramework.model.Page;
+
+public class SQLPageProcessor implements PageProcessor{
+
+	@Override
+	public void process(Page page) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -7,9 +7,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.SpiderSystem.Web.service.INewsService;
 import org.SpiderSystem.Web.service.SpiderService;
 import org.SpiderSystem.Web.util.SpiderProperties;
 import org.springframework.stereotype.Controller;
@@ -23,6 +25,66 @@ import com.alibaba.fastjson.JSON;
 @RequestMapping(value = "/spider")
 public class SpiderController {
 	
+	@Resource
+	private INewsService newsService;
+	
+	@RequestMapping(value="/start")
+	public String start(){
+		/*
+		SpiderService.start("http://www.199it.com", "http://www.199it.com/.*html",
+				new HashMap<String,String>(){
+			{
+				put("title","h1.entry-title");
+				put("text","div.entry-content");
+				put("date","time.entry-date");
+			}
+		},
+				"199it"
+		);
+		*/
+		SpiderService.start(
+				SpiderProperties.getUrlSeed(),
+				SpiderProperties.getRegexRule(),
+				SpiderProperties.getItemMap(),
+				SpiderProperties.getMissionName()
+				);
+		return "admin_index";
+	}
+	
+	@RequestMapping(value="/stop")
+	public String stop(){
+		SpiderService.stop();
+		return "admin_index";
+	}
+	
+	@RequestMapping(value="/check")
+	public String check(Model model){
+		SpiderService.check(model);
+		return "spider_system";
+	}
+	
+	/**
+	 * 直接爬取数据存储数据库，此部分暂时不把依赖提升到view层
+	 * @return
+	 */
+	@RequestMapping(value="/mysql")
+	public String mysql(){
+		SpiderService.mysql("http://www.199it.com", "http://www.199it.com/.*html",
+				newsService
+				/*
+				new HashMap<String,String>(){
+			{
+				put("title","h1.entry-title");
+				put("content","div.entry-content");
+				put("date","time.entry-date");
+			}
+		}*/
+		);
+		return "admin_index";
+	}
+	
+	
+	//----------------------------------------------AJAX------------------------------------------
 	/**
 	 * 保存前端ajax传回的数据，无需刷新页面
 	 */
@@ -94,41 +156,5 @@ public class SpiderController {
 			}
 		}
 		
-	}
-	
-	
-	@RequestMapping(value="/start")
-	public String start(){
-		/*
-		SpiderService.start("http://www.199it.com", "http://www.199it.com/.*html",
-				new HashMap<String,String>(){
-			{
-				put("title","h1.entry-title");
-				put("text","div.entry-content");
-				put("date","time.entry-date");
-			}
-		},
-				"199it"
-		);
-		*/
-		SpiderService.start(
-				SpiderProperties.getUrlSeed(),
-				SpiderProperties.getRegexRule(),
-				SpiderProperties.getItemMap(),
-				SpiderProperties.getMissionName()
-				);
-		return "admin_index";
-	}
-	
-	@RequestMapping(value="/stop")
-	public String stop(){
-		SpiderService.stop();
-		return "admin_index";
-	}
-	
-	@RequestMapping(value="/check")
-	public String check(Model model){
-		SpiderService.check(model);
-		return "spider_result";
 	}
 }

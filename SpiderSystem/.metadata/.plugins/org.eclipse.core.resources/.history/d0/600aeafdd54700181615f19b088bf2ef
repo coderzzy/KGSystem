@@ -1,0 +1,23 @@
+package org.SpiderSystem.Web.service.spider.saver;
+
+import java.util.Map;
+import java.util.Map.Entry;
+
+import org.SpiderSystem.SpiderFramework.core.saver.Saver;
+import org.SpiderSystem.SpiderFramework.model.Page;
+
+public class SQLSaver implements Saver{
+
+	@Override
+	public void save(Page page) {
+		// TODO Auto-generated method stub		
+		for(Entry<Object, Object> entry: page.getItems().entrySet()){
+			String key = (String)entry.getKey();
+			switch(key){
+			
+			}
+		}
+		
+	}
+
+}

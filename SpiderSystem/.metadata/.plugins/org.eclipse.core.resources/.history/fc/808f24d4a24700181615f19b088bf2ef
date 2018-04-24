@@ -1,0 +1,5 @@
+package org.SpiderSystem.Web.service.impl;
+
+public class NoticeServiceImpl {
+
+}

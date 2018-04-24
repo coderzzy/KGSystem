@@ -21,7 +21,7 @@ import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 后台线程，单例模式
+ * 全局爬虫线程，单例模式
  * @author zzy
  *
  */

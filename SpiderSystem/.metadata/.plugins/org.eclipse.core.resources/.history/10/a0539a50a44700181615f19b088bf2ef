@@ -1,0 +1,28 @@
+package org.SpiderSystem.Web.controller;
+
+import javax.annotation.Resource;
+
+import org.SpiderSystem.Web.service.INoticeService;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value="/notice")
+public class NoticeController {
+	
+	@Resource
+	private INoticeService noticeService;
+	
+	public String toIndex(Model model){
+		// int noticeId = Integer.parseInt(request.getParameter("id"));
+
+        User user = userService.getUserById(userId);
+
+        model.addAttribute("user", user);
+
+        // System.out.println("com.cn.ssm.controller.UserController(Object).toIndex2");
+        // System.out.println(user.getUserName());
+        return "showUser";
+	}
+}
