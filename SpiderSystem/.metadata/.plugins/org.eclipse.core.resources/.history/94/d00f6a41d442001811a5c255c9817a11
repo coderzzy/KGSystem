@@ -1,7 +1,0 @@
-package org.SpiderSystem.Web.service.spider;
-
-import org.SpiderSystem.SpiderFramework.core.Spider;
-
-public class MySpider extends Spider{
-
-}

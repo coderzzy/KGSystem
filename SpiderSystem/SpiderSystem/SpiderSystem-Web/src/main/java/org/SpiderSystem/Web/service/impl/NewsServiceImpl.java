@@ -41,4 +41,20 @@ public class NewsServiceImpl implements INewsService{
 		return newsMapper.getNewsPage(skip, size);	
 	}
 
+	@Override
+	public boolean delNews(int newsId) {
+		// TODO Auto-generated method stub
+		int result = newsMapper.deleteByPrimaryKey(newsId);
+		if(result <= 0){
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public News getNewsById(int newsId) {
+		// TODO Auto-generated method stub
+		return newsMapper.selectByPrimaryKey(newsId);
+	}
+
 }

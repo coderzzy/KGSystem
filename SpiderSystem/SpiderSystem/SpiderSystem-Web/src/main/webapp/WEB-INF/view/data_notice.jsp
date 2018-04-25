@@ -277,9 +277,9 @@
                       <td>
                         <div class="am-btn-toolbar">
                           <div class="am-btn-group am-btn-group-xs">
-                            <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
-                            <button class="am-btn am-btn-default am-btn-xs am-hide-sm-only"><span class="am-icon-copy"></span> 复制</button>
-                            <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</button>
+                            <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary" onclick='notice_update("${entity.getId()}","${entity.getText()}")'><span class="am-icon-pencil-square-o"></span> 编辑</button>
+                            <button class="am-btn am-btn-default am-btn-xs am-hide-sm-only" onclick='notice_cop("${entity.getText()}")'><span class="am-icon-copy"></span> 复制</button>
+                            <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick="notice_del(${entity.getId()})"><span class="am-icon-trash-o"></span> 删除</button>
                           </div>
                         </div>
                       </td>
@@ -287,9 +287,25 @@
                   </c:forEach>
                 </tbody>
               </table>
+              
+              <div class="am-modal am-modal-prompt" tabindex="-1" id="my-modal" >
+  				<div class="am-modal-dialog">
+    				<div class="am-modal-hd">Amaze UI</div>
+    				<div class="am-modal-bd">
+      					输入修改的内容
+      				<input id="new_notice_text" type="text" class="am-modal-prompt-input" value="">
+    				</div>
+    				<div class="am-modal-footer">
+      					<span id="cancel" class="am-modal-btn" data-am-modal-cancel>取消</span>
+      					<span id="submit" class="am-modal-btn" data-am-modal-confirm>提交</span>
+    				</div>
+  				</div>
+			</div>
               <div id="pager">
 
               </div>
+              
+              
 
               <hr>
 
@@ -351,6 +367,7 @@
     <!-- content end-->
 
 
+
   </div>
 
   <!--[if lt IE 9]>
@@ -397,22 +414,108 @@
            },
            async: false,
            success: function(data) {
-             alert("操作成功");
+        	  // alert(data.result);
+             if(data.result == "success"){
+            	 alert("操作成功");
+             }else{
+            	 alert("数据库操作失败");
+             }
+             
              // var data = eval("("+data+")");
-             // console.log(data);
+             // alert(data.result);
              // alert("配置保存成功");
-             /*
-             $.each(data, function(index, element) {
-               alert(element.a);
-               alert(element.b);
-               alert(element.c);
-             });
-             */
            },
            error: function() {
              alert("保存失败，...请正确输入并且检查网络连接，如确实怀疑服务器问题请联系Zzy");
            }
          });
+     }
+
+     function notice_del(noticeId){
+    	 $.ajax({
+             url: "${pageContext.request.contextPath}/notice/del",
+             type: "POST",
+             dataType: "json",
+             data: {
+               "noticeId": noticeId
+             },
+             async: false,
+             success: function(data) {
+            	 if(data.result == "success"){
+                	 alert("操作成功");
+                 }else{
+                	 alert("数据库操作失败");
+                 }
+             },
+             error: function() {
+               alert("删除失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+             }
+           });
+     }
+
+     function notice_cop(text){
+		    if(text.indexOf('-') !== -1) {
+		        let arr = text.split('-');
+		        text = arr[0] + arr[1];
+		    }
+		    var textArea = document.createElement("textarea");
+		      textArea.style.position = 'fixed';
+		      textArea.style.top = '0';
+		      textArea.style.left = '0';
+		      textArea.style.width = '2em';
+		      textArea.style.height = '2em';
+		      textArea.style.padding = '0';
+		      textArea.style.border = 'none';
+		      textArea.style.outline = 'none';
+		      textArea.style.boxShadow = 'none';
+		      textArea.style.background = 'transparent';
+		      textArea.value = text;
+		      document.body.appendChild(textArea);
+		      textArea.select();
+
+		      try {
+		        var successful = document.execCommand('copy');
+		        var msg = successful ? '成功复制到剪贴板' : '该浏览器不支持点击复制到剪贴板';
+		       alert(msg);
+		      } catch (err) {
+		        alert('该浏览器不支持点击复制到剪贴板');
+		      }
+
+		      document.body.removeChild(textArea);
+     }
+     
+     function notice_update(noticeId,text){
+    	 // alert(text);
+    	 $("#new_notice_text").attr('value',text);
+    	 $('#my-modal').modal({
+    	      relatedTarget: this,
+    	      onConfirm: function(e) {
+    	        // alert('你输入的是：' + e.data || '')
+    	    	  $.ajax({
+    	              url: "${pageContext.request.contextPath}/notice/update",
+    	              type: "POST",
+    	              dataType: "json",
+    	              data: {
+    	                "noticeId": noticeId,
+    	                "noticeText":e.data
+    	              },
+    	              async: false,
+    	              success: function(data) {
+    	            	  if(data.result == "success"){
+    	                 	 alert("操作成功");
+    	                  }else{
+    	                 	 alert("数据库操作失败");
+    	                  }
+    	              },
+    	              error: function() {
+    	                alert("修改失败，...请检查输入或者网络连接，如确实怀疑服务器问题请联系Zzy");
+    	              }
+    	            });
+    	      },
+    	      onCancel: function(e) {
+    	        // alert('不想说!');
+    	      }
+    	    });
      }
    </script>
 

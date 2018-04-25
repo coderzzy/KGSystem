@@ -1,0 +1,10 @@
+package org.SpiderSystem.Web.util;
+
+/**
+ * 对Ajax
+ * @author zzy
+ *
+ */
+public class AjaxProcessor {
+
+}

@@ -1,0 +1,10 @@
+package org.SpiderSystem.Web.service;
+
+/**
+ * 
+ * @author zzy
+ *
+ */
+public interface IJsonService {
+
+}

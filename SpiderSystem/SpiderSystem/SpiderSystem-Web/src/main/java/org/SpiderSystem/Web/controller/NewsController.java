@@ -1,17 +1,16 @@
 package org.SpiderSystem.Web.controller;
 
-import java.io.IOException;
-import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.SpiderSystem.Web.pojo.News;
+import org.SpiderSystem.Web.service.IJsonService;
 import org.SpiderSystem.Web.service.INewsService;
+import org.SpiderSystem.Web.util.AjaxProcessor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +18,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
-import com.alibaba.fastjson.JSON;
 
 @Controller
 @SessionAttributes(value={"news_size","news_pageNO","news_count","news"})
@@ -47,47 +45,44 @@ public class NewsController {
 	/**
 	 * 保存前端ajax传回的数据，无需刷新页面
 	 */
-	@RequestMapping(value="/add",method = RequestMethod.POST)
-	public void add(HttpServletRequest request, HttpServletResponse response){
-		String jsonResult = getJSONString(request);
-	    renderData(response, jsonResult);
+	
+	@RequestMapping(value="/select",method = RequestMethod.POST)
+	public void select(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						// TODO Auto-generated method stub
+						News news = newsService.getNewsById(Integer.parseInt(request.getParameter("newsId")));
+						Map<String,Object> map = new HashMap<String,Object>();
+						map.put("result", "success");
+						map.put("title", news.getTitle());
+						map.put("content", news.getContent());
+						// System.out.println(news.getTitle());
+						// System.out.println(news.getContent());
+						return map;
+					}
+		});
+	    AjaxProcessor.renderData(response, jsonResult);
 	}
 	
-	private String getJSONString(HttpServletRequest request) {
-		//故意构造一个数组，使返回的数据为json数组，数据更复杂些
-	    List<Map<String, Object>> datas = new ArrayList<Map<String, Object>>(5);
-	    Map<String, Object> map1 = new HashMap<String, Object>(10);
-	    
-	    /**
-	     * 处理数据
-	     */
-	    
-	    datas.add(map1);
-	    String jsonResult = JSON.toJSONString(datas);
-	    return jsonResult;
-	    
-	}
-	
-	/**
-	 * 通过PrintWriter将响应数据写入response，ajax可以接受到这个数据
-	 * 
-	 * @param response
-	 * @param data
-	 */
-	private void renderData(HttpServletResponse response, String data){
-		PrintWriter printWriter = null;
-		try {
-			printWriter = response.getWriter();
-			printWriter.print(data);
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}finally{
-			if(null != printWriter){
-				printWriter.flush();
-				printWriter.close();
-			}
-		}
-		
+	@RequestMapping(value="/del",method = RequestMethod.POST)
+	public void del(HttpServletRequest request, HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						// TODO Auto-generated method stub
+						if(newsService.delNews(
+								Integer.parseInt(request.getParameter("newsId")))==true){
+							Map<String,Object> map = new HashMap<String,Object>();
+							map.put("result", "success");
+							return map;
+						}else{
+							return null;
+						}
+					}
+		});
+	    AjaxProcessor.renderData(response, jsonResult);
 	}
 }

@@ -46,4 +46,24 @@ public class NoticeServiceImpl implements INoticeService{
 		return true;
 	}
 
+	@Override
+	public boolean delNotice(int noticeId) {
+		// TODO Auto-generated method stub
+		int result = noticeMapper.deleteByPrimaryKey(noticeId);
+		if(result <= 0){
+			return false;
+		}
+		return true;
+	}
+
+	@Override
+	public boolean updateNotice(int noticeId, String noticeText) {
+		// TODO Auto-generated method stub
+		int result = noticeMapper.updateByPrimaryKeySelective(new Notice(noticeId,noticeText));
+		if(result <= 0){
+			return false;
+		}
+		return true;
+	}
+
 }

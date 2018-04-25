@@ -277,9 +277,9 @@
                       <td>
                         <div class="am-btn-toolbar">
                           <div class="am-btn-group am-btn-group-xs">
-                            <button class="am-btn am-btn-default am-btn-xs am-text-secondary"><span class="am-icon-pencil-square-o"></span> 编辑</button>
-                            <button class="am-btn am-btn-default am-btn-xs am-hide-sm-only"><span class="am-icon-copy"></span> 复制</button>
-                            <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only"><span class="am-icon-trash-o"></span> 删除</button>
+                            <button type="button" class="am-btn am-btn-default am-btn-xs am-text-secondary" onclick='news_select("${entity.getId()}")'><span class="am-icon-file"></span> 查看</button>
+                            <button class="am-btn am-btn-default am-btn-xs am-hide-sm-only" onclick='news_copy("${entity.getTitle()}")'><span class="am-icon-copy"></span> 复制</button>
+                            <button class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only" onclick='news_del("${entity.getId()}")'><span class="am-icon-trash-o"></span> 删除</button>
                           </div>
                         </div>
                       </td>
@@ -287,6 +287,19 @@
                   </c:forEach>
                 </tbody>
               </table>
+              
+              <div class="am-popup" id="my-popup">
+  				<div class="am-popup-inner">
+    				<div class="am-popup-hd">
+      					<h4 id="pop-title" class="am-popup-title">...</h4>
+      					<span data-am-modal-close class="am-close">&times;</span>
+    				</div>
+    				<div id="pop-content" class="am-popup-bd">
+      					
+    				</div>
+  				</div>
+			</div>
+              
               <div id="pager">
 
               </div>
@@ -337,6 +350,87 @@
      function handlePaginationClick(new_page_index, pagination_container){
          location.href="${pageContext.request.contextPath}/news/show?pageNO="+(new_page_index+1);
      }
+     
+     function news_select(newsId){
+    	 // alert(newsId);
+    	 alert("please wait for a short time...")
+    	 $.ajax({
+             url: "${pageContext.request.contextPath}/news/select",
+             type: "POST",
+             dataType: "json",
+             contentType: "application/x-www-form-urlencoded; charset=utf-8", 
+             data: {
+               "newsId": newsId
+             },
+             async: false,
+             success: function(data) {
+            	 if(data.result == "success"){
+                	 // alert("操作成功");
+                	 $("#pop-title").html(data.title);
+                	 $("#pop-content").html(data.content);
+                	 $("#my-popup").modal();
+                 }else{
+                	 alert("数据库操作失败");
+                 }
+             },
+             error: function() {
+               alert("查询失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+             }
+           });
+     }
+     
+     function news_del(newsId){
+    	 $.ajax({
+             url: "${pageContext.request.contextPath}/news/del",
+             type: "POST",
+             dataType: "json",
+             data: {
+               "newsId": newsId
+             },
+             async: false,
+             success: function(data) {
+            	 if(data.result == "success"){
+                	 alert("操作成功");
+                 }else{
+                	 alert("数据库操作失败");
+                 }
+             },
+             error: function() {
+               alert("删除失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+             }
+           });
+     }
+     
+     function news_copy(text){
+		    if(text.indexOf('-') !== -1) {
+		        let arr = text.split('-');
+		        text = arr[0] + arr[1];
+		    }
+		    var textArea = document.createElement("textarea");
+		      textArea.style.position = 'fixed';
+		      textArea.style.top = '0';
+		      textArea.style.left = '0';
+		      textArea.style.width = '2em';
+		      textArea.style.height = '2em';
+		      textArea.style.padding = '0';
+		      textArea.style.border = 'none';
+		      textArea.style.outline = 'none';
+		      textArea.style.boxShadow = 'none';
+		      textArea.style.background = 'transparent';
+		      textArea.value = text;
+		      document.body.appendChild(textArea);
+		      textArea.select();
+
+		      try {
+		        var successful = document.execCommand('copy');
+		        var msg = successful ? '成功复制到剪贴板' : '该浏览器不支持点击复制到剪贴板';
+		       alert(msg);
+		      } catch (err) {
+		        alert('该浏览器不支持点击复制到剪贴板');
+		      }
+
+		      document.body.removeChild(textArea);
+  	}
 
    </script>
 

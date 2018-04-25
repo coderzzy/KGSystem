@@ -13,5 +13,9 @@ public interface INoticeService {
 	public List<Notice> getNoticesPage(int pageNO, int size);
 	
 	public boolean addNotice(int noticeId,String noticeText);
+	
+	public boolean delNotice(int noticeId);
+	
+	public boolean updateNotice(int noticeId,String noticeText);
 
 }
