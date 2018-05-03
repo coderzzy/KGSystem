@@ -1,0 +1,33 @@
+package org.SpiderSystem.Web.service.impl;
+
+import javax.annotation.Resource;
+
+import org.SpiderSystem.Web.dao.AdminMapper;
+import org.SpiderSystem.Web.pojo.Admin;
+import org.SpiderSystem.Web.service.IAdminService;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+@Service
+@Transactional
+public class AdminServiceImpl implements IAdminService{
+	
+	@Resource
+    public AdminMapper adminMapper;
+
+	@Override
+	public int isSubmit(String adminEmail, String adminPassword) {
+		// TODO Auto-generated method stub
+		Integer adminId = adminMapper.isInAdmin(adminEmail, adminPassword);
+		if(adminId != null){
+			return adminId;
+		}
+		return 0;
+	}
+
+	@Override
+	public Admin getAdminById(int adminId) {
+		// TODO Auto-generated method stub
+		return adminMapper.selectByPrimaryKey(adminId);
+	}
+}

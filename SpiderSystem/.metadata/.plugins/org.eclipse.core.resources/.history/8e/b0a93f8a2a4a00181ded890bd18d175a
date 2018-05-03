@@ -1,0 +1,15 @@
+package org.SpiderSystem.Web.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value="/dataAnalysis")
+public class DataAnalysisController {
+	
+	@RequestMapping(value="/")
+	public String index(){
+		
+		return "admin_index";
+	}
+}

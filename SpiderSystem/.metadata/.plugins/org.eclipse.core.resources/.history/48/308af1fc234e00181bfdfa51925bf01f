@@ -1,0 +1,401 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="UTF-8">
+	<title>Admin Index Page | SpiderSystem</title>
+	<!-- 以下代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="the admin_index of SpiderSystem">
+  <meta name="keywords" content="index SpiderSystem">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<!-- 以下代码取消第三方转码 -->
+	<meta name="Cache-Control" content="no-siteapp">
+
+	<link rel="icon" type="image/png"
+		href="${pageContext.request.contextPath}/static/amazeui_assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed"
+    href="${pageContext.request.contextPath}/static/amazeui_assets/i/app-icon72x72@2x.png">
+  <link rel="stylesheet"
+		href="${pageContext.request.contextPath}/static/amazeui_assets/css/amazeui.min.css">
+  <link rel="stylesheet"
+  	href="${pageContext.request.contextPath}/static/amazeui_assets/css/admin.css">
+</head>
+<body>
+  <!--[if lte IE 9]>
+  <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+  <![endif]-->
+
+  <header class="am-topbar am-topbar-inverse admin-header">
+    <div class="am-topbar-brand">
+      <strong>SpiderSystem</strong> <small>后台管理系统</small>
+    </div>
+
+    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
+      <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
+        <li>
+          <a href="#">
+            <span class="am-icon-envelope-o"></span>收件箱
+            <span class="am-badge am-badge-warning">5</span>
+          </a>
+        </li>
+        <li class="am-dropdown" data-am-dropdown>
+          <a href="#" class="am-dropdown-toggle" data-am-dropdown-toggle>
+            <span class="am-icon-users"></span>管理员
+            <span class="am-icon-caret-down"></span>
+          </a>
+          <ul class="am-dropdown-content">
+            <li>
+              <a href="#">
+                <span class="am-icon-user"></span>资料
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="am-icon-cog"></span>设置
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="am-icon-power-off"></span>退出
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="am-hide-sm-only">
+          <a href="#" id="admin-fullscreen">
+            <span class="am-icon-arrows-alt"></span>
+            <span class="admin-fullText">开启全屏</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <div class="am-cf admin-main">
+    <!-- sidebar start-->
+    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
+      <div class="am-offcanvas-bar admin-offcanvas-bar">
+        <ul class="am-list admin-sidebar-list">
+          <li>
+            <a href="${pageContext.request.contextPath}/admin/index">
+              <span class="am-icon-home"></span> 首 页
+            </a>
+          </li>
+          <!--
+          <li class="admin-parent">
+            <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span> 页面模块 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
+            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
+              <li><a href="admin-user.html" class="am-cf"><span class="am-icon-check"></span> 个人资料<span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li>
+              <li><a href="admin-help.html"><span class="am-icon-puzzle-piece"></span> 帮助页</a></li>
+              <li><a href="admin-gallery.html"><span class="am-icon-th"></span> 相册页面<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
+              <li><a href="admin-log.html"><span class="am-icon-calendar"></span> 系统日志</a></li>
+              <li><a href="admin-404.html"><span class="am-icon-bug"></span> 404</a></li>
+            </ul>
+          </li>
+          -->
+          <li class="admin-parent">
+            <a class="am-cf" data-am-collapse="{target: '#collapse-spider'}">
+              <span class="am-icon-bug"></span> 爬虫管理
+              <span class="am-icon-angle-right am-fr am-margin-right"></span>
+            </a>
+            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-spider">
+              <li>
+                <a href="${pageContext.request.contextPath}/spider/check" class="am-cf">
+                  <span class="am-icon-bug"></span> 系统级爬虫
+                  <span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="am-icon-bug"></span> 用户级爬虫</a>
+                </li>
+            </ul>
+          </li>
+
+          <li class="admin-parent">
+            <a class="am-cf" data-am-collapse="{target: '#collapse-database'}">
+              <span class="am-icon-database"></span> 数据库
+              <span class="am-icon-angle-right am-fr am-margin-right"></span>
+            </a>
+            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-database">
+              <li>
+                <a href="${pageContext.request.contextPath}/notice/show">
+                  <span class="am-icon-pencil-square-o"></span> 公告表
+                </a>
+              </li>
+              <li>
+                <a href="${pageContext.request.contextPath}/news/show">
+                  <span class="am-icon-pencil-square-o"></span> 新闻表
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="admin-parent">
+            <a class="am-cf" data-am-collapse="{target: '#collapse-data_operate'}">
+              <span class="am-icon-table"></span> 数据操作
+              <span class="am-icon-angle-right am-fr am-margin-right"></span>
+            </a>
+            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-data_operate">
+              <li>
+                <a href="#">
+                  <span class="am-icon-pencil-square-o"></span> 数据处理
+                </a>
+              </li>
+              <li>
+                <a href="${pageContext.request.contextPath}/newsDataAnalysis/index">
+                  <span class="am-icon-pie-chart"></span> 数据分析
+                </a>
+              </li>
+            </ul>
+          </li>
+
+        </ul>
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+          <div class="am-panel-bd">
+            <p>
+              <span class="am-icon-bookmark"></span> 公 告
+            </p>
+            <p>${notice.getText()}
+            </p>
+          </div>
+        </div>
+
+        <div class="am-panel am-panel-default admin-sidebar-panel">
+          <div class="am-panel-bd">
+            <p>
+              <span class="am-icon-tag"></span>SpiderSystem
+            </p>
+            <p>Welcome to the SpiderSystem !</p>
+          </div>
+        </div>
+
+        <ul class="am-list admin-sidebar-list">
+          <li>
+            <a href="#">
+              <span class="am-icon-sign-out"></span> 注 销
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <!-- siderbar end -->
+
+    <!-- content start -->
+  <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">个人资料</strong> / <small>Personal information</small></div>
+      </div>
+
+      <hr/>
+
+      <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-4 am-u-md-push-8">
+      	<div class="am-panel am-panel-default">
+            <div class="am-panel-bd">
+              <div class="user-info">
+                <p>等级信息</p>
+                <div class="am-progress am-progress-sm">
+                  <div class="am-progress-bar" style="width: 60%"></div>
+                </div>
+                <p class="user-info-order">当前等级：<strong>LV8</strong> 活跃天数：<strong>587</strong> 距离下一级别：<strong>160</strong></p>
+              </div>
+              <div class="user-info">
+                <p>信用信息</p>
+                <div class="am-progress am-progress-sm">
+                  <div class="am-progress-bar am-progress-bar-success" style="width: 80%"></div>
+                </div>
+                <p class="user-info-order">信用等级：正常当前 信用积分：<strong>80</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
+          <form class="am-form am-form-horizontal">
+            <div class="am-form-group">
+              <label for="user-name" class="am-u-sm-3 am-form-label">姓名 / Name</label>
+              <div class="am-u-sm-9">
+                <input type="text" id="user-name">
+                <small>输入你的名字，让我们记住你。</small>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-email" class="am-u-sm-3 am-form-label">电子邮件 / Email</label>
+              <div class="am-u-sm-9">
+                <input type="email" id="user-email">
+                <small>邮箱你懂得...</small>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-phone" class="am-u-sm-3 am-form-label">电话 / Telephone</label>
+              <div class="am-u-sm-9">
+                <input type="tel" id="user-phone">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-QQ" class="am-u-sm-3 am-form-label">QQ</label>
+              <div class="am-u-sm-9">
+                <input type="text" id="user-QQ">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-weibo" class="am-u-sm-3 am-form-label">微博 / Twitter</label>
+              <div class="am-u-sm-9">
+                <input type="text" id="user-weibo">
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <label for="user-intro" class="am-u-sm-3 am-form-label">简介 / Intro</label>
+              <div class="am-u-sm-9">
+                <textarea class="" rows="5" id="user-intro"></textarea>
+                <small>250字以内写出你的一生...</small>
+              </div>
+            </div>
+
+            <div class="am-form-group">
+              <div class="am-u-sm-9 am-u-sm-push-3">
+                <button type="button" class="am-btn am-btn-primary" onclick="save()">保存修改</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <footer class="admin-content-footer">
+      <hr>
+      <p class="am-padding-left">@ 2018 All Rights Reserved Zzy.</p>
+    </footer>
+
+  </div>
+  <!-- content end -->
+
+
+  </div>
+
+
+
+
+
+
+
+  <!--[if lt IE 9]>
+  <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+
+  <!--[if (gte IE 9)|!(IE)]><!-->
+  <script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
+  <!--<![endif]-->
+  <script src="${pageContext.request.contextPath}/static/amazeui_assets/js/amazeui.min.js"></script>
+  <script src="${pageContext.request.contextPath}/static/amazeui_assets/js/app.js"></script>
+
+  <script type="text/javascript">
+  	var ori_name,ori_email,ori_phone,ori_QQ,ori_weibo,ori_intro;
+  
+  
+  	$(function(){
+		// alert("${adminId}");
+		// return;
+  		$.ajax({
+             url: "${pageContext.request.contextPath}/admin/show",
+             type: "POST",
+             dataType: "json",
+             data: {
+               "adminId": "${adminId}"
+             },
+             async: false,
+             success: function(data) {
+            	 if(data.result == "success"){
+                	 // alert("操作成功");
+                	 ori_name = data.adminName;
+                	 $("#user-name").attr("value",ori_name);
+                	 ori_email = data.adminEmail;
+                	 $("#user-email").attr("value",ori_email);
+                	 ori_phone = data.adminTelephone;
+                	 $("#user-phone").attr("value",ori_phone);
+                	 ori_QQ = data.adminQq;
+                	 $("#user-QQ").attr("value",ori_Qq);
+                	 ori_weibo = data.adminTwitter;
+                	 $("#user-weibo").attr("value",ori_weibo);
+                	 ori_intro = data.adminIntro;
+                	 $("#user-intro").html(ori_intro);
+                 }else{
+                	 alert("数据读取失败");
+                 }
+             },
+             error: function() {
+               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+             }
+           });
+	});
+  	
+  	function save(){
+  		var now_name = $("#user-name").val(),
+  		now_email = $("#user-email").val(),
+  		now_phone = $("#user-phone").val(),
+  		now_QQ = $("#user-QQ").val(),
+  		now_weibo = $("#user-weibo").val(),
+  		now_intro = $("#user-intro").val();
+  		
+  		
+  		if(
+  			now_name == ori_name &&
+  			now_email == ori_email &&
+  			now_phone == ori_phone &&
+  			now_QQ == ori_QQ &&
+  			now_weibo == ori_weibo &&
+  			now_intro == ori_intro
+  		){
+  			alert("并没有任何修改!!!");
+  			return;
+  		}
+  		
+  		$.ajax({
+            url: "${pageContext.request.contextPath}/admin/save",
+            type: "POST",
+            dataType: "json",
+            data: {
+              "adminId": "${adminId}",
+              "adminName": now_name,
+              "adminEmail": now_email,
+              "adminPhone": now_phone,
+              "adminQq": now_QQ,
+              "adminTwitter": now_weibo,
+              "adminIntro": now_intro
+            },
+            async: false,
+            success: function(data) {
+           	 if(data.result == "success"){
+               	 alert("修改成功");
+               	 
+                }else{
+               	 alert("数据修改失败");
+                }
+            },
+            error: function() {
+              alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+            }
+          });
+  	}
+
+  </script>
+
+</body>
+</html>

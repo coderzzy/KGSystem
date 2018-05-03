@@ -1,0 +1,8 @@
+package org.SpiderSystem.Web.controller;
+
+
+@Controller
+@RequestMapping(value="/log")
+public class LogController {
+
+}
