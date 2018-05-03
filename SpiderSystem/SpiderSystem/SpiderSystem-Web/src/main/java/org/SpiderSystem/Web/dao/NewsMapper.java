@@ -27,4 +27,6 @@ public interface NewsMapper {
     List<News> getNewsPage(@Param("skip") int skip,@Param("size") int size);
     
     int getNewsCount();
+    
+    int getNewsBlankCount();
 }

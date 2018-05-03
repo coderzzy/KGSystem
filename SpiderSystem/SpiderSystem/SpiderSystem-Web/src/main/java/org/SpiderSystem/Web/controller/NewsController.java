@@ -74,7 +74,8 @@ public class NewsController {
 					public Map<String, Object> run() {
 						// TODO Auto-generated method stub
 						if(newsService.delNews(
-								Integer.parseInt(request.getParameter("newsId")))==true){
+								Integer.parseInt(request.getParameter("newsId"))
+								)==true){
 							Map<String,Object> map = new HashMap<String,Object>();
 							map.put("result", "success");
 							return map;

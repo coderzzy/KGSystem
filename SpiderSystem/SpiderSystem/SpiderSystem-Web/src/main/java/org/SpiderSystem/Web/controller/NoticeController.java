@@ -71,7 +71,8 @@ public class NoticeController {
 						// TODO Auto-generated method stub
 						if(noticeService.addNotice(
 								Integer.parseInt(request.getParameter("noticeId")), 
-					    	request.getParameter("noticeText")) == true){
+					    	request.getParameter("noticeText")
+					    	) == true){
 							Map<String,Object> map = new HashMap<String,Object>();
 							map.put("result", "success");
 							return map;
@@ -91,7 +92,8 @@ public class NoticeController {
 					public Map<String, Object> run() {
 						// TODO Auto-generated method stub
 						if(noticeService.delNotice(
-								Integer.parseInt(request.getParameter("noticeId")))==true){
+								Integer.parseInt(request.getParameter("noticeId"))
+								)==true){
 							Map<String,Object> map = new HashMap<String,Object>();
 							map.put("result", "success");
 							return map;
@@ -112,7 +114,8 @@ public class NoticeController {
 						// TODO Auto-generated method stub
 						if(noticeService.updateNotice(
 								Integer.parseInt(request.getParameter("noticeId")),
-								request.getParameter("noticeText")) == true){
+								request.getParameter("noticeText")
+								) == true){
 							Map<String,Object> map = new HashMap<String,Object>();
 							map.put("result", "success");
 							return map;

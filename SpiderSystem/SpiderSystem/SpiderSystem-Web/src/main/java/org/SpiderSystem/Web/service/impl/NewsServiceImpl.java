@@ -57,4 +57,10 @@ public class NewsServiceImpl implements INewsService{
 		return newsMapper.selectByPrimaryKey(newsId);
 	}
 
+	@Override
+	public int getNewsBlankCount() {
+		// TODO Auto-generated method stub
+		return newsMapper.getNewsBlankCount();
+	}
+
 }

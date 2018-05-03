@@ -33,143 +33,11 @@
     以获得更好的体验！</p>
   <![endif]-->
 
-  <header class="am-topbar am-topbar-inverse admin-header">
-    <div class="am-topbar-brand">
-      <strong>SpiderSystem</strong> <small>后台管理系统</small>
-    </div>
-
-    <div class="am-collapse am-topbar-collapse" id="topbar-collapse">
-      <ul class="am-nav am-nav-pills am-topbar-nav am-topbar-right admin-header-list">
-        <li>
-          <a href="#">
-            <span class="am-icon-envelope-o"></span>收件箱
-            <span class="am-badge am-badge-warning">5</span>
-          </a>
-        </li>
-        <li class="am-dropdown" data-am-dropdown>
-          <a href="#" class="am-dropdown-toggle" data-am-dropdown-toggle>
-            <span class="am-icon-users"></span>管理员
-            <span class="am-icon-caret-down"></span>
-          </a>
-          <ul class="am-dropdown-content">
-            <li>
-              <a href="#">
-                <span class="am-icon-user"></span>资料
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="am-icon-cog"></span>设置
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <span class="am-icon-power-off"></span>退出
-              </a>
-            </li>
-          </ul>
-        </li>
-        <li class="am-hide-sm-only">
-          <a href="#" id="admin-fullscreen">
-            <span class="am-icon-arrows-alt"></span>
-            <span class="admin-fullText">开启全屏</span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </header>
+  <jsp:include page="included_header.jsp"/>
 
   <div class="am-cf admin-main">
     <!-- sidebar start-->
-    <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
-      <div class="am-offcanvas-bar admin-offcanvas-bar">
-        <ul class="am-list admin-sidebar-list">
-          <li>
-            <a href="${pageContext.request.contextPath}/admin/index">
-              <span class="am-icon-home"></span> 首 页
-            </a>
-          </li>
-          <!--
-          <li class="admin-parent">
-            <a class="am-cf" data-am-collapse="{target: '#collapse-nav'}"><span class="am-icon-file"></span> 页面模块 <span class="am-icon-angle-right am-fr am-margin-right"></span></a>
-            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-nav">
-              <li><a href="admin-user.html" class="am-cf"><span class="am-icon-check"></span> 个人资料<span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span></a></li>
-              <li><a href="admin-help.html"><span class="am-icon-puzzle-piece"></span> 帮助页</a></li>
-              <li><a href="admin-gallery.html"><span class="am-icon-th"></span> 相册页面<span class="am-badge am-badge-secondary am-margin-right am-fr">24</span></a></li>
-              <li><a href="admin-log.html"><span class="am-icon-calendar"></span> 系统日志</a></li>
-              <li><a href="admin-404.html"><span class="am-icon-bug"></span> 404</a></li>
-            </ul>
-          </li>
-          -->
-          <li class="admin-parent">
-            <a class="am-cf" data-am-collapse="{target: '#collapse-spider'}">
-              <span class="am-icon-bug"></span> 爬虫管理
-              <span class="am-icon-angle-right am-fr am-margin-right"></span>
-            </a>
-            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-spider">
-              <li>
-                <a href="${pageContext.request.contextPath}/spider/check" class="am-cf">
-                  <span class="am-icon-bug"></span> 系统级爬虫
-                  <span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <span class="am-icon-bug"></span> 用户级爬虫</a>
-                </li>
-            </ul>
-          </li>
-
-          <li class="admin-parent">
-            <a class="am-cf" data-am-collapse="{target: '#collapse-data'}">
-              <span class="am-icon-table"></span> 数据库
-              <span class="am-icon-angle-right am-fr am-margin-right"></span>
-            </a>
-            <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-data">
-              <li>
-                <a href="${pageContext.request.contextPath}/notice/show">
-                  <span class="am-icon-pencil-square-o"></span> 公告表
-                </a>
-              </li>
-              <li>
-                <a href="${pageContext.request.contextPath}/news/show">
-                  <span class="am-icon-pencil-square-o"></span> 新闻表
-                </a>
-              </li>
-            </ul>
-          </li>
-
-        </ul>
-
-        <div class="am-panel am-panel-default admin-sidebar-panel">
-          <div class="am-panel-bd">
-            <p>
-              <span class="am-icon-bookmark"></span> 公 告
-            </p>
-            <p>${notice.getText()}
-            </p>
-          </div>
-        </div>
-
-        <div class="am-panel am-panel-default admin-sidebar-panel">
-          <div class="am-panel-bd">
-            <p>
-              <span class="am-icon-tag"></span>SpiderSystem
-            </p>
-            <p>Welcome to the SpiderSystem !</p>
-          </div>
-        </div>
-
-        <ul class="am-list admin-sidebar-list">
-          <li>
-            <a href="#">
-              <span class="am-icon-sign-out"></span> 注 销
-            </a>
-          </li>
-        </ul>
-
-      </div>
-    </div>
+    <jsp:include page="included_sidebar.jsp"/>
     <!-- siderbar end -->
 
     <!-- content start -->
@@ -287,7 +155,7 @@
                   </c:forEach>
                 </tbody>
               </table>
-              
+
               <div class="am-modal am-modal-prompt" tabindex="-1" id="my-modal" >
   				<div class="am-modal-dialog">
     				<div class="am-modal-hd">Amaze UI</div>
@@ -304,8 +172,8 @@
               <div id="pager">
 
               </div>
-              
-              
+
+
 
               <hr>
 
@@ -359,10 +227,7 @@
 
         </div>
 
-      <footer class="admin-content-footer">
-        <hr>
-        <p class="am-padding-left">@ 2018 All Rights Reserved Zzy.</p>
-      </footer>
+      <jsp:include page="included_footer.jsp"/>
     </div>
     <!-- content end-->
 
@@ -420,7 +285,7 @@
              }else{
             	 alert("数据库操作失败");
              }
-             
+
              // var data = eval("("+data+")");
              // alert(data.result);
              // alert("配置保存成功");
@@ -483,7 +348,7 @@
 
 		      document.body.removeChild(textArea);
      }
-     
+
      function notice_update(noticeId,text){
     	 // alert(text);
     	 $("#new_notice_text").attr('value',text);

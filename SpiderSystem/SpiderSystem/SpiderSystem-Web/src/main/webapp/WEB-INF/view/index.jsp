@@ -92,9 +92,41 @@
   </div>
 </div>
 
+	<!--[if (gte IE 9)|!(IE)]><!-->
+  	<script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
+  	<script src="${pageContext.request.contextPath}/static/js/md5.js"></script>
 	<script type="text/javascript">
 		function admin_index(){
-			window.location.href = "${pageContext.request.contextPath}/admin/index";
+			// var srt = "zzy";
+			// alert($.md5(srt));
+			// window.location.href = "${pageContext.request.contextPath}/admin/index";
+			var email = $("#email").val();
+			var password = $("#password").val();
+			if(email == "" || password == ""){
+				alert("邮箱或者密码不可以为空!!!");
+				return;
+			}
+			$.ajax({
+	             url: "${pageContext.request.contextPath}/admin/submit",
+	             type: "POST",
+	             dataType: "json",
+	             data: {
+	               "adminEmail": email,
+	               "adminPassword": $.md5(password) 
+	             },
+	             async: false,
+	             success: function(data) {
+	            	 if(data.result == "success"){
+	                	 // alert("操作成功");
+	            		 window.location.href = "${pageContext.request.contextPath}/admin/index";
+	                 }else{
+	                	 alert("邮箱或密码输入错误...");
+	                 }
+	             },
+	             error: function() {
+	               alert("登陆失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+	             }
+	           });
 		}
 	</script>
 </body>

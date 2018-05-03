@@ -1,7 +1,0 @@
-package org.SpiderSystem.Web.controller;
-
-@Controller
-@RequestMapping(value="/news")
-public class NewsController {
-
-}

@@ -1,5 +1,0 @@
-package org.SpiderSystem.Web.service.spider.saver;
-
-public class SQLSaver {
-
-}

@@ -24,11 +24,16 @@
     from news
     where id = #{id,jdbcType=INTEGER}
   </select>
-  <!--获得公告总数 -->
+  <!--获得新闻总数 -->
   <select id="getNewsCount" resultType="int">
     select count(*) from news
   </select>
-  <!--获得所有公告并分页 -->
+  <!-- 获得为空的新闻总数 -->
+  <select id="getNewsBlankCount" resultType="int">
+  	select count(*) from news 
+  	where title="" or time="" or url="" or content=""
+  </select>
+  <!--获得所有新闻并分页 -->
   <select id="getNewsPage" resultType="org.SpiderSystem.Web.pojo.News">
   	select
   	<include refid="Base_Column_List" />

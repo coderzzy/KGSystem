@@ -9,6 +9,8 @@ public interface INewsService {
 	
 	public int getNewsCount();
 	
+	public int getNewsBlankCount();
+	
 	public List<News> getNewsPage(int pageNO, int size);
 	
 	public boolean delNews(int newsId);

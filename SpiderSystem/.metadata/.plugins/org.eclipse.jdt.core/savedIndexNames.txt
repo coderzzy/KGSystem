@@ -34,7 +34,6 @@ INDEX VERSION 1.129+/Users/zzy/Desktop/这是毕设/SpiderSystem/.metadata/.plug
 3138967305.index
 957162654.index
 3637546661.index
-2980098552.index
 4059405828.index
 4255676018.index
 3886640424.index
