@@ -40,9 +40,15 @@
                   <span class="am-icon-star am-fr am-margin-right admin-icon-yellow"></span>
                 </a>
               </li>
+              <!-- 
               <li>
                 <a href="#">
                   <span class="am-icon-bug"></span> 用户级爬虫</a>
+                </li>
+                -->
+                <li>
+                <a href="${pageContext.request.contextPath}/memory/index">
+                  <span class="am-icon-area-chart"></span> 内存信息系统</a>
                 </li>
             </ul>
           </li>

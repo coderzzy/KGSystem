@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.SpiderSystem.Web.service.INewsService;
-import org.SpiderSystem.Web.service.SpiderService;
+import org.SpiderSystem.Web.service.ISpiderService;
 import org.SpiderSystem.Web.util.SpiderProperties;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -28,6 +28,9 @@ public class SpiderController {
 	@Resource
 	private INewsService newsService;
 	
+	@Resource
+	private ISpiderService spiderService;
+	
 	@RequestMapping(value="/start")
 	public String start(){
 		/*
@@ -42,7 +45,7 @@ public class SpiderController {
 				"199it"
 		);
 		*/
-		SpiderService.start(
+		spiderService.start(
 				SpiderProperties.getUrlSeed(),
 				SpiderProperties.getRegexRule(),
 				SpiderProperties.getItemMap(),
@@ -53,13 +56,13 @@ public class SpiderController {
 	
 	@RequestMapping(value="/stop")
 	public String stop(){
-		SpiderService.stop();
+		spiderService.stop();
 		return "admin_index";
 	}
 	
 	@RequestMapping(value="/check")
 	public String check(Model model){
-		SpiderService.check(model);
+		spiderService.check(model);
 		return "spider_system";
 	}
 	
@@ -69,7 +72,7 @@ public class SpiderController {
 	 */
 	@RequestMapping(value="/mysql")
 	public String mysql(){
-		SpiderService.mysql("http://www.199it.com", "http://www.199it.com/.*html",
+		spiderService.mysql("http://www.199it.com", "http://www.199it.com/.*html",
 				newsService
 				/*
 				new HashMap<String,String>(){

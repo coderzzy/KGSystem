@@ -1,0 +1,15 @@
+package org.SpiderSystem.Web.util.transaction;
+
+public class SpiderTransaction {
+	//前置通知
+	public void startTransaction(){
+		System.out.println("begin transaction ");
+	}
+	
+	//后置通知
+	public void commitTransaction(){
+		System.out.println("commit transaction ");
+	}
+	
+	
+}

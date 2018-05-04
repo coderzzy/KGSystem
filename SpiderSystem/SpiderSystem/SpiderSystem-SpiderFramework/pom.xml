@@ -47,7 +47,7 @@
 
 	<dependencies>
 
-		<!--日志  logback日志-->
+		<!--日志  logback日志
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-classic</artifactId>
@@ -62,12 +62,14 @@
 			<groupId>ch.qos.logback</groupId>
 			<artifactId>logback-core</artifactId>
 			<version>1.2.3</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
 			<version>1.7.25</version>
 		</dependency>
+		
+		
 		<!-- jsoup-->
 		<dependency>
 			<groupId>org.jsoup</groupId>
@@ -200,6 +202,5 @@
 			</distributionManagement>
 		</profile>
 	</profiles>
-
 
 </project>

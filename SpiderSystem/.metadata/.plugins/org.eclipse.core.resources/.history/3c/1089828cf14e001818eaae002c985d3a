@@ -1,0 +1,15 @@
+package org.SpiderSystem.Web.service;
+
+import java.util.Map;
+
+import org.springframework.ui.Model;
+
+public interface ISpiderService {
+	void start(String urlSeed,String regexRule,Map<String,String> itemMap,String missionName);
+	
+	void mysql(String urlSeed,String regexRule,INewsService newsService);
+	
+	void stop();
+	
+	void check(Model model);
+}
