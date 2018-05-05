@@ -7,7 +7,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="SpiderSystem-SpiderFramework"/>
+			<item value="SpiderSystem-WordSegment"/>
 			<item value="SpiderSystem"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -59,6 +59,8 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="SpiderSystem-WordSegment"/>
+			<item value="SpiderSystem-wordSegment"/>
 			<item value="SpiderSystem-SpiderFramework"/>
 			<item value="SpiderSystem-Web"/>
 			<item value="SpiderSystem-web"/>
@@ -88,6 +90,8 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.SpiderSystem.WordSegment"/>
+			<item value="org.SpiderSystem.wordSegment"/>
 			<item value="org.SpiderSystem.SpiderFramework"/>
 			<item value="org.SpiderSystem.Web"/>
 			<item value="org.SpiderSystem.web"/>
@@ -96,6 +100,8 @@
 			<item value="com.zzy"/>
 		</list>
 		<list key="artifactId">
+			<item value="SpiderSystem-WordSegment"/>
+			<item value="SpiderSystem-wordSegment"/>
 			<item value="SpiderSystem-SpiderFramework"/>
 			<item value="SpiderSystem-Web"/>
 			<item value="SpiderSystem-web"/>

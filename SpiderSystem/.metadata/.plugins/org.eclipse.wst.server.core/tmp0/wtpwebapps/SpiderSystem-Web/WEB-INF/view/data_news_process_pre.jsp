@@ -41,7 +41,7 @@
     <div class="admin-content">
     <div class="admin-content-body">
       <div class="am-cf am-padding am-padding-bottom-0">
-        <div class="am-fl"><strong class="am-text-primary am-text-lg">数据清洗与xml文件写入</strong> / <small>前300行  </small></div>
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">数据清洗与xml文件写入</strong> / <small>前500行,2016-2018  </small></div>
         <button type="button" class="am-btn am-btn-primary" onclick="start()">start</button>
         <button type="button" class="am-btn am-btn-primary" onclick="check()">check</button>
         <button type="button" class="am-btn am-btn-primary" onclick="show()">show</button>
@@ -144,7 +144,7 @@
 	            	 if(data.result == "success"){
 	                	 // alert("操作成功");
 	                	 // alert(data.array[0]);
-	                	 
+	                	 alert("根路径: "+data.path);
 	                	 var str = "";
 	                	 for(var i=0;i<data.array.length;i++){
 	                		 str += "<span><xmp>"+data.array[i]+"</xmp></span>";

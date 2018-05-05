@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.ScriptSpider.App"/>
-<fullyQualifiedTypeName name="com.github.xjtushilei.core.Spider"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.TestThreadAfterWeb"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.SpiderFramework.core.Spider"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.pageprocesser.NewsPageProcessor"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.saver.NewsSaver"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.SpiderNewsService"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.MySpider"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.TestSpider"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.spider.saver.SpiderSaver"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMethod"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
-<fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.SpiderService"/>
 <fullyQualifiedTypeName name="org.SpiderSystem.Web.util.SpiderProperties"/>
 <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
@@ -43,13 +27,8 @@
 <fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
 <fullyQualifiedTypeName name="java.util.Map"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
-<fullyQualifiedTypeName name="org.SpiderSystem.Web.pojo.News"/>
-<fullyQualifiedTypeName name="java.io.File"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
 <fullyQualifiedTypeName name="java.util.LinkedList"/>
 <fullyQualifiedTypeName name="org.SpiderSystem.Web.service.ILogService"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.io.RandomAccessFile"/>
 <fullyQualifiedTypeName name="java.io.FileNotFoundException"/>
@@ -58,6 +37,27 @@
 <fullyQualifiedTypeName name="org.aspectj.lang.JoinPoint"/>
 <fullyQualifiedTypeName name="org.aspectj.lang.ProceedingJoinPoint"/>
 <fullyQualifiedTypeName name="org.SpiderSystem.Web.service.ISpiderService"/>
-<fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="org.SpiderSystem.Web.util.RuntimeInfo"/>
+<fullyQualifiedTypeName name="org.jdom.input.SAXBuilder"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="org.jdom.JDOMException"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.pojo.News"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.util.JDomOutput"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.util.ConstantConfig"/>
+<fullyQualifiedTypeName name="org.apache.log4j.spi.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.util.MyFileReader"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.Web.service.IFileService"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.wordSegment.App"/>
+<fullyQualifiedTypeName name="com.zzy.SpiderSystem.App"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.WordSegment.App"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.WordSegment.apdplat.word.WordSegmenter"/>
+<fullyQualifiedTypeName name="org.SpiderSystem.WordSegment.apdplat.word.segmentation.Word"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

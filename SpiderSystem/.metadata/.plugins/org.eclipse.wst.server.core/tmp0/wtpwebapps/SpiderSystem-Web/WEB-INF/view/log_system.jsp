@@ -41,7 +41,7 @@
     <div class="admin-content">
     <div class="admin-content-body">
       <div class="am-cf am-padding am-padding-bottom-0">
-        <div class="am-fl"><strong class="am-text-primary am-text-lg">系统日志(最近200行)</strong> / <small>System Log</small></div>
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">系统日志(最近500行)</strong> / <small>system log</small></div>
       </div>
 
       <hr/>
@@ -93,7 +93,7 @@
  	            	 if(data.result == "success"){
  	                	 // alert("操作成功");
  	                	 // alert(data.array[0]);
- 	                	 
+ 	                	 alert("根路径: "+data.path);
  	                	 var str = "";
  	                	 for(var i=0;i<data.array.length;i++){
  	                		 var temp = data.array[i].split(",");

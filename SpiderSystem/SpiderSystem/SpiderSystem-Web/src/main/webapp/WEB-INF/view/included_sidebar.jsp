@@ -96,7 +96,7 @@
                 </a>
               </li>
               <li>
-                <a href="#">
+                <a href="${pageContext.request.contextPath}/newsDataProcess/index_wordSegment">
                   <span class="am-icon-pie-chart"></span> 分词与词频统计
                 </a>
               </li>

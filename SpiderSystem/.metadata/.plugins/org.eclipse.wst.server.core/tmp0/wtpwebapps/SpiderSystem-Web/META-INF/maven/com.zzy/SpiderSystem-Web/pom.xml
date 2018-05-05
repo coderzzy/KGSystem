@@ -206,14 +206,35 @@
 	    <artifactId>jdom</artifactId>
 	    <version>1.1.3</version>
 	</dependency>
-    
+	
+	<!-- word分词器 -->
+	<dependency>
+		<groupId>org.apdplat</groupId>
+		<artifactId>word</artifactId>
+		<version>1.3</version>
+		<exclusions>
+			<exclusion>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+			</exclusion>
+		</exclusions>
+	</dependency>
     
     <dependency> 
     	<groupId>com.zzy</groupId> 
     	<artifactId>SpiderSystem-SpiderFramework</artifactId> 
     	<version>0.0.1-SNAPSHOT</version> 
     	<scope>jar</scope>
-    </dependency>  
+    </dependency> 
+    <!--  文件相对路径问题,取消使用该模块,改为直接Maven线上版本
+    <dependency> 
+    	<groupId>com.zzy</groupId> 
+    	<artifactId>SpiderSystem-WordSegment</artifactId> 
+    	<version>0.0.1-SNAPSHOT</version> 
+    	<scope>jar</scope>
+    </dependency> 
+    -->
+     
     
     
     

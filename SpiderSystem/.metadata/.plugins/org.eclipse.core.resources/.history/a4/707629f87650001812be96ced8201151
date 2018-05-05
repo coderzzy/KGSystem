@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.zzy</groupId>
+    <artifactId>SpiderSystem</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>SpiderSystem-WordSegment</artifactId>
+  <name>SpiderSystem-WordSegment</name>
+  <url>http://maven.apache.org</url>
+  
+  <description>
+      word分词是一个Java实现的中文分词组件，提供了多种基于词典的分词算法，并利用ngram模型来消除歧义。 
+      能准确识别英文、数字，以及日期、时间等数量词，能识别人名、地名、组织机构名等未登录词。 
+      同时提供了Lucene、Solr、ElasticSearch插件。
+  </description>
+  
+  <licenses>
+      <license>
+          <name>GNU GENERAL PUBLIC LICENSE, Version 3</name>
+          <url>http://www.gnu.org/licenses/gpl.html</url>
+      </license>
+  </licenses>
+</project>

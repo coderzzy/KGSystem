@@ -1,0 +1,11 @@
+package org.SpiderSystem.Web;
+
+
+/**
+ * 测试分词
+ * @author zzy
+ *
+ */
+public class TestWordSegment {
+
+}

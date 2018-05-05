@@ -51,9 +51,10 @@ public class LogController {
 					@Override
 					public Map<String, Object> run() {
 						Map<String,Object> map = new HashMap<String,Object>();
-						List<String> list = fileService.getLogs(200);
+						List<String> list = fileService.getLogs(500);
 						if(list != null){
 							map.put("result", "success");
+							map.put("path", System.getProperty("user.dir"));
 							// System.out.println(list.size());
 							String[] desc = new String[list.size()];
 							list.toArray(desc);
@@ -79,9 +80,10 @@ public class LogController {
 					@Override
 					public Map<String, Object> run() {
 						Map<String,Object> map = new HashMap<String,Object>();
-						List<String> list = fileService.getXmls(300);
+						List<String> list = fileService.getXmls(500);
 						if(list != null){
 							map.put("result", "success");
+							map.put("path", System.getProperty("user.dir"));
 							// System.out.println(list.size());
 							String[] desc = new String[list.size()];
 							list.toArray(desc);

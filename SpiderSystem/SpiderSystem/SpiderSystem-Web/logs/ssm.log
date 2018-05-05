@@ -24,3 +24,129 @@
 [INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:5
 [INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]正在处理:http://news.xjtu.edu.cn/xysh.htm  优先级(默认:5):5
 [INFO] [2018-04-18 15:47:49][org.SpiderSystem.SpiderFramework.core.Spider]当前线程池已完成:1   运行中：4  最大运行:5 等待队列:6
+[INFO],[2018-05-06 02:02:26],[org.apdplat.word.segmentation.SegmentationFactory],构造分词实现类：org.apdplat.word.segmentation.impl.MaxNgramScore
+[INFO],[2018-05-06 02:02:26],[org.apdplat.word.util.WordConfTools],开始加载配置文件
+[INFO],[2018-05-06 02:02:26],[org.apdplat.word.util.WordConfTools],加载配置文件：word.conf
+[INFO],[2018-05-06 02:02:26],[org.apdplat.word.util.WordConfTools],未找到配置文件：word.local.conf
+[INFO],[2018-05-06 02:02:26],[org.apdplat.word.util.WordConfTools],配置文件加载完毕，耗时6 毫秒，配置项数目：33
+[INFO],[2018-05-06 02:02:26],[org.apdplat.word.util.WordConfTools],配置信息：
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],1、auto.detect=true
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],2、bigram.double.array.trie.size=5300000
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],3、bigram.path=classpath:bigram.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],4、dic.class=org.apdplat.word.dictionary.impl.DoubleArrayDictionaryTrie
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],5、dic.dump.path=
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],6、dic.path=classpath:dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],7、dictionary.trie.index.size=24000
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],8、double.array.dictionary.trie.size=2600000
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],9、intercept.length=16
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],10、keep.punctuation=false
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],11、keep.whitespace=false
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],12、ngram=bigram
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],13、parallel.seg=true
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],14、part.of.speech.des.path=classpath:part_of_speech_des.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],15、part.of.speech.dic.path=classpath:part_of_speech_dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],16、person.name.recognize=true
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],17、punctuation.path=classpath:punctuation.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],18、quantifier.path=classpath:quantifier.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],19、recognition.tool.enabled=true
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],20、redis.host=localhost
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],21、redis.port=6379
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],22、stopwords.path=classpath:stopwords.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],23、surname.path=classpath:surname.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],24、tagging.antonym=false
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],25、tagging.pinyin.acronym=false
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],26、tagging.pinyin.full=false
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],27、tagging.synonym=false
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],28、trigram.double.array.trie.size=9800000
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],29、trigram.path=classpath:trigram.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],30、word.antonym.path=classpath:word_antonym.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],31、word.refine.combine.max.length=3
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],32、word.refine.path=classpath:word_refine.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.WordConfTools],33、word.synonym.path=classpath:word_synonym.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.dictionary.DictionaryFactory],dic.class=org.apdplat.word.dictionary.impl.DoubleArrayDictionaryTrie
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.dictionary.impl.DoubleArrayDictionaryTrie],初始化词典：org.apdplat.word.dictionary.impl.DoubleArrayDictionaryTrie
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],开始加载资源
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],classpath:dic.txt,classpath:punctuation.txt,classpath:part_of_speech_dic.txt,classpath:word_synonym.txt,classpath:word_antonym.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],类路径资源：dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],加载资源：classpath:dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],类路径资源：punctuation.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/punctuation.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],加载资源：classpath:punctuation.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],类路径资源：part_of_speech_dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/part_of_speech_dic.txt
+[INFO],[2018-05-06 02:02:27],[org.apdplat.word.util.AutoDetector],加载资源：classpath:part_of_speech_dic.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],类路径资源：word_synonym.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/word_synonym.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],加载资源：classpath:word_synonym.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],类路径资源：word_antonym.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/word_antonym.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],加载资源：classpath:word_antonym.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],加载资源 1091310 行
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.dictionary.DictionaryFactory],初始化词典
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],开始加载资源
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],classpath:surname.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],类路径资源：surname.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/surname.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],加载资源：classpath:surname.txt
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],加载资源 508 行
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.recognition.PersonName],初始化百家姓
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.recognition.PersonName],百家姓初始化完毕，单姓个数：446，复姓个数：60
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.util.AutoDetector],完成加载资源，耗时3 毫秒
+[INFO],[2018-05-06 02:02:28],[org.apdplat.word.dictionary.DictionaryFactory],将 60 个复姓加入词典
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词数目：677844，词典最大词长：16
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  1 的词数为：47
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  2 的词数为：213334
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  3 的词数为：289749
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  4 的词数为：158964
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  5 的词数为：6139
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  6 的词数为：3746
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  7 的词数为：2205
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  8 的词数为：1321
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长  9 的词数为：797
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 10 的词数为：632
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 11 的词数为：312
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 12 的词数为：282
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 13 的词数为：124
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 14 的词数为：116
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 15 的词数为：51
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词长 16 的词数为：25
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词典平均词长：3.0032012
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.dictionary.DictionaryFactory],词典初始化完毕，耗时：13120 毫秒
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],完成加载资源，耗时14243 毫秒
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],开始加载资源
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],classpath:punctuation.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],类路径资源：punctuation.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/punctuation.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],加载资源：classpath:punctuation.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],加载资源 48 行
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.recognition.Punctuation],初始化标点符号
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.recognition.Punctuation],标点符号初始化完毕，标点符号个数：52
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],完成加载资源，耗时1 毫秒
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],开始加载资源
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],classpath:quantifier.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],类路径资源：quantifier.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/quantifier.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],加载资源：classpath:quantifier.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],加载资源 164 行
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.recognition.Quantifier],初始化数量词
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.recognition.Quantifier],数量词初始化完毕，数量词个数：164
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],完成加载资源，耗时1 毫秒
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],开始加载资源
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],classpath:bigram.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],类路径资源：bigram.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/bigram.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],加载资源：classpath:bigram.txt
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.util.AutoDetector],加载资源 1519443 行
+[INFO],[2018-05-06 02:02:41],[org.apdplat.word.corpus.Bigram],初始化bigram
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.corpus.Bigram],bigram初始化完毕，bigram数据条数：1519443
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],完成加载资源，耗时31989 毫秒
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],开始加载资源
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],classpath:stopwords.txt
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],类路径资源：stopwords.txt
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],类路径资源URL：jar:file:/Users/zzy/.m2/repository/org/apdplat/word/1.3/word-1.3.jar!/stopwords.txt
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],加载资源：classpath:stopwords.txt
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],加载资源 1482 行
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.recognition.StopWord],初始化停用词
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.recognition.StopWord],停用词初始化完毕，停用词个数：1482
+[INFO],[2018-05-06 02:03:13],[org.apdplat.word.util.AutoDetector],完成加载资源，耗时4 毫秒

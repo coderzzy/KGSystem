@@ -1,0 +1,60 @@
+2018-05-06 00:58:41,006 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类：org.apdplat.word.segmentation.impl.MaxNgramScore
+2018-05-06 00:58:41,018 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类失败：
+java.lang.ClassNotFoundException: org.apdplat.word.segmentation.impl.MaxNgramScore
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_40]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_40]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_40]
+	at org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory.getSegmentation(SegmentationFactory.java:45) ~[classes/:na]
+	at org.SpiderSystem.WordSegment.apdplat.word.WordSegmenter.seg(WordSegmenter.java:81) [classes/:na]
+	at org.SpiderSystem.Web.TestWordSegment.main(TestWordSegment.java:15) [classes/:na]
+2018-05-06 00:58:49,752 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类：org.apdplat.word.segmentation.impl.MaxNgramScore
+2018-05-06 00:58:49,764 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类失败：
+java.lang.ClassNotFoundException: org.apdplat.word.segmentation.impl.MaxNgramScore
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_40]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_40]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_40]
+	at org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory.getSegmentation(SegmentationFactory.java:45) ~[classes/:na]
+	at org.SpiderSystem.WordSegment.apdplat.word.WordSegmenter.seg(WordSegmenter.java:81) [classes/:na]
+	at org.SpiderSystem.Web.TestWordSegment.main(TestWordSegment.java:15) [classes/:na]
+2018-05-06 01:00:14,088 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类：org.apdplat.word.segmentation.impl.MaxNgramScore
+2018-05-06 01:00:14,103 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类失败：
+java.lang.ClassNotFoundException: org.apdplat.word.segmentation.impl.MaxNgramScore
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_40]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_40]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_40]
+	at org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory.getSegmentation(SegmentationFactory.java:45) ~[classes/:na]
+	at org.SpiderSystem.WordSegment.apdplat.word.WordSegmenter.seg(WordSegmenter.java:81) [classes/:na]
+	at org.SpiderSystem.Web.TestWordSegment.main(TestWordSegment.java:15) [classes/:na]
+2018-05-06 01:03:34,135 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类：org.apdplat.word.segmentation.impl.MaxNgramScore
+2018-05-06 01:03:34,145 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类失败：
+java.lang.ClassNotFoundException: org.apdplat.word.segmentation.impl.MaxNgramScore
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_40]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_40]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_40]
+	at org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory.getSegmentation(SegmentationFactory.java:45) ~[classes/:na]
+	at org.SpiderSystem.WordSegment.apdplat.word.WordSegmenter.seg(WordSegmenter.java:81) [classes/:na]
+	at org.SpiderSystem.Web.TestWordSegment.main(TestWordSegment.java:15) [classes/:na]
+2018-05-06 01:45:21,736 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类：org.apdplat.word.segmentation.impl.MaxNgramScore
+2018-05-06 01:45:21,750 [main] INFO  [org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory] - 构造分词实现类失败：
+java.lang.ClassNotFoundException: org.apdplat.word.segmentation.impl.MaxNgramScore
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[na:1.8.0_40]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:331) ~[na:1.8.0_40]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[na:1.8.0_40]
+	at java.lang.Class.forName0(Native Method) ~[na:1.8.0_40]
+	at java.lang.Class.forName(Class.java:264) ~[na:1.8.0_40]
+	at org.SpiderSystem.WordSegment.apdplat.word.segmentation.SegmentationFactory.getSegmentation(SegmentationFactory.java:45) ~[classes/:na]
+	at org.SpiderSystem.WordSegment.apdplat.word.WordSegmenter.seg(WordSegmenter.java:81) [classes/:na]
+	at org.SpiderSystem.Web.TestWordSegment.main(TestWordSegment.java:15) [classes/:na]

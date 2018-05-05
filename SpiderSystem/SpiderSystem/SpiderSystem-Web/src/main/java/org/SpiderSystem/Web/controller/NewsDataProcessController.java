@@ -1,5 +1,6 @@
 package org.SpiderSystem.Web.controller;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -16,7 +17,10 @@ import org.SpiderSystem.Web.service.IJsonService;
 import org.SpiderSystem.Web.service.INewsService;
 import org.SpiderSystem.Web.util.AjaxProcessor;
 import org.SpiderSystem.Web.util.ConstantConfig;
+import org.apdplat.word.WordSegmenter;
 import org.jdom.JDOMException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -30,6 +34,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value="/newsDataProcess")
 public class NewsDataProcessController {
 	
+	private static Logger logger = LoggerFactory.getLogger(NewsDataProcessController.class);
 	private static int preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
 	
 	@Resource
@@ -39,13 +44,19 @@ public class NewsDataProcessController {
 	private INewsService newsService;
 	
 	@RequestMapping(value="/index_pre")
-	public String index(){
+	public String index_pre(){
 		
 		return "data_news_process_pre";
 	}
 	
+	@RequestMapping(value="/index_wordSegment")
+	public String index_wordSegment(){
+		
+		return "data_news_process_wordSegment";
+	}
+	
 	/**
-	 * 数据清洗，并且写入xml表格
+	 * 数据清洗，并且写入xml表格,去除空白、非法、过时数据
 	 * @param request
 	 * @param response
 	 */
@@ -77,19 +88,28 @@ public class NewsDataProcessController {
 									    		 news.getUrl().equals("")){
 									    	 continue;
 									    }
-									     try {
-									    	 fileService.setXmls(id++, news, "data_process/news_data.xml", "UTF-8");
-									    	 } catch (IOException e) {
-												// TODO Auto-generated catch block
-												e.printStackTrace();
-												preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
-												return;
-											} catch (JDOMException e) {
-												// TODO Auto-generated catch block
-												e.printStackTrace();
-												preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
-												return;
-											} 
+									     if(news.getTime().contains("2018") || 
+									    		 news.getTime().contains("2017") ||
+									    		 news.getTime().contains("2016")){
+									    	 try {
+										    	 fileService.setXmls(id++, news, "data_process/news_data.xml", "UTF-8");
+										    	 logger.info("---------------the news of "+ (id-1) + " success into xml");
+										    	 } catch (IOException e) {
+													// TODO Auto-generated catch block
+													e.printStackTrace();
+													preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
+													return;
+										    	 } catch (org.jdom.IllegalDataException e){
+										    		 logger.error(e.getMessage());
+										    		 continue;
+												} catch (JDOMException e) {
+													// TODO Auto-generated catch block
+													e.printStackTrace();
+													preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
+													return;
+												} 
+									     }
+									     
 									}	
 								}
 								preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_SUCCESS;
@@ -119,6 +139,29 @@ public class NewsDataProcessController {
 							map.put("result", "run");
 						}else{
 							map.put("result", "stop");
+						}
+						return map;
+					}
+		});
+	    AjaxProcessor.renderData(response, jsonResult);
+	}
+	
+	@RequestMapping(value="/word_segment")
+	public void word_segment(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						// TODO Auto-generated method stub
+						
+						Map<String,Object> map = new HashMap<String,Object>();
+						String input = "data_process/news_data.xml";
+						String output = "data_process/news_data_segment.xml";
+						try {
+							WordSegmenter.seg(new File(input), new File(output));
+						} catch (Exception e) {
+							// TODO Auto-generated catch block
+							e.printStackTrace();
 						}
 						return map;
 					}

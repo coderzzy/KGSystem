@@ -4,6 +4,8 @@
 	<comment></comment>
 	<projects>
 		<project>SpiderSystem-SpiderFramework</project>
+		<project>SpiderSystem-wordSegment</project>
+		<project>SpiderSystem-WordSegment</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

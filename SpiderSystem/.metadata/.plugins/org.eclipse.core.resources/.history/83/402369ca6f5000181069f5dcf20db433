@@ -1,0 +1,12 @@
+package org.SpiderSystem.Web;
+
+
+/**
+ * 分词测试类
+ * @author zzy
+ *
+ */
+public class TestWordSegment {
+	public static void main(String[] args){
+	}
+}
