@@ -21,6 +21,12 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.alibaba.fastjson.JSON;
 
+
+/**
+ * 爬虫模块Controller器
+ * @author zzy
+ *
+ */
 @Controller
 @RequestMapping(value = "/spider")
 public class SpiderController {

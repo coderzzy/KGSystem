@@ -1,0 +1,60 @@
+package org.SpiderSystem.Web.util;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+/**
+ * JVM后台运行信息获取(内存,CPU等)
+ * @author zzy
+ *
+ */
+public class RuntimeInfo {
+	private static Logger logger = LoggerFactory.getLogger(RuntimeInfo.class);
+
+	
+	/**
+	 * 获取可用内存,单位MB
+	 * @return
+	 */
+	public static long getFreeMemory(){
+		return Runtime.getRuntime().freeMemory()/1024/1024;
+	}
+	
+	/**
+	 * 获取总内存,单位MB
+	 * @return
+	 */
+	public static long getTotalMemory(){
+		return Runtime.getRuntime().totalMemory()/1024/1024;
+	}
+	
+	/**
+	 * 获取可用最大内存,单位MB
+	 * @return
+	 */
+	public static long getMaxMemory(){
+		return Runtime.getRuntime().maxMemory()/1024/1024;
+	}
+	
+	/**
+	 * 获取jvm可用的处理器核心的数量
+	 */
+	public static void getAvailableProcessors() {
+	    int value = Runtime.getRuntime().availableProcessors();
+	    // System.out.println(value);
+	    logger.info("可用处理器核心数量为:  "+value);
+	}
+	
+	/**
+	 * 执行系统命令
+	 */
+	public static void commend() {
+        try {
+            Runtime runtime = Runtime.getRuntime();
+            runtime.exec("calc");
+            // Process process = runtime.exec("calc");
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+}

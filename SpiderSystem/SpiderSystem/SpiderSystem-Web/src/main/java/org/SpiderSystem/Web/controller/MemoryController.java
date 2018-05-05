@@ -11,6 +11,12 @@ import org.SpiderSystem.Web.util.AjaxProcessor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
+/**
+ * 内存信息模块Controller器
+ * @author zzy
+ *
+ */
 @Controller
 @RequestMapping(value="/memory")
 public class MemoryController {

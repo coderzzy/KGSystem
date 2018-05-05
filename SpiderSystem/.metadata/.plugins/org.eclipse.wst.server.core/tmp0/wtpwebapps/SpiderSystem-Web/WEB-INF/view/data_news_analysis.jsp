@@ -40,7 +40,16 @@
     <!-- content start-->
     <div class="admin-content">
       <div class="admin-content-body">
-		<div id="data_blank" style="width:600px; height: 400px;"></div>
+      	<div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">数据分析</strong> / <small>data_analysis  </small></div>
+        <button type="button" class="am-btn am-btn-primary" onclick="blank_data()">空白数据饼状图</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="data_date()">数据日期柱状图</button>
+      </div>
+      
+      <hr/>
+      
+		<div id="data_blank" style="width:800px; height: 400px;"></div>
+		<div id="data_date" style="width:800px; height: 400px;"></div>
       </div>
 
       <jsp:include page="included_footer.jsp"/>
@@ -70,40 +79,10 @@
   <script src="${pageContext.request.contextPath}/static/js/echarts.js"></script>
   
   <script type="text/javascript">
-  		/*
-        //指定图标的配置和数据
-        $(function(){
-        	var option = {
-                    title:{
-                        text:'ECharts 数据统计'
-                    },
-                    tooltip:{},
-                    legend:{
-                        data:['用户来源']
-                    },
-                    xAxis:{
-                        data:["Android","IOS","PC","Ohter"]
-                    },
-                    yAxis:{
-
-                    },
-                    series:[{
-                        name:'访问量',
-                        type:'bar',
-                        data:[500,200,360,100]
-                    }]
-                };
-                //初始化echarts实例
-                var data_blank_Chart = echarts.init(document.getElementById('data_blank'));
-
-                //使用制定的配置项和数据显示图表
-                data_blank_Chart.setOption(option);
-        });
-  		*/
-  		
-  		$(function(){
+  		function blank_data(){
+  			alert("正在生成图表...请等待");
   			$.ajax({
-  	             url: "${pageContext.request.contextPath}/newsDataAnalysis/show",
+  	             url: "${pageContext.request.contextPath}/newsDataAnalysis/show_blank",
   	             type: "POST",
   	             dataType: "json",
   	             /*
@@ -124,7 +103,7 @@
   	               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
   	             }
   	           });
-  		});
+  		}
   		
   		function blank_pie(blank_num,other_num){
   			var option = {
@@ -168,6 +147,77 @@
 
             //使用制定的配置项和数据显示图表
             data_blank_Chart.setOption(option);
+  		}
+  		
+  		function data_date(){
+  			alert("正在生成图表...请等待");
+  			$.ajax({
+  	             url: "${pageContext.request.contextPath}/newsDataAnalysis/show_date",
+  	             type: "POST",
+  	             dataType: "json",
+  	             /*
+  	             data: {
+  	               "newsId": newsId
+  	             },
+  	             */
+  	             async: false,
+  	             success: function(data) {
+  	            	 if(data.result == "success"){
+  	                	 // alert("操作成功");
+  	                	 date_bar(data.date,data.value);
+  	                 }else{
+  	                	 alert("数据读取失败");
+  	                 }
+  	             },
+  	             error: function() {
+  	               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+  	             }
+  	           });
+  		}
+  		
+  		function date_bar(date,value){
+  			var option = {
+  				    color: ['#3398DB'],
+  				    tooltip : {
+  				        trigger: 'axis',
+  				        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+  				            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+  				        }
+  				    },
+  				    grid: {
+  				        left: '3%',
+  				        right: '4%',
+  				        bottom: '3%',
+  				        containLabel: true
+  				    },
+  				    xAxis : [
+  				        {
+  				            type : 'category',
+  				            data : date,
+  				            axisTick: {
+  				                alignWithLabel: true
+  				            }
+  				        }
+  				    ],
+  				    yAxis : [
+  				        {
+  				            type : 'value'
+  				        }
+  				    ],
+  				    series : [
+  				        {
+  				            name:'直接访问',
+  				            type:'bar',
+  				            barWidth: '60%',
+  				            data:value
+  				        }
+  				    ]
+  				};
+  			//初始化echarts实例
+            var data_date_Chart = echarts.init(document.getElementById('data_date'));
+
+            //使用制定的配置项和数据显示图表
+            data_date_Chart.setOption(option);
   		}
     </script>
 

@@ -1,0 +1,180 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="UTF-8">
+	<title>Admin Index Page | SpiderSystem</title>
+	<!-- 以下代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="the admin_index of SpiderSystem">
+  <meta name="keywords" content="index SpiderSystem">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<!-- 以下代码取消第三方转码 -->
+	<meta name="Cache-Control" content="no-siteapp">
+
+	<link rel="icon" type="image/png"
+		href="${pageContext.request.contextPath}/static/amazeui_assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed"
+    href="${pageContext.request.contextPath}/static/amazeui_assets/i/app-icon72x72@2x.png">
+  <link rel="stylesheet"
+		href="${pageContext.request.contextPath}/static/amazeui_assets/css/amazeui.min.css">
+  <link rel="stylesheet"
+  	href="${pageContext.request.contextPath}/static/amazeui_assets/css/admin.css">
+</head>
+<body>
+  <!--[if lte IE 9]>
+  <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+  <![endif]-->
+
+  <jsp:include page="included_header.jsp"/>
+
+  <div class="am-cf admin-main">
+    <!-- sidebar start-->
+    <jsp:include page="included_sidebar.jsp"/>
+    <!-- siderbar end -->
+
+    <!-- content start-->
+    <div class="admin-content">
+      <div class="admin-content-body">
+      	<div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">数据分析</strong> / <small>data_analysis  </small></div>
+        <button type="button" class="am-btn am-btn-primary" onclick="blank_data()">空白数据饼状图</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="data_date()">数据日期柱状图</button>
+      </div>
+      
+      <hr/>
+      
+		<div id="data_blank" style="width:600px; height: 400px;"></div>
+		<div id="data_date" style="width:600px; height: 400px;"></div>
+      </div>
+
+      <jsp:include page="included_footer.jsp"/>
+    </div>
+    <!-- content end-->
+
+
+  </div>
+
+
+
+
+
+
+
+  <!--[if lt IE 9]>
+  <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+
+  <!--[if (gte IE 9)|!(IE)]><!-->
+  <script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
+  <!--<![endif]-->
+  <script src="${pageContext.request.contextPath}/static/amazeui_assets/js/amazeui.min.js"></script>
+  <script src="${pageContext.request.contextPath}/static/amazeui_assets/js/app.js"></script>
+  <script src="${pageContext.request.contextPath}/static/js/echarts.js"></script>
+  
+  <script type="text/javascript">
+  		function blank_data(){
+  			alert("正在生成图表...请等待");
+  			$.ajax({
+  	             url: "${pageContext.request.contextPath}/newsDataAnalysis/show",
+  	             type: "POST",
+  	             dataType: "json",
+  	             /*
+  	             data: {
+  	               "newsId": newsId
+  	             },
+  	             */
+  	             async: false,
+  	             success: function(data) {
+  	            	 if(data.result == "success"){
+  	                	 // alert("操作成功");
+  	                	 blank_pie(data.news_count_blank,data.news_count - data.news_count_blank);
+  	                 }else{
+  	                	 alert("数据读取失败");
+  	                 }
+  	             },
+  	             error: function() {
+  	               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+  	             }
+  	           });
+  		}
+  		
+  		function blank_pie(blank_num,other_num){
+  			var option = {
+  				    title : {
+  				        text: '空白数据比例图',
+  				        subtext: '--',
+  				        x:'center'
+  				    },
+  				    tooltip : {
+  				        trigger: 'item',
+  				        formatter: "{a} <br/>{b} : {c} ({d}%)"
+  				    },
+  				    legend: {
+  				        orient: 'vertical',
+  				        left: 'left',
+  				        data: ['空白数据','有效数据']
+  				    },
+  				    series : [
+  				        {
+  				            name: '访问来源',
+  				            type: 'pie',
+  				            radius : '55%',
+  				            center: ['50%', '60%'],
+  				            data:[
+  				                {value:blank_num, name:'空白数据'},
+  				                {value:other_num, name:'有效数据'}
+  				            ],
+  				            itemStyle: {
+  				                emphasis: {
+  				                    shadowBlur: 10,
+  				                    shadowOffsetX: 0,
+  				                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+  				                }
+  				            }
+  				        }
+  				    ]
+  				};
+  			
+  			//初始化echarts实例
+            var data_blank_Chart = echarts.init(document.getElementById('data_blank'));
+
+            //使用制定的配置项和数据显示图表
+            data_blank_Chart.setOption(option);
+  		}
+  		
+  		function blank_data(){
+  			alert("正在生成图表...请等待");
+  			$.ajax({
+  	             url: "${pageContext.request.contextPath}/newsDataAnalysis/show",
+  	             type: "POST",
+  	             dataType: "json",
+  	             /*
+  	             data: {
+  	               "newsId": newsId
+  	             },
+  	             */
+  	             async: false,
+  	             success: function(data) {
+  	            	 if(data.result == "success"){
+  	                	 // alert("操作成功");
+  	                	 
+  	                 }else{
+  	                	 alert("数据读取失败");
+  	                 }
+  	             },
+  	             error: function() {
+  	               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+  	             }
+  	           });
+  		}
+    </script>
+
+</body>
+</html>

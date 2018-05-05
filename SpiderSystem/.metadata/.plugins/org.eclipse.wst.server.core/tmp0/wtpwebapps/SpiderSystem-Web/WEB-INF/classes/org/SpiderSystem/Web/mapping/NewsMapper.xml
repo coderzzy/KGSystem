@@ -33,6 +33,11 @@
   	select count(*) from news 
   	where title="" or time="" or url="" or content=""
   </select>
+  <!--获得符合事件的新闻总数 -->
+  <select id="getNewsCountLikeYear" resultType="int">
+    select count(*) from news
+    where time like #{year}
+  </select>
   <!--获得所有新闻并分页 -->
   <select id="getNewsPage" resultType="org.SpiderSystem.Web.pojo.News">
   	select

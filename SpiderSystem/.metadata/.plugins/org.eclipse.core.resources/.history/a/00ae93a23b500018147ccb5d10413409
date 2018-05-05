@@ -1,0 +1,13 @@
+package org.SpiderSystem.Web.service;
+
+import java.util.List;
+
+import org.SpiderSystem.Web.pojo.News;
+
+public interface IFileService {
+	List<String> getLogs(int total);
+	
+	List<String> getXmls(int total);
+	
+	void setXmls(int id,News news,String fileName,String charset);
+}

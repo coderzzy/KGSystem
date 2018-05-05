@@ -17,6 +17,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
+/**
+ * 管理员用户模块Controller器
+ * @author zzy
+ *
+ */
 @Controller
 @SessionAttributes(value={"adminId"})
 @RequestMapping(value="/admin")
@@ -25,6 +30,10 @@ public class AdminController {
 	@Resource
 	IAdminService adminService;
 	
+	/**
+	 * 跳转总首页
+	 * @return
+	 */
 	@RequestMapping(value="/index")
 	public String index(){
 		
@@ -33,6 +42,12 @@ public class AdminController {
 	
 	
 	//----------------------------------------------AJAX------------------------------------------
+	/**
+	 * 登陆
+	 * @param request
+	 * @param response
+	 * @param model
+	 */
 	@RequestMapping(value="/submit",method = RequestMethod.POST)
 	public void submit(HttpServletRequest request,HttpServletResponse response,Model model){
 		String jsonResult = AjaxProcessor.getJSONString(request,
@@ -58,6 +73,12 @@ public class AdminController {
 		AjaxProcessor.renderData(response, jsonResult);
 	}
 	
+	
+	/**
+	 * 显示个人信息
+	 * @param request
+	 * @param response
+	 */
 	@RequestMapping(value="/show",method = RequestMethod.POST)
 	public void show(HttpServletRequest request,HttpServletResponse response){
 		String jsonResult = AjaxProcessor.getJSONString(request,
@@ -83,6 +104,12 @@ public class AdminController {
 		AjaxProcessor.renderData(response, jsonResult);
 	}
 	
+	
+	/**
+	 * 保存修改的值
+	 * @param request
+	 * @param response
+	 */
 	@RequestMapping(value="/save",method = RequestMethod.POST)
 	public void save(HttpServletRequest request,HttpServletResponse response){
 		String jsonResult = AjaxProcessor.getJSONString(request,

@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * 所有Service的AOP类
+ * 所有Service事务,AOP类
  * @author zzy
  *
  */
@@ -36,7 +36,7 @@ private static Logger logger = LoggerFactory.getLogger(AllServiceTransaction.cla
     }  
   
     public void doThrowing(JoinPoint jp, Throwable ex) {  
-    	logger.info("method " + jp.getTarget().getClass().getName() + "." + jp.getSignature().getName() + " throw exception");  
-    	logger.info(ex.getMessage());  
+    	logger.error("method " + jp.getTarget().getClass().getName() + "." + jp.getSignature().getName() + " throw exception");  
+    	logger.error(ex.getMessage());  
     }  
 }

@@ -6,11 +6,15 @@ package org.SpiderSystem.Web;
  *
  */
 public class TestThreadAfterWeb extends Thread{
+	
 	private static TestThreadAfterWeb singleton;
 	private boolean runflag = true;
 	
+	
 	private TestThreadAfterWeb(){}
 	
+	
+	@Override
 	public void run(){
 		for(int i=0;i<1000000 && runflag;i++){
 			System.out.println("hello world + "+i);
@@ -18,13 +22,16 @@ public class TestThreadAfterWeb extends Thread{
 		singleton = null;
 	}
 	
+	
 	public void startme(){
 		this.runflag = true;
 	}
 	
+	
 	public void stopme(){
 		this.runflag = false;
 	}
+	
 	
 	public static boolean isNull(){
 		if(singleton == null){
@@ -33,6 +40,7 @@ public class TestThreadAfterWeb extends Thread{
 			return false;
 		}
 	}
+	
 	
 	public static TestThreadAfterWeb getSingleton(){
 		if(singleton == null){
@@ -45,6 +53,7 @@ public class TestThreadAfterWeb extends Thread{
 		
 		return singleton;
 	}
+	
 	
 	/**
 	 * 将对象置null，触发GC

@@ -8,20 +8,30 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.SpiderSystem.Web.service.IFileService;
 import org.SpiderSystem.Web.service.IJsonService;
-import org.SpiderSystem.Web.service.ILogService;
 import org.SpiderSystem.Web.util.AjaxProcessor;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+
+/**
+ * 日志模块Controller层
+ * @author zzy
+ *
+ */
 @Controller
 @RequestMapping(value="/log")
 public class LogController {
 	
 	@Resource
-	ILogService logService;
+	IFileService fileService;
 	
+	/**
+	 * 跳转日志系统首页
+	 * @return
+	 */
 	@RequestMapping(value="/index")
 	public String index(){
 		
@@ -29,6 +39,11 @@ public class LogController {
 	}
 	
 	//----------------------------------------------AJAX------------------------------------------
+	/**
+	 * 显示日志
+	 * @param request
+	 * @param response
+	 */
 	@RequestMapping(value="/show",method = RequestMethod.POST)
 	public void show(HttpServletRequest request,HttpServletResponse response){
 		String jsonResult = AjaxProcessor.getJSONString(request,
@@ -36,7 +51,7 @@ public class LogController {
 					@Override
 					public Map<String, Object> run() {
 						Map<String,Object> map = new HashMap<String,Object>();
-						List<String> list = logService.getLogs(200);
+						List<String> list = fileService.getLogs(200);
 						if(list != null){
 							map.put("result", "success");
 							// System.out.println(list.size());
@@ -52,6 +67,11 @@ public class LogController {
 		AjaxProcessor.renderData(response, jsonResult);
 	}
 	
+	/**
+	 * 显示xml文件
+	 * @param request
+	 * @param response
+	 */
 	@RequestMapping(value="/show_xml",method = RequestMethod.POST)
 	public void show_xml(HttpServletRequest request,HttpServletResponse response){
 		String jsonResult = AjaxProcessor.getJSONString(request,
@@ -59,7 +79,7 @@ public class LogController {
 					@Override
 					public Map<String, Object> run() {
 						Map<String,Object> map = new HashMap<String,Object>();
-						List<String> list = logService.getXmls(300);
+						List<String> list = fileService.getXmls(300);
 						if(list != null){
 							map.put("result", "success");
 							// System.out.println(list.size());

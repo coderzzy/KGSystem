@@ -18,6 +18,7 @@ import com.alibaba.fastjson.JSON;
  *
  */
 public class AjaxProcessor {
+	
 	public static String getJSONString(HttpServletRequest request,IJsonService jsonService) {
 		//故意构造一个数组，使返回的数据为json数组，数据更复杂些
 	    // List<Map<String, Object>> datas = new ArrayList<Map<String, Object>>(5);

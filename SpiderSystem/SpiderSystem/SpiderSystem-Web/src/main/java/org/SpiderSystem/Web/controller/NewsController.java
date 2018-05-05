@@ -19,6 +19,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.SessionAttributes;
 
 
+/**
+ * 新闻数据库模块Controller器
+ * @author zzy
+ *
+ */
 @Controller
 @SessionAttributes(value={"news_size","news_pageNO","news_count","news"})
 @RequestMapping(value="/news")

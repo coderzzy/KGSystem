@@ -7,7 +7,6 @@ import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.List;
 
 import org.SpiderSystem.Web.pojo.News;
 import org.jdom.Attribute;
@@ -19,8 +18,21 @@ import org.jdom.input.SAXBuilder;
 import org.jdom.output.Format;
 import org.jdom.output.XMLOutputter;
 
+/**
+ * Java 生成 XML文件操作类
+ * @author zzy
+ *
+ */
 public class JDomOutput {
 	
+	/**
+	 * 首次执行的XML输出函数
+	 * @param id
+	 * @param news
+	 * @param fileName
+	 * @param charset
+	 * @throws IOException
+	 */
 	private static void firstExecute(int id,News news,String fileName,String charset) throws IOException{
 		//创建文档
         Document document = new Document();
@@ -77,7 +89,6 @@ public class JDomOutput {
         format.setEncoding(charset);//设置编码
         format.setIndent("    ");//设置缩进
         
-        
         //得到xml输出流
         XMLOutputter out = new XMLOutputter(format);
         // 把数据输出到xml中,默认覆盖
@@ -87,6 +98,15 @@ public class JDomOutput {
 	}
 	
 	
+	/**
+	 * 输出XML文件类
+	 * @param id
+	 * @param news
+	 * @param fileName
+	 * @param charset
+	 * @throws IOException
+	 * @throws JDOMException
+	 */
 	public static void execute(int id,News news,String fileName,String charset) throws IOException, JDOMException {
 		// System.out.println("------------------------"+id+"-----------------------");
 		// 1.创建一个输入流，将xml文件加载到输入流
@@ -102,10 +122,10 @@ public class JDomOutput {
 		
 		if(id == 1){
 			// 如果重新写入，则覆盖
-			System.out.println("1" + news.getTitle());
-			System.out.println("2" + news.getTime());
-			System.out.println("3" + news.getUrl());
-			System.out.println("4" + news.getContent());
+			// System.out.println("1" + news.getTitle());
+			// System.out.println("2" + news.getTime());
+			// System.out.println("3" + news.getUrl());
+			// System.out.println("4" + news.getContent());
 			firstExecute(id,news,fileName,charset);
 			return;
 		}
@@ -152,7 +172,6 @@ public class JDomOutput {
 	
 	
 	// ------------------------------------Example------------------------------------------
-	
 	public static void appendXMLByJDOM() {
         // 1.创建一个SAXBuilder对象
         SAXBuilder saxBuilder = new SAXBuilder();
@@ -166,12 +185,13 @@ public class JDomOutput {
             // 4.通过Document对象获取xml文件的根节点
             Element rootElement = document.getRootElement();
             // 5.根据根节点获取子节点的List集合
-            List<Element> bookList = rootElement.getChildren();
+            // List<Element> bookList = rootElement.getChildren();
  
             // 6.追加节点
             Element language = new Element("language");
             language.setText("简体中文");
-            bookList.get(0).addContent(language);
+            // bookList.get(0).addContent(language);
+            rootElement.addContent(language);
              
             // 7.设置输出流和输出格式
             Format format = Format.getCompactFormat();
@@ -218,8 +238,7 @@ public class JDomOutput {
         Element person1_address = new Element("address");
         person1_address.setText("香港");
         person1.addContent(person1_address);
-        
-        
+          
         Element person2 = new Element("person");
         people.addContent(person2);
         
@@ -232,13 +251,11 @@ public class JDomOutput {
         Element person2_address = new Element("address");
         person2_address.setText("台湾");
         person2.addContent(person2_address);
-        
-        
+          
         //设置xml输出格式
         Format format = Format.getPrettyFormat();
         format.setEncoding("utf-8");//设置编码
         format.setIndent("    ");//设置缩进
-        
         
         //得到xml输出流
         XMLOutputter out = new XMLOutputter(format);

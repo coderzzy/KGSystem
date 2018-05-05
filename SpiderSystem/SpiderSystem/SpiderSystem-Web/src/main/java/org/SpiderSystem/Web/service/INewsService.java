@@ -16,4 +16,6 @@ public interface INewsService {
 	public boolean delNews(int newsId);
 	
 	public News getNewsById(int newsId);
+	
+	public int getNewsCountLikeYear(String year);
 }

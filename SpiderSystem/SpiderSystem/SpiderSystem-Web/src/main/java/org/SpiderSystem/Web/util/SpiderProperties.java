@@ -3,16 +3,19 @@ package org.SpiderSystem.Web.util;
 import java.util.HashMap;
 import java.util.Map;
 
+
 /**
- * 爬虫配置工具类
+ * 爬虫配置工具类,存储常量
  * @author zzy
  *
  */
 public class SpiderProperties {
+	
 	private static String util_urlSeed;
 	private static String util_regexRule;
 	private static Map<String,String> util_itemMap;
 	private static String util_missionName;
+	
 	
 	public static void update(String urlSeed,String RegexRule,String items,String mission){
 		util_urlSeed = urlSeed;
@@ -28,17 +31,21 @@ public class SpiderProperties {
 		}
 	}
 	
+	
 	public static String getUrlSeed(){
 		return util_urlSeed;
 	}
+	
 	
 	public static String getRegexRule(){
 		return util_regexRule;
 	}
 	
+	
 	public static Map<String,String> getItemMap(){
 		return util_itemMap;
 	}
+	
 	
 	public static String getMissionName(){
 		return util_missionName;

@@ -29,4 +29,6 @@ public interface NewsMapper {
     int getNewsCount();
     
     int getNewsBlankCount();
+    
+    int getNewsCountLikeYear(@Param("year") String year);
 }

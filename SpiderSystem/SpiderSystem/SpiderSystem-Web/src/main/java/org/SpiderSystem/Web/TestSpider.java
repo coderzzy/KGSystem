@@ -14,11 +14,14 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
-
+/**
+ * java本地测试爬虫
+ * @author zzy
+ *
+ */
 public class TestSpider {
-
+	
     //爬取《交大新闻网》的所有信息，并将信息输出到文本文件！
-
     public static void main(String[] args) {
         Spider.build()
                 .setProcessor(myPageProcessor)
@@ -67,6 +70,7 @@ public class TestSpider {
 
     };
 
+    
     /**
      * 实现自己的保存器！可以将爬取到的结果放入到mongodb，mysql等等中！这里保存到<当前用户>的“ScriptSpider”目录下。
      * <p>
@@ -102,7 +106,6 @@ public class TestSpider {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-
             }
         }
     };

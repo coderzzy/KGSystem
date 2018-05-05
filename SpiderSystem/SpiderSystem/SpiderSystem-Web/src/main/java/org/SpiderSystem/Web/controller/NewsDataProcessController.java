@@ -11,20 +11,29 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.SpiderSystem.Web.pojo.News;
+import org.SpiderSystem.Web.service.IFileService;
 import org.SpiderSystem.Web.service.IJsonService;
 import org.SpiderSystem.Web.service.INewsService;
 import org.SpiderSystem.Web.util.AjaxProcessor;
 import org.SpiderSystem.Web.util.ConstantConfig;
-import org.SpiderSystem.Web.util.JDomOutput;
 import org.jdom.JDOMException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
+/**
+ * 数据处理Controller器,包括预处理,分词和词频统计等
+ * @author zzy
+ *
+ */
 @Controller
 @RequestMapping(value="/newsDataProcess")
 public class NewsDataProcessController {
 	
 	private static int preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
+	
+	@Resource
+	private IFileService fileService;
 	
 	@Resource
 	private INewsService newsService;
@@ -69,13 +78,17 @@ public class NewsDataProcessController {
 									    	 continue;
 									    }
 									     try {
-									    	 JDomOutput.execute(id++, news, "data_process/news_data.xml", "UTF-8");
+									    	 fileService.setXmls(id++, news, "data_process/news_data.xml", "UTF-8");
 									    	 } catch (IOException e) {
 												// TODO Auto-generated catch block
 												e.printStackTrace();
+												preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
+												return;
 											} catch (JDOMException e) {
 												// TODO Auto-generated catch block
 												e.printStackTrace();
+												preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
+												return;
 											} 
 									}	
 								}
