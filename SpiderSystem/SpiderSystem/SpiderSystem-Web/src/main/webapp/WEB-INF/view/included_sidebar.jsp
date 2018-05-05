@@ -77,21 +77,27 @@
               </li>
             </ul>
           </li>
+          
+          <li>
+            <a href="${pageContext.request.contextPath}/newsDataAnalysis/index">
+              <span class="am-icon-pie-chart"></span> 数据分析
+            </a>
+          </li>
 
           <li class="admin-parent">
             <a class="am-cf" data-am-collapse="{target: '#collapse-data_operate'}">
-              <span class="am-icon-table"></span> 数据操作
+              <span class="am-icon-table"></span> 数据处理
               <span class="am-icon-angle-right am-fr am-margin-right"></span>
             </a>
             <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-data_operate">
               <li>
-                <a href="#">
-                  <span class="am-icon-pencil-square-o"></span> 数据处理
+                <a href="${pageContext.request.contextPath}/newsDataProcess/index_pre">
+                  <span class="am-icon-pencil-square-o"></span> 数据预处理
                 </a>
               </li>
               <li>
-                <a href="${pageContext.request.contextPath}/newsDataAnalysis/index">
-                  <span class="am-icon-pie-chart"></span> 数据分析
+                <a href="#">
+                  <span class="am-icon-pie-chart"></span> 分词与词频统计
                 </a>
               </li>
             </ul>

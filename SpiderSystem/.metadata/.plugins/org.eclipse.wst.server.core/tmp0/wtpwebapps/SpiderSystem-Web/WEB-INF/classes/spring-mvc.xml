@@ -68,10 +68,21 @@
 	            <aop:around pointcut-ref="spiderService" method="doAround"/>  
 	            <aop:after-throwing pointcut-ref="spiderService" method="doThrowing" throwing="ex"/>  
 	            -->
+	        </aop:aspect> 
+	        
+	        <aop:aspect ref="allServiceAspectBean">  
+	            <!--配置service包下所有类或接口的所有方法-->  
+	            <aop:pointcut id="allServiceCut" 
+	            expression="execution(* org.SpiderSystem.Web.service.impl..*.*(..))" />  
+	            <aop:before pointcut-ref="allServiceCut" method="doBefore"/>  
+	            <aop:after pointcut-ref="allServiceCut" method="doAfter"/> 
+	            <aop:around pointcut-ref="allServiceCut" method="doAround"/>  
+	            <aop:after-throwing pointcut-ref="allServiceCut" method="doThrowing" throwing="ex"/>  
 	        </aop:aspect>  
     	</aop:config>  
       
-    	<bean id="spiderAspectBean" class="org.SpiderSystem.Web.util.transaction.SpiderTransaction" />  
+    	<bean id="spiderAspectBean" class="org.SpiderSystem.Web.util.transaction.SpiderTransaction" /> 
+    	<bean id="allServiceAspectBean" class="org.SpiderSystem.Web.util.transaction.AllServiceTransaction" /> 
     	
     	
     	<!-- 

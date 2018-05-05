@@ -52,4 +52,27 @@ public class LogController {
 		AjaxProcessor.renderData(response, jsonResult);
 	}
 	
+	@RequestMapping(value="/show_xml",method = RequestMethod.POST)
+	public void show_xml(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						Map<String,Object> map = new HashMap<String,Object>();
+						List<String> list = logService.getXmls(300);
+						if(list != null){
+							map.put("result", "success");
+							// System.out.println(list.size());
+							String[] desc = new String[list.size()];
+							list.toArray(desc);
+							map.put("array",desc);
+						}else{
+							map.put("result", "error");
+						}
+						return map;
+					}
+		});
+		AjaxProcessor.renderData(response, jsonResult);
+	}
+	
 }

@@ -1,0 +1,7 @@
+package org.SpiderSystem.Web.util;
+
+public class ConstantConfig {
+	
+	// 数据预处理停止状态
+	public static final int PRE_PROCESS_CHECK_STOP = 0;
+}

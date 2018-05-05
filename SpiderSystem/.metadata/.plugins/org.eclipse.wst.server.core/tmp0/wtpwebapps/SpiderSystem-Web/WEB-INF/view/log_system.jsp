@@ -41,7 +41,7 @@
     <div class="admin-content">
     <div class="admin-content-body">
       <div class="am-cf am-padding am-padding-bottom-0">
-        <div class="am-fl"><strong class="am-text-primary am-text-lg">系统日志</strong> / <small>System Log</small></div>
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">系统日志(最近200行)</strong> / <small>System Log</small></div>
       </div>
 
       <hr/>

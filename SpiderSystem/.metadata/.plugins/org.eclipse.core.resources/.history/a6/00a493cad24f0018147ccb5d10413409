@@ -1,0 +1,82 @@
+package org.SpiderSystem.Web.controller;
+
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.SpiderSystem.Web.pojo.News;
+import org.SpiderSystem.Web.service.IJsonService;
+import org.SpiderSystem.Web.service.INewsService;
+import org.SpiderSystem.Web.util.AjaxProcessor;
+import org.SpiderSystem.Web.util.JDomOutput;
+import org.jdom.JDOMException;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping(value="/newsDataProcess")
+public class NewsDataProcessController {
+	
+	@Resource
+	private INewsService newsService;
+	
+	@RequestMapping(value="/index")
+	public String index(){
+		
+		return "data_news_process";
+	}
+	
+	/**
+	 * 数据清洗，并且写入xml表格
+	 * @param request
+	 * @param response
+	 */
+	@RequestMapping(value="/preProcess")
+	public void show(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						// TODO Auto-generated method stub
+						
+						Map<String,Object> map = new HashMap<String,Object>();
+						Thread thread = new Thread(){
+							public void run(){
+								int id = 1;
+								int size=6;
+								for(int i=0;i<newsService.getNewsCount()/size;i++){
+									for(News news : newsService.getNewsPage(i+1, size)){
+										System.out.println("------------------111111111");
+										if(news.getContent() == null || 
+												news.getTime() == null || 
+												news.getTitle() == null || 
+												news.getUrl() == null){
+											System.out.println("------------------222222222222");
+											continue;
+										}
+										try {
+											JDomOutput.execute(id++, news, "data_process/news_data.xml", "UTF-8");
+										} catch (IOException e) {
+											// TODO Auto-generated catch block
+											e.printStackTrace();
+										} catch (JDOMException e) {
+											// TODO Auto-generated catch block
+											e.printStackTrace();
+										}
+									}
+								}
+							}
+						};
+						thread.start();
+						map.put("result", "success");
+						
+						return map;
+					}
+		});
+	    AjaxProcessor.renderData(response, jsonResult);
+	}
+}
