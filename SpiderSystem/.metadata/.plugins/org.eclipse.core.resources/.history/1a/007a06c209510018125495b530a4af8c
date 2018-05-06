@@ -1,0 +1,18 @@
+package org.SpiderSystem.Local;
+
+
+/**
+ * 用算法判断文本相似度
+ * @author zzy
+ *
+ */
+public class SimilarityOnNews {
+	private static String fileRoot = "";
+	
+	/**
+	 * 先利用data_
+	 */
+	public void createFrequency(){
+		
+	}
+}

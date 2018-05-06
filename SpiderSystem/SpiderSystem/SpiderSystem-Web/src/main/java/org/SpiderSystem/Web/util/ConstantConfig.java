@@ -18,15 +18,15 @@ public class ConstantConfig {
 	// 数据预处理完成状态
 	public static final int PRE_PROCESS_CHECK_SUCCESS = 2;
 	
-	/**
+	/**文件过大时候，双向算法服务器内存不够,只能运行前四种
 	 * Word分词器算法:
 	 * 正向最大匹配算法：MaximumMatching
 	 * 逆向最大匹配算法：ReverseMaximumMatching
 	 * 正向最小匹配算法：MinimumMatching
 	 * 逆向最小匹配算法：ReverseMinimumMatching
-	 * 双向最大匹配算法：BidirectionalMaximumMatching
-	 * 双向最小匹配算法：BidirectionalMinimumMatching
-	 * 双向最大最小匹配算法：BidirectionalMaximumMinimumMatching
+	 * --双向最大匹配算法：BidirectionalMaximumMatching
+	 * --双向最小匹配算法：BidirectionalMinimumMatching
+	 * --双向最大最小匹配算法：BidirectionalMaximumMinimumMatching
 	 * 全切分算法：FullSegmentation
 	 * 最少词数算法：MinimalWordCount
 	 * 最大Ngram分值算法：MaxNgramScore
@@ -73,6 +73,20 @@ public class ConstantConfig {
 			"data_process/news_data_frequency_FullSegmentation.txt",
 			"data_process/news_data_frequency_MinimalWordCount.txt",
 			"data_process/news_data_frequency_MaxNgramScore.txt"
+	};
+	
+	// 算法名称
+	public static final String[] ALGORITHM_NAME = {
+			"MaximumMatching | 正向最大匹配算法",
+			"ReverseMaximumMatching | 逆向最大匹配算法",
+			"MinimumMatching | 正向最小匹配算法",
+			"ReverseMinimumMatching | 逆向最小匹配算法",
+			"BidirectionalMaximumMatching | 双向最大匹配算法",
+			"BidirectionalMinimumMatching | 双向最小匹配算法",
+			"BidirectionalMaximumMinimumMatching | 双向最大最小匹配算法",
+			"FullSegmentation | 全切分算法",
+			"MinimalWordCount | 最少词数算法",
+			"MaxNgramScore | 最大Ngram分值算法"
 	};
 	
 	// 算法

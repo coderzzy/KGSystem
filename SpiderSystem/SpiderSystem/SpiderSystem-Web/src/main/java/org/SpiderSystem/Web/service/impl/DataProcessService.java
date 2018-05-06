@@ -13,7 +13,7 @@ import org.springframework.transaction.annotation.Transactional;
 public class DataProcessService implements IDataProcessService{
 
 	@Override
-	public void runWord(String input,String output,String result,SegmentationAlgorithm algorithm) {
+	public void runWord(String input,String output,String result,SegmentationAlgorithm algorithm){
 		// TODO Auto-generated method stub
 		
 		//词频统计设置
@@ -21,12 +21,14 @@ public class DataProcessService implements IDataProcessService{
 		wordFrequencyStatistics.setRemoveStopWord(true);
 		wordFrequencyStatistics.setSegmentationAlgorithm(algorithm);
 		//对文件进行分词
+		
 		try {
 			wordFrequencyStatistics.seg(new File(input), new File(output));
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
 		//输出词频统计结果
 		wordFrequencyStatistics.dump(result);
 	}

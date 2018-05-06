@@ -162,11 +162,13 @@ public class NewsDataProcessController {
 							public void run(){
 								segmentProcess_check = ConstantConfig.SEGMENT_PROCESS_CHECK_RUN;
 								for(int i=0;i<ConstantConfig.SEGMENT_NUMBER;i++){
-									dataProcessService.runWord(
-											ConstantConfig.XML_PATH, 
-											ConstantConfig.SEGMENT_PATH[i], 
-											ConstantConfig.FREQUENCY_PATH[i], 
-											ConstantConfig.ALGORITHM[i]);
+									
+										dataProcessService.runWord(
+												ConstantConfig.XML_PATH, 
+												ConstantConfig.SEGMENT_PATH[i], 
+												ConstantConfig.FREQUENCY_PATH[i], 
+												ConstantConfig.ALGORITHM[i]);
+									
 									logger.info("the segment and frequency " + (i+1) + "has finished");
 								}
 								segmentProcess_check = ConstantConfig.SEGMENT_PROCESS_CHECK_SUCCESS;

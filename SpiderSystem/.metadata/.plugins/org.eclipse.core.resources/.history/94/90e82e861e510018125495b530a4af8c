@@ -1,0 +1,131 @@
+package org.SpiderSystem.Web.controller;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.SpiderSystem.Web.service.IFileService;
+import org.SpiderSystem.Web.service.IJsonService;
+import org.SpiderSystem.Web.util.AjaxProcessor;
+import org.SpiderSystem.Web.util.ConstantConfig;
+import org.SpiderSystem.Web.util.DataEntity;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+
+/**
+ * 日志模块Controller层
+ * @author zzy
+ *
+ */
+@Controller
+@RequestMapping(value="/log")
+public class LogController {
+	
+	@Resource
+	IFileService fileService;
+	
+	/**
+	 * 跳转日志系统首页
+	 * @return
+	 */
+	@RequestMapping(value="/index")
+	public String index(){
+		
+		return "log_system";
+	}
+	
+	//----------------------------------------------AJAX------------------------------------------
+	/**
+	 * 显示日志
+	 * @param request
+	 * @param response
+	 */
+	@RequestMapping(value="/show",method = RequestMethod.POST)
+	public void show(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						Map<String,Object> map = new HashMap<String,Object>();
+						List<String> list = fileService.getLogs(500);
+						if(list != null){
+							map.put("result", "success");
+							map.put("path", System.getProperty("user.dir"));
+							// System.out.println(list.size());
+							String[] desc = new String[list.size()];
+							list.toArray(desc);
+							map.put("array",desc);
+						}else{
+							map.put("result", "error");
+						}
+						return map;
+					}
+		});
+		AjaxProcessor.renderData(response, jsonResult);
+	}
+	
+	/**
+	 * 显示xml文件
+	 * @param request
+	 * @param response
+	 */
+	@RequestMapping(value="/show_xml",method = RequestMethod.POST)
+	public void show_xml(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						Map<String,Object> map = new HashMap<String,Object>();
+						List<String> list = fileService.getXmls(500);
+						if(list != null){
+							map.put("result", "success");
+							map.put("path", System.getProperty("user.dir"));
+							// System.out.println(list.size());
+							String[] desc = new String[list.size()];
+							list.toArray(desc);
+							map.put("array",desc);
+						}else{
+							map.put("result", "error");
+						}
+						return map;
+					}
+		});
+		AjaxProcessor.renderData(response, jsonResult);
+	}
+	
+	
+	@RequestMapping(value="/show_frequency",method = RequestMethod.POST)
+	public void show_frequency(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						Map<String,Object> map = new HashMap<String,Object>();
+						List<DataEntity> list = fileService.getFrequency(
+								ConstantConfig.SEGMENT_PATH[Integer.valueOf(request.getParameter("index"))], 
+								50);
+						if(list != null){
+							map.put("result", "success");
+							// map.put("path", System.getProperty("user.dir"));
+							map.put("title", 
+								ConstantConfig.ALGORITHM_NAME[Integer.valueOf(request.getParameter("index"))]);
+							// System.out.println(list.size());
+							String[] desc = new String[list.size()];
+							list.toArray(desc);
+							map.put("array",desc);
+						}else{
+							map.put("result", "error");
+						}
+						return map;
+					}
+		});
+		AjaxProcessor.renderData(response, jsonResult);
+	}
+	
+}

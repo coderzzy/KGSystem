@@ -1,0 +1,6 @@
+package org.SpiderSystem.Web.util;
+
+public class Entity {
+	public String word;
+	public Integer times;
+}
