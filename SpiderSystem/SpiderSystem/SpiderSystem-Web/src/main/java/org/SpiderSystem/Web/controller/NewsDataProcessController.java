@@ -1,6 +1,5 @@
 package org.SpiderSystem.Web.controller;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -12,12 +11,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import org.SpiderSystem.Web.pojo.News;
+import org.SpiderSystem.Web.service.IDataProcessService;
 import org.SpiderSystem.Web.service.IFileService;
 import org.SpiderSystem.Web.service.IJsonService;
 import org.SpiderSystem.Web.service.INewsService;
 import org.SpiderSystem.Web.util.AjaxProcessor;
 import org.SpiderSystem.Web.util.ConstantConfig;
-import org.apdplat.word.WordSegmenter;
 import org.jdom.JDOMException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -36,12 +35,16 @@ public class NewsDataProcessController {
 	
 	private static Logger logger = LoggerFactory.getLogger(NewsDataProcessController.class);
 	private static int preProcess_check = ConstantConfig.PRE_PROCESS_CHECK_STOP;
+	private static int segmentProcess_check = ConstantConfig.SEGMENT_PROCESS_CHECK_STOP;
 	
 	@Resource
 	private IFileService fileService;
 	
 	@Resource
 	private INewsService newsService;
+	
+	@Resource
+	private IDataProcessService dataProcessService;
 	
 	@RequestMapping(value="/index_pre")
 	public String index_pre(){
@@ -155,13 +158,43 @@ public class NewsDataProcessController {
 						// TODO Auto-generated method stub
 						
 						Map<String,Object> map = new HashMap<String,Object>();
-						String input = "data_process/news_data.xml";
-						String output = "data_process/news_data_segment.xml";
-						try {
-							WordSegmenter.seg(new File(input), new File(output));
-						} catch (Exception e) {
-							// TODO Auto-generated catch block
-							e.printStackTrace();
+						Thread thread = new Thread(){
+							public void run(){
+								segmentProcess_check = ConstantConfig.SEGMENT_PROCESS_CHECK_RUN;
+								for(int i=0;i<ConstantConfig.SEGMENT_NUMBER;i++){
+									dataProcessService.runWord(
+											ConstantConfig.XML_PATH, 
+											ConstantConfig.SEGMENT_PATH[i], 
+											ConstantConfig.FREQUENCY_PATH[i], 
+											ConstantConfig.ALGORITHM[i]);
+									logger.info("the segment and frequency " + (i+1) + "has finished");
+								}
+								segmentProcess_check = ConstantConfig.SEGMENT_PROCESS_CHECK_SUCCESS;
+							}
+						};
+						thread.start();
+						map.put("result", "success");
+						return map;
+					}
+		});
+	    AjaxProcessor.renderData(response, jsonResult);
+	}
+	
+	@RequestMapping(value="/segmentProcess_check")
+	public void segmentProcess_check(HttpServletRequest request,HttpServletResponse response){
+		String jsonResult = AjaxProcessor.getJSONString(request,
+				new IJsonService(){
+					@Override
+					public Map<String, Object> run() {
+						// TODO Auto-generated method stub
+						
+						Map<String,Object> map = new HashMap<String,Object>();
+						if(segmentProcess_check == ConstantConfig.SEGMENT_PROCESS_CHECK_SUCCESS){
+							map.put("result", "success");
+						}else if (segmentProcess_check == ConstantConfig.SEGMENT_PROCESS_CHECK_RUN){
+							map.put("result", "run");
+						}else{
+							map.put("result", "stop");
 						}
 						return map;
 					}

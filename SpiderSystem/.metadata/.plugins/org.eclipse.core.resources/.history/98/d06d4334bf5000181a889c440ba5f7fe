@@ -1,0 +1,13 @@
+package org.SpiderSystem.Web.service;
+
+public interface IDataProcessService {
+
+	/**
+	 * Word分词器，多种算法
+	 * @param input
+	 * @param output
+	 * @param result
+	 * @param Algorithm
+	 */
+	void runWord(String input, String output, String result, int Algorithm);
+}

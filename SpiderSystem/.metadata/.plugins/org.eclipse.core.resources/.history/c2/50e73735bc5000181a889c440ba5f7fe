@@ -1,0 +1,6 @@
+package org.SpiderSystem.Web.service;
+
+public interface IDataProcessService {
+
+	void run(String input, String output, String result, int Algorithm);
+}

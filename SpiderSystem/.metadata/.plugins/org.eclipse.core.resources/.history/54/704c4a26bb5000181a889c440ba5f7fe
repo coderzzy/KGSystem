@@ -1,0 +1,13 @@
+package org.SpiderSystem.Web.service.impl;
+
+import org.SpiderSystem.Web.service.IDataProcessService;
+
+public class DataProcessService implements IDataProcessService{
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
