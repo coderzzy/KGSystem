@@ -56,20 +56,17 @@ public class FileServiceImpl implements IFileService{
 			List<DataEntity> list = new LinkedList<DataEntity>();
 			for(String ss:result){
 				// System.out.println(ss);
-				String string = ss.split(" ")[0];
-				if(string.equals("title") || 
-						string.equals("time") || 
-						string.equals("content") ||
-						string.equals("url") ||
-						string.equals("html") ||
-						string.equals("http") ||
-						string.equals("www") ||
-						string.equals("news") ||
-						string.equals("附") ||
-						string.equals("下载")            			
+				if(tempString.equals("title") || 
+            			tempString.equals("time") || 
+            			tempString.equals("content") ||
+            			tempString.equals("url") ||
+            			tempString.equals("html") ||
+            			tempString.equals("http") ||
+            			tempString.equals("www") ||
+            			tempString.equals("news") ||
+            			tempString.equals("附") ||
+            			tempString.equals("下载")            			
             			){
-					continue;
-				}
 				list.add(new DataEntity(ss.split(" ")[0],Integer.valueOf(ss.split(" ")[1])));
 			}
 			return list;

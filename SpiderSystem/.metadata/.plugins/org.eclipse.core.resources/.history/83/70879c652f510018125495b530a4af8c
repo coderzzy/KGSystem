@@ -110,7 +110,7 @@ public class LogController {
 						Map<String,Object> map = new HashMap<String,Object>();
 						List<DataEntity> list = fileService.getFrequency(
 								ConstantConfig.FREQUENCY_PATH[Integer.valueOf(request.getParameter("index"))-1], 
-								300);
+								200);
 						if(list != null){
 							map.put("result", "success");
 							// map.put("path", System.getProperty("user.dir"));

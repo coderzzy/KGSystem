@@ -109,13 +109,13 @@ public class LogController {
 					public Map<String, Object> run() {
 						Map<String,Object> map = new HashMap<String,Object>();
 						List<DataEntity> list = fileService.getFrequency(
-								ConstantConfig.FREQUENCY_PATH[Integer.valueOf(request.getParameter("index"))-1], 
-								300);
+								ConstantConfig.FREQUENCY_PATH[Integer.valueOf(request.getParameter("index"))], 
+								200);
 						if(list != null){
 							map.put("result", "success");
 							// map.put("path", System.getProperty("user.dir"));
 							map.put("title", 
-								ConstantConfig.ALGORITHM_NAME[Integer.valueOf(request.getParameter("index"))-1]);
+								ConstantConfig.ALGORITHM_NAME[Integer.valueOf(request.getParameter("index"))]);
 							// System.out.println(list.size());
 							
 							List<String> list1 = new LinkedList<String>();

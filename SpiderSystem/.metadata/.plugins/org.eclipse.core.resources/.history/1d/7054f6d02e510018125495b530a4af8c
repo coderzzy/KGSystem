@@ -36,6 +36,16 @@ public class MyFileReader {
             while ((tempString = reader.readLine()) != null && line++ <= total) {  
                 // 显示行号  
                 // System.out.println("line " + line + ": " + tempString);
+            	if(tempString.equals("title") || 
+            			tempString.equals("time") || 
+            			tempString.equals("content") ||
+            			tempString.equals("url") ||
+            			tempString.equals("html") ||
+            			tempString.equals("http") ||
+            			tempString.equals("www") ||
+            			tempString.equals("news")
+            			
+            			)
                 list.add(tempString);
             }  
             reader.close();  
