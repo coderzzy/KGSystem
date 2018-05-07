@@ -42,9 +42,9 @@
     <div class="admin-content-body">
       <div class="am-cf am-padding am-padding-bottom-0">
         <div class="am-fl"><strong class="am-text-primary am-text-lg">数据清洗与xml文件写入</strong> / <small>前500行,2016-2018  </small></div>
-        <button type="button" class="am-btn am-btn-primary" onclick="start()">start</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="check()">check</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="show()">show</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="start()">开始</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="check()">检查</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show()">展示</button>
       </div>
 
       <hr/>

@@ -47,19 +47,19 @@
     <div class="admin-content">
     <div class="admin-content-body">
       <div class="am-cf am-padding am-padding-bottom-0">
-        <div class="am-fl"><strong class="am-text-primary am-text-lg">分词与词频统计</strong> / <small>Word分词器10种算法  </small></div>
-        <button type="button" class="am-btn am-btn-primary" onclick="start()">start</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="check()">check</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="show(1)">show1</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="show(2)">show2</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="show(3)">show3</button>
-        <button type="button" class="am-btn am-btn-primary" onclick="show(4)">show4</button>
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">分词与词频统计</strong> / <small>Word分词器  </small></div>
+        <button type="button" class="am-btn am-btn-primary" onclick="start()">开始</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="check()">监测</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(1)">展示_正向最大</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(2)">展示_逆向最大</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(3)">展示_正向最小</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(4)">展示_逆向最小</button>
       </div>
 
       <hr/>
       <div id="data_frequency1" style="width:1000px; height: 400px;"></div>
       <div id="data_frequency2" style="width:800px; height: 600px;"></div>
-      <div id="data_frequency3" style="width:600px; height: 600px;"></div>
+      <div id="data_frequency3" style="width:800px; height: 600px;"></div>
       <div id="data_frequency4" style="width:1000px; height: 400px;"></div>
 
       
@@ -172,34 +172,118 @@
 	       	                    value: Math.sqrt(keywords[key])
 	       	                })
 	       	            }*/
-	       	         	var maskImage = new Image();
-	        	        option = {
-	        	              title: {
-	        	                  text: data.title,
-	        	                  // link: 'http://www.google.com/trends/hottrends'
-	        	              },
-	        	              tooltip: {
-	        	                  show: true
-	        	              },
-	        	              series: [{
-	        	                  // name: 'wordCloud',
-	        	                  type: 'wordCloud',
-	        	                  size: ['80%', '80%'],
-	        	                  textRotation : [0, 45, 90, -45],
-	        	                  textPadding: 0,
-	        	                  // sizeRange: [10, 80],  
-             						// rotationRange: [-90, 90],  
-             						// rotationStep: 45,  
-             						// gridSize: 2, 
-	        	                  shape: 'pentagon',
-	        	                  // maskImage: maskImage,
-	        	                  autoSize: {
-	        	                      enable: true,
-	        	                      minSize: 14
-	        	                  },
-	        	                  data:mydata
-	        	              }]
-	        	          };
+	       	         	// var maskImage = new Image();
+	       	            if (index == 1 || index == 3){
+	       	            	
+		        	        option = {
+		        	              title: {
+		        	                  text: data.title,
+		        	                  // link: 'http://www.google.com/trends/hottrends'
+		        	              },
+		        	              tooltip: {
+		        	                  show: true
+		        	              },
+		        	              series: [{
+		        	                  // name: 'wordCloud',
+		        	                  type: 'wordCloud',
+		        	                  size: ['80%', '80%'],
+		        	                  textRotation : [0, 45, 90, -45],
+		        	                  textPadding: 0,
+		        	                  // sizeRange: [10, 80],  
+	             						// rotationRange: [-90, 90],  
+	             						// rotationStep: 45,  
+	             						// gridSize: 2, 
+		        	                  shape: 'pentagon',
+		        	                  // maskImage: maskImage,
+		        	                  autoSize: {
+		        	                      enable: true,
+		        	                      minSize: 14
+		        	                  },
+		        	                  data:mydata
+		        	              }]
+		        	          };
+	       	            }else if(index == 2){
+	       	            	option = {
+	       	            			title: {
+			        	                  text: data.title,
+			        	                  // link: 'http://www.google.com/trends/hottrends'
+			        	              },
+	       	            			tooltip: {
+	       	            		        trigger: 'item',
+	       	            		        formatter: "{a} <br/>{b}: {c} ({d}%)"
+	       	            		    },
+	       	            		    
+	       	            		    series: [
+	       	            		        {
+	       	            		            name:'访问来源',
+	       	            		            type:'pie',
+	       	            		            radius: ['50%', '70%'],
+	       	            		            avoidLabelOverlap: false,
+	       	            		            label: {
+	       	            		                normal: {
+	       	            		                    show: false,
+	       	            		                    position: 'center'
+	       	            		                },
+	       	            		                emphasis: {
+	       	            		                    show: true,
+	       	            		                    textStyle: {
+	       	            		                        fontSize: '30',
+	       	            		                        fontWeight: 'bold'
+	       	            		                    }
+	       	            		                }
+	       	            		            },
+	       	            		            labelLine: {
+	       	            		                normal: {
+	       	            		                    show: false
+	       	            		                }
+	       	            		            },
+	       	            		            data:mydata
+	       	            		        }
+	       	            		    ]
+	       	            		};
+	       	            }else if(index == 4){
+	       	            	option = {
+	       	            			title: {
+			        	                  text: data.title,
+			        	                  // link: 'http://www.google.com/trends/hottrends'
+			        	              },
+	       	            			color: ['#3398DB'],
+	       	            		    tooltip : {
+	       	            		        trigger: 'axis',
+	       	            		        axisPointer : {            // 坐标轴指示器，坐标轴触发有效
+	       	            		            type : 'shadow'        // 默认为直线，可选为：'line' | 'shadow'
+	       	            		        }
+	       	            		    },
+	       	            		    grid: {
+	       	            		        left: '3%',
+	       	            		        right: '4%',
+	       	            		        bottom: '3%',
+	       	            		        containLabel: true
+	       	            		    },
+	       	            		    xAxis : [
+	       	            		        {
+	       	            		            type : 'category',
+	       	            		            data : data.string,
+	       	            		            axisTick: {
+	       	            		                alignWithLabel: true
+	       	            		            }
+	       	            		        }
+	       	            		    ],
+	       	            		    yAxis : [
+	       	            		        {
+	       	            		            type : 'value'
+	       	            		        }
+	       	            		    ],
+	       	            		    series : [
+	       	            		        {
+	       	            		            name:'直接访问',
+	       	            		            type:'bar',
+	       	            		            barWidth: '60%',
+	       	            		            data:data.integer
+	       	            		        }
+	       	            		    ]
+	       	            		};
+	       	            }
 	        	          
 	        	          	// maskImage.onload = function () {
 	        	                // option.series[0].maskImage

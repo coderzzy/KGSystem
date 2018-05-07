@@ -41,7 +41,7 @@
     <div class="admin-content">
       <div class="admin-content-body">
       	<div class="am-cf am-padding am-padding-bottom-0">
-        <div class="am-fl"><strong class="am-text-primary am-text-lg">数据分析</strong> / <small>data_analysis  </small></div>
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">数据总览</strong> / <small>所有数据  </small></div>
         <button type="button" class="am-btn am-btn-primary" onclick="blank_data()">空白数据饼状图</button>
         <button type="button" class="am-btn am-btn-primary" onclick="data_date()">数据日期柱状图</button>
       </div>

@@ -48,39 +48,34 @@
                 -->
                 <li>
                 <a href="${pageContext.request.contextPath}/memory/index">
-                  <span class="am-icon-area-chart"></span> 内存信息系统</a>
+                  <span class="am-icon-area-chart"></span> 性能监测</a>
                 </li>
             </ul>
-          </li>
-          
-          <li>
-            <a href="${pageContext.request.contextPath}/log/index">
-              <span class="am-icon-calendar"></span> 系统日志
-            </a>
           </li>
 
           <li class="admin-parent">
             <a class="am-cf" data-am-collapse="{target: '#collapse-database'}">
-              <span class="am-icon-database"></span> 数据库
+              <span class="am-icon-database"></span> 原始数据
               <span class="am-icon-angle-right am-fr am-margin-right"></span>
             </a>
             <ul class="am-list am-collapse admin-sidebar-sub am-in" id="collapse-database">
+	            <li>
+	                <a href="${pageContext.request.contextPath}/news/show">
+	                  <span class="am-icon-pencil-square-o"></span> 新闻表
+	                </a>
+	              </li>
               <li>
                 <a href="${pageContext.request.contextPath}/notice/show">
                   <span class="am-icon-pencil-square-o"></span> 公告表
                 </a>
               </li>
-              <li>
-                <a href="${pageContext.request.contextPath}/news/show">
-                  <span class="am-icon-pencil-square-o"></span> 新闻表
-                </a>
-              </li>
+                          
             </ul>
           </li>
           
           <li>
             <a href="${pageContext.request.contextPath}/newsDataAnalysis/index">
-              <span class="am-icon-pie-chart"></span> 数据分析
+              <span class="am-icon-pie-chart"></span> 数据总览
             </a>
           </li>
 
@@ -101,6 +96,12 @@
                 </a>
               </li>
             </ul>
+          </li>
+          
+          <li>
+            <a href="${pageContext.request.contextPath}/log/index">
+              <span class="am-icon-calendar"></span> 系统日志
+            </a>
           </li>
 
         </ul>

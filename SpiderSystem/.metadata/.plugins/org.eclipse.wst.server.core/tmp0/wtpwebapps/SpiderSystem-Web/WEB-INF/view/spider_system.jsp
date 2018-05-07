@@ -58,7 +58,7 @@
                   <p>开始</p>
                   <div class="am-form-group">
                     <div class="am-u-sm-12 am-u-sm-push-3">
-                      <button type="button" class="am-btn am-btn-primary" onclick="spider_start()">click to spider_start</button>
+                      <button type="button" class="am-btn am-btn-primary" onclick="spider_start()">开始爬虫</button>
                     </div>
                   </div>
                 </div>
@@ -66,7 +66,7 @@
                   <p>结束</p>
                   <div class="am-form-group">
                     <div class="am-u-sm-12 am-u-sm-push-3">
-                      <button type="button" class="am-btn am-btn-primary" onclick="spider_stop()">click to spider_stop</button>
+                      <button type="button" class="am-btn am-btn-primary" onclick="spider_stop()">停止爬虫</button>
                     </div>
                   </div>
                 </div>
@@ -74,7 +74,7 @@
                   <p>返回</p>
                   <div class="am-form-group">
                     <div class="am-u-sm-12 am-u-sm-push-3">
-                      <button type="button" class="am-btn am-btn-primary" onclick="admin_index()">click to admin_index</button>
+                      <button type="button" class="am-btn am-btn-primary" onclick="admin_index()">返回首页</button>
                     </div>
                   </div>
                 </div>
@@ -82,7 +82,7 @@
                   <p>开始(爬取存入数据库版本)</p>
                   <div class="am-form-group">
                     <div class="am-u-sm-12 am-u-sm-push-3">
-                      <button type="button" class="am-btn am-btn-primary" onclick="spider_mysql()">click to spider_mysql</button>
+                      <button type="button" class="am-btn am-btn-primary" onclick="spider_mysql()">开始爬虫入库</button>
                     </div>
                   </div>
                 </div>
@@ -93,41 +93,41 @@
         <div class="am-u-sm-12 am-u-md-8 am-u-md-pull-4">
           <form class="am-form am-form-horizontal">
             <div class="am-form-group">
-              <label for="url-seed" class="am-u-sm-3 am-form-label">起始网址 / UrlSeed</label>
+              <label for="url-seed" class="am-u-sm-3 am-form-label">起始网址</label>
               <div class="am-u-sm-9">
                 <input type="text" id="urlSeed" placeholder="http://www.199it.com">
                 <small>输入起始网址，让我们开始爬虫。</small>
               </div>
             </div>
             <div class="am-form-group">
-              <label for="regex-rule" class="am-u-sm-3 am-form-label">过滤规则 / RegexRule</label>
+              <label for="regex-rule" class="am-u-sm-3 am-form-label">过滤规则</label>
               <div class="am-u-sm-9">
                 <input type="text" id="regexRule" placeholder="http://www.199it.com/.*html">
                 <small>方便我们自动化遍历...</small>
               </div>
             </div>
             <div class="am-form-group">
-              <label for="mission-name" class="am-u-sm-3 am-form-label">任务名称 / MissionName</label>
+              <label for="mission-name" class="am-u-sm-3 am-form-label">任务名称</label>
               <div class="am-u-sm-9">
                 <input type="text" id="missionName" placeholder="199it">
               </div>
             </div>
             <div class="am-form-group">
-              <label for="item-map" class="am-u-sm-3 am-form-label">解析映射 / ItemMap</label>
+              <label for="item-map" class="am-u-sm-3 am-form-label">解析映射</label>
               <div class="am-u-sm-3">
-                <button type="button" class="am-btn am-btn-primary" onclick="add_items()">add</button>
+                <button type="button" class="am-btn am-btn-primary" onclick="add_items()">增加</button>
               </div>
               <div class="am-u-sm-3">
-                <button type="button" class="am-btn am-btn-primary" onclick="del_items()">del</button>
+                <button type="button" class="am-btn am-btn-primary" onclick="del_items()">删除</button>
               </div>
             </div>
             <div id="itemMap">
               <div class="am-form-group item">
-                <label for="key" class="am-u-sm-3 am-form-label">key: </label>
+                <label for="key" class="am-u-sm-3 am-form-label">键: </label>
                 <div class="am-u-sm-3">
                   <input type="text" class="keys" placeholder="title">
                 </div>
-                <label for="value" class="am-u-sm-3 am-form-label">value: </label>
+                <label for="value" class="am-u-sm-3 am-form-label">值: </label>
                 <div class="am-u-sm-3">
                   <input type="text" class="values" placeholder="h1.entry-title">
                 </div>
@@ -169,9 +169,9 @@
     function add_items(){
       var str = "";
       str += '<div class="am-form-group item">';
-      str += '<label for="key" class="am-u-sm-3 am-form-label">key: </label>'
+      str += '<label for="key" class="am-u-sm-3 am-form-label">键: </label>'
       str += '<div class="am-u-sm-3"><input type="text" class="keys" placeholder="title"></div>'
-      str += '<label for="value" class="am-u-sm-3 am-form-label">value: </label>'
+      str += '<label for="value" class="am-u-sm-3 am-form-label">值: </label>'
       str += '<div class="am-u-sm-3"><input type="text" class="values" placeholder="h1.entry-title"></div>'
       str += '</div>'
       $("#itemMap").append(str);

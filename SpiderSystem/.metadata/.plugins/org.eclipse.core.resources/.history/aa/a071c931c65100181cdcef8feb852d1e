@@ -1,0 +1,314 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html class="no-js fixed-layout">
+<head>
+  <meta charset="UTF-8">
+	<title>Admin Index Page | SpiderSystem</title>
+	<!-- 以下代码告诉IE浏览器，IE8/9及以后的版本都会以最高版本IE来渲染页面 -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <meta name="description" content="the admin_index of SpiderSystem">
+  <meta name="keywords" content="index SpiderSystem">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="renderer" content="webkit">
+	<!-- 以下代码取消第三方转码 -->
+	<meta name="Cache-Control" content="no-siteapp">
+
+	<link rel="icon" type="image/png"
+		href="${pageContext.request.contextPath}/static/amazeui_assets/i/favicon.png">
+  <link rel="apple-touch-icon-precomposed"
+    href="${pageContext.request.contextPath}/static/amazeui_assets/i/app-icon72x72@2x.png">
+  <link rel="stylesheet"
+		href="${pageContext.request.contextPath}/static/amazeui_assets/css/amazeui.min.css">
+  <link rel="stylesheet"
+  	href="${pageContext.request.contextPath}/static/amazeui_assets/css/admin.css">
+  	
+  	<script src="${pageContext.request.contextPath}/static/js/echarts.js"></script>
+  <!--
+  <script src='https://cdn.bootcss.com/echarts/3.7.2/echarts.simple.js'></script>
+  -->
+  <script src="${pageContext.request.contextPath}/static/js/echarts-wordcloud.js"></script>
+</head>
+<body>
+  <!--[if lte IE 9]>
+  <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
+    以获得更好的体验！</p>
+  <![endif]-->
+
+  <jsp:include page="included_header.jsp"/>
+
+  <div class="am-cf admin-main">
+    <!-- sidebar start-->
+    <jsp:include page="included_sidebar.jsp"/>
+    <!-- siderbar end -->
+
+    <!-- content start-->
+    <div class="admin-content">
+    <div class="admin-content-body">
+      <div class="am-cf am-padding am-padding-bottom-0">
+        <div class="am-fl"><strong class="am-text-primary am-text-lg">分词与词频统计</strong> / <small>Word分词器  </small></div>
+        <button type="button" class="am-btn am-btn-primary" onclick="start()">开始</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="check()">监测</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(1)">展示_正向最大</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(2)">展示_逆向最大</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(3)">展示_正向最小</button>
+        <button type="button" class="am-btn am-btn-primary" onclick="show(4)">展示_逆向最小</button>
+      </div>
+
+      <hr/>
+      <div id="data_frequency1" style="width:1000px; height: 400px;"></div>
+      <div id="data_frequency2" style="width:800px; height: 600px;"></div>
+      <div id="data_frequency3" style="width:600px; height: 600px;"></div>
+      <div id="data_frequency4" style="width:1000px; height: 400px;"></div>
+
+      
+    </div>
+
+      <jsp:include page="included_footer.jsp"/>
+    </div>
+    <!-- content end-->
+
+
+  </div>
+
+
+
+
+
+
+
+  <!--[if lt IE 9]>
+  <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+  <script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+  <![endif]-->
+
+  <!--[if (gte IE 9)|!(IE)]><!-->
+  <script src="${pageContext.request.contextPath}/static/js/jquery.min.js"></script>
+  <!--<![endif]-->
+  <script src="${pageContext.request.contextPath}/static/amazeui_assets/js/amazeui.min.js"></script>
+  <script src="${pageContext.request.contextPath}/static/amazeui_assets/js/app.js"></script>
+  
+  
+  
+  <script type="text/javascript">
+  	function start(){
+  		$.ajax({
+	             url: "${pageContext.request.contextPath}/newsDataProcess/word_segment",
+	             type: "POST",
+	             dataType: "json",
+	             /*
+	             data: {
+	               "newsId": newsId
+	             },
+	             */
+	             async: false,
+	             success: function(data) {
+	            	 if(data.result == "success"){
+	            		 alert("正在数据分词和统计词频...");
+	                 }else{
+	                	 alert("数据读取失败");
+	                 }
+	             },
+	             error: function() {
+	               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+	             }
+	           });
+  	}
+  	
+  	
+  	function check(){
+  		$.ajax({
+            url: "${pageContext.request.contextPath}/newsDataProcess/segmentProcess_check",
+            type: "POST",
+            dataType: "json",
+            async: false,
+            success: function(data) {
+           	 if(data.result == "success"){
+               	 // alert("操作成功");
+               	 // alert(data.array[0]);
+               	 	alert("恭喜,已完成");   	 
+                }else if(data.result == "run"){
+               	 	alert("尚在进行中...");
+                }else{
+                	alert("尚未开始运行...")
+                }
+            },
+            error: function() {
+              alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+            }
+		});
+  	}
+  	
+  	
+  	function show(index){
+  		$.ajax({
+	             url: "${pageContext.request.contextPath}/log/show_frequency",
+	             type: "POST",
+	             dataType: "json",
+	             data:{
+	            	 "index":index
+	             },
+	             async: false,
+	             success: function(data) {
+	            	 if(data.result == "success"){
+	                	 alert("正在绘制图表,请稍等...");
+	            		 var myChart = echarts.init(document.getElementById('data_frequency'+index));
+	            		 var mydata = [];
+	            		 
+	            		 for(var i=0;i<data.string.length;i++){
+	            			 mydata.push({
+	            				 name:data.string[i],
+	            				 value:data.integer[i]
+	            			 })
+	            		 }
+	            		 
+	            		 // console.log(mydata);
+	            		 /*
+	       	            for (var key in keywords) {
+	       	                mydata.push({
+	       	                    name: key,
+	       	                    value: Math.sqrt(keywords[key])
+	       	                })
+	       	            }*/
+	       	         	// var maskImage = new Image();
+	       	            if (index == 1){
+	       	            	
+		        	        option = {
+		        	              title: {
+		        	                  text: data.title,
+		        	                  // link: 'http://www.google.com/trends/hottrends'
+		        	              },
+		        	              tooltip: {
+		        	                  show: true
+		        	              },
+		        	              series: [{
+		        	                  // name: 'wordCloud',
+		        	                  type: 'wordCloud',
+		        	                  size: ['80%', '80%'],
+		        	                  textRotation : [0, 45, 90, -45],
+		        	                  textPadding: 0,
+		        	                  // sizeRange: [10, 80],  
+	             						// rotationRange: [-90, 90],  
+	             						// rotationStep: 45,  
+	             						// gridSize: 2, 
+		        	                  shape: 'pentagon',
+		        	                  // maskImage: maskImage,
+		        	                  autoSize: {
+		        	                      enable: true,
+		        	                      minSize: 14
+		        	                  },
+		        	                  data:mydata
+		        	              }]
+		        	          };
+	       	            }else if(index == 2){
+	       	            	option = {
+	       	            			title: {
+			        	                  text: data.title,
+			        	                  // link: 'http://www.google.com/trends/hottrends'
+			        	              },
+	       	            			tooltip: {
+	       	            		        trigger: 'item',
+	       	            		        formatter: "{a} <br/>{b}: {c} ({d}%)"
+	       	            		    },
+	       	            		    
+	       	            		    series: [
+	       	            		        {
+	       	            		            name:'访问来源',
+	       	            		            type:'pie',
+	       	            		            radius: ['50%', '70%'],
+	       	            		            avoidLabelOverlap: false,
+	       	            		            label: {
+	       	            		                normal: {
+	       	            		                    show: false,
+	       	            		                    position: 'center'
+	       	            		                },
+	       	            		                emphasis: {
+	       	            		                    show: true,
+	       	            		                    textStyle: {
+	       	            		                        fontSize: '30',
+	       	            		                        fontWeight: 'bold'
+	       	            		                    }
+	       	            		                }
+	       	            		            },
+	       	            		            labelLine: {
+	       	            		                normal: {
+	       	            		                    show: false
+	       	            		                }
+	       	            		            },
+	       	            		            data:mydata
+	       	            		        }
+	       	            		    ]
+	       	            		};
+	       	            }else if(index == 3){
+	       	            	option = {
+	       	            		    title : {
+	       	            		        text: '某站点用户访问来源',
+	       	            		        subtext: '纯属虚构',
+	       	            		        x:'center'
+	       	            		    },
+	       	            		    tooltip : {
+	       	            		        trigger: 'item',
+	       	            		        formatter: "{a} <br/>{b} : {c} ({d}%)"
+	       	            		    },
+	       	            		    legend: {
+	       	            		        orient: 'vertical',
+	       	            		        left: 'left',
+	       	            		        data: ['直接访问','邮件营销','联盟广告','视频广告','搜索引擎']
+	       	            		    },
+	       	            		    series : [
+	       	            		        {
+	       	            		            name: '访问来源',
+	       	            		            type: 'pie',
+	       	            		            radius : '55%',
+	       	            		            center: ['50%', '60%'],
+	       	            		            data:mydata
+	       	            		            itemStyle: {
+	       	            		                emphasis: {
+	       	            		                    shadowBlur: 10,
+	       	            		                    shadowOffsetX: 0,
+	       	            		                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+	       	            		                }
+	       	            		            }
+	       	            		        }
+	       	            		    ]
+	       	            		};
+
+	       	            }
+	        	          
+	        	          	// maskImage.onload = function () {
+	        	                // option.series[0].maskImage
+	        	                myChart.setOption(option);
+	        	            // }
+
+	        	            // maskImage.src = '${pageContext.request.contextPath}/static/images/logo.png';
+
+	        	          // 为echarts对象加载数据 
+	        	          myChart.setOption(option); 
+	                 }else{
+	                	 alert("词频数据读取失败");
+	                 }
+	             },
+	             error: function() {
+	               alert("访问服务器失败，...请检查网络连接，如确实怀疑服务器问题请联系Zzy");
+	             }
+  		});
+  		
+  		function createRandomItemStyle() {
+  			return {
+  	                  normal: {
+  	                      color: 'rgb(' + [
+  	                          Math.round(Math.random() * 160),
+  	                          Math.round(Math.random() * 160),
+  	                          Math.round(Math.random() * 160)
+  	                      ].join(',') + ')'
+  	                  }
+  	              };
+  	   	}
+  	}
+  	
+    </script>
+
+</body>
+</html>
