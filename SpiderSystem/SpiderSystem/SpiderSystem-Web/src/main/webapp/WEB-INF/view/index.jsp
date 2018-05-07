@@ -37,9 +37,9 @@
 	<div class="am-g">
 		<h1>SpiderSystem数据预处理系统</h1>
 		<p>
-			the System of preDataProcess &amp; TextSimilarity Algorithm based on Relation-Matrix and Word-Frequency
+			the System of preDataProcess &amp; NewsTextSimilarity Algorithm based on Word-Frequency and Relation-Matrix
 			<br/>
-			基于关系矩阵和词频统计的算法——SpiderSystem数据预处理系统
+			基于词频统计和关系矩阵的新闻文本相似度算法——SpiderSystem数据预处理系统
 		</p>
 	</div>
 	<hr/>
