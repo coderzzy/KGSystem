@@ -1,14 +1,20 @@
 package org.SpiderSystem.Local;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
 
 import org.apdplat.word.WordFrequencyStatistics;
+import org.apdplat.word.analysis.CosineTextSimilarity;
+import org.apdplat.word.analysis.EditDistanceTextSimilarity;
+import org.apdplat.word.analysis.SimpleTextSimilarity;
+import org.apdplat.word.analysis.TextSimilarity;
 import org.jdom.Document;
 import org.jdom.Element;
 import org.jdom.JDOMException;
@@ -23,8 +29,13 @@ public class SimilarityOnNews {
 	private static final String fileRoot = "/Users/zzy/Desktop/outputs/";
 	private static final String fileNews = fileRoot + "news/";
 	private static final String fileFrequency = fileRoot + "news_frequency/";
+	private static final String fileSimilarity = fileRoot + "news_similarity/";
+	private static final String fileCosineTextSimilarity = fileSimilarity + "cosineTextSimilarity/";
+	private static final String fileEditDistanceTextSimilarity = fileSimilarity + "editDistanceTextSimilarity/";
+	private static final String fileSimpleTextSimilarity = fileSimilarity + "simpleTextSimilarity/";
 	
 	/**
+	 * 将xml新闻文件(18300+)分解成每条新闻对应的文本和分词文本
 	 * PS:i = 4705、会报错
 	 */
 	public void createFrequency(){
@@ -61,7 +72,7 @@ public class SimilarityOnNews {
 		//词频统计设置
 		WordFrequencyStatistics wordFrequencyStatistics = new WordFrequencyStatistics();
 		wordFrequencyStatistics.setRemoveStopWord(true);
-		for(int i=4706;i<bookList.size();i++){
+		for(int i=0;i<4705;i++){
 			//清除之前的统计结果
 			wordFrequencyStatistics.reset();
 			String text = bookList.get(i).getChild("content").getText();
@@ -91,6 +102,36 @@ public class SimilarityOnNews {
 			System.out.println("-------------------the " + i + "text-------------------");
 		}
 		
+		for(int i=4706;i<bookList.size();i++){
+			//清除之前的统计结果
+			wordFrequencyStatistics.reset();
+			String text = bookList.get(i).getChild("content").getText();
+			
+			BufferedWriter bf = null;
+			try {
+				bf = new BufferedWriter(new FileWriter(fileNews+(i-1)+".txt"));
+				bf.write(text);
+				bf.flush();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} finally{
+				try {
+					bf.close();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+			}
+			
+			//开始分词
+			wordFrequencyStatistics.seg(text);
+			//输出词频统计结果
+			wordFrequencyStatistics.dump(fileFrequency+ (i-1) +".txt");
+			
+			System.out.println("----createFrequency---------------the " + i + "text-------------------");
+		}
+		
 		try {
 			in.close();
 		} catch (IOException e) {
@@ -99,7 +140,104 @@ public class SimilarityOnNews {
 		}
 	}
 	
+	/**
+	 * 获取相似度,使用不同的算法
+	 * @param textSimilarity
+	 * @param textA
+	 * @param textB
+	 * @return
+	 */
+	private double getSimilarity(TextSimilarity textSimilarity,String textA,String textB){
+		return textSimilarity.similarScore(textA, textB);
+	}
+	
+	private String getText(String fileName){
+		BufferedReader bf = null;	
+		String result = "";
+		try {
+			bf = new BufferedReader(new FileReader(fileName));
+			String temp = null;
+			while((temp = bf.readLine())!=null){
+				result += temp;
+			}
+			// System.out.println(result);
+		} catch (FileNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace(); 
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return result;
+	}
+	
+	private void setText(String fileName,double[] data){
+		BufferedWriter bf = null;
+		try {
+			bf = new BufferedWriter(new FileWriter(fileName,false));
+			// bf.write(String.valueOf(data));
+			for(int i=0;i<data.length;i++){
+				bf.write(String.valueOf(data[i]));
+				bf.newLine();
+			}
+			bf.flush();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally{
+			try {
+				bf.close();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+	
+	/**
+	 * 首次训练,保持1-9,五万次计算量 250-2250
+	 * 一共18304条新闻,
+	 * 训练集:取0-250编号，251-2499编号,进行相似度匹配,三种算法
+	 */
+	private static final int LINE = 250;
+	private static final int TOTAL = 2500;
+	public void calcuteSimilarity(){
+		// 余弦相似度，通过计算两个向量的夹角余弦值来评估他们的相似度
+		TextSimilarity cosineTextSimilarity = new CosineTextSimilarity();
+		
+		// 简单共有词，通过计算两篇文档共有的词的总字符数除以最长文档字符数来评估他们的相似度
+		TextSimilarity simpleTextSimilarity = new SimpleTextSimilarity();
+		
+		// 编辑距离，通过计算两个字串之间由一个转成另一个所需的最少编辑操作次数来评估他们的相似度
+		TextSimilarity editDistanceTextSimilarity = new EditDistanceTextSimilarity();
+		
+		System.out.println("*******************************start...");
+		double[] cosineText = new double[TOTAL-LINE-1];
+		double[] simpleText = new double[TOTAL-LINE-1];
+		double[] editDistanceText = new double[TOTAL-LINE-1];
+		for(int i=0;i<LINE+1;i++){
+			for(int j=LINE+1;j<TOTAL;j++){
+				// System.out.println("*****************************"+i+"**"+j+"**********");
+				String textA = getText(fileNews+i+".txt");
+				String textB = getText(fileNews+j+".txt");
+				cosineText[j-LINE-1] = getSimilarity(cosineTextSimilarity,textA,textB);
+				simpleText[j-LINE-1] = getSimilarity(simpleTextSimilarity,textA,textB);
+				editDistanceText[j-LINE-1] = getSimilarity(editDistanceTextSimilarity,textA,textB);
+			}
+			setText(fileCosineTextSimilarity+i+".txt",cosineText);
+			setText(fileSimpleTextSimilarity+i+".txt",simpleText);
+			setText(fileEditDistanceTextSimilarity+i+".txt",editDistanceText);
+			System.out.println("-------calcuteSimilarity------------the " + i + "text-------------------");
+		}
+			
+		System.out.println("*******************************end...");
+	}
+	
+	
+	
 	public static void main(String[] args){
-		new SimilarityOnNews().createFrequency();
+		SimilarityOnNews object = new SimilarityOnNews();
+		// object.createFrequency();
+		object.calcuteSimilarity();
 	}
 }

@@ -15637,3 +15637,715 @@ Caused by: org.eclipse.core.runtime.CoreException: One or more constraints have 
 2018-05-06 21:18:54,793 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-05-06 21:18:54,794 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-05-06 21:18:54,794 [Worker-173] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:28:19,415 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:19,417 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:28:19,418 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:19,418 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:28:31,185 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:31,186 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:28:31,187 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:31,187 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:28:47,608 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:47,609 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:28:47,609 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:47,609 [Worker-182] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:28:57,667 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:57,667 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:28:57,668 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:28:57,668 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:29:08,829 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:29:08,830 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:29:08,833 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:29:08,834 [Worker-171] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:29:35,132 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:29:35,132 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:29:35,133 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:29:35,133 [Worker-184] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:34:57,004 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:34:57,004 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:34:57,005 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:34:57,006 [Worker-186] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:35:03,912 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:35:03,912 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:35:03,913 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:35:03,913 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 21:35:06,059 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:35:06,060 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 21:35:06,061 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 21:35:06,061 [Worker-189] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:47:27,879 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:47:27,881 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:47:27,882 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:47:27,882 [Worker-225] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:47:36,497 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:47:36,499 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:47:36,500 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:47:36,500 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:47:57,105 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:47:57,106 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:47:57,107 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:47:57,107 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:48:07,051 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:48:07,052 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:48:07,053 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:48:07,053 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:48:41,703 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:48:41,704 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:48:41,705 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:48:41,705 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:49:01,298 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:49:01,299 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:49:01,300 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:49:01,300 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:49:24,394 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:49:24,394 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:49:24,395 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:49:24,395 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:49:33,320 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:49:33,321 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:49:33,322 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:49:33,322 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:56:48,009 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:56:48,011 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:56:48,014 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:56:48,014 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:56:51,210 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:56:51,210 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:56:51,212 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:56:51,212 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:57:32,006 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:57:32,008 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:57:32,010 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:57:32,010 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:57:52,063 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:57:52,064 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:57:52,065 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:57:52,065 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:57:56,070 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:57:56,071 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:57:56,074 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:57:56,074 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:58:23,273 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:58:23,274 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:58:23,275 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:58:23,275 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:58:30,157 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:58:30,157 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:58:30,158 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:58:30,158 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:59:06,307 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:06,308 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:59:06,309 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:06,309 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:59:34,648 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:34,649 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:59:34,650 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:34,650 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:59:47,285 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:47,285 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:59:47,286 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:47,286 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 22:59:52,566 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:52,566 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 22:59:52,567 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 22:59:52,567 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:00:08,236 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:00:08,236 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:00:08,237 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:00:08,237 [Worker-229] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:00:29,583 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:00:29,584 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:00:29,585 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:00:29,585 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:01:24,848 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:01:24,849 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:01:24,850 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:01:24,850 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:02:16,175 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:16,176 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:02:16,176 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:16,176 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:02:27,327 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:27,328 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:02:27,328 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:27,328 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:02:33,093 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:33,094 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:02:33,095 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:33,095 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:02:51,154 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:51,154 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:02:51,155 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:02:51,155 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:03:13,534 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:03:13,535 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:03:13,536 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:03:13,536 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:03:19,558 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:03:19,558 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:03:19,559 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:03:19,559 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:04:35,221 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:04:35,221 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:04:35,222 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:04:35,222 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:04:45,188 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:04:45,188 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:04:45,189 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:04:45,189 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:04:59,054 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:04:59,054 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:04:59,055 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:04:59,055 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:05:14,462 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:05:14,462 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:05:14,463 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:05:14,463 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:05:23,176 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:05:23,178 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:05:23,179 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:05:23,179 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:06:45,685 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:06:45,689 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:06:45,691 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:06:45,691 [Worker-228] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:09:18,457 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:09:18,458 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:09:18,459 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:09:18,459 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:09:26,664 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:09:26,665 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:09:26,666 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:09:26,666 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:09:30,897 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:09:30,897 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:09:30,898 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:09:30,898 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:13:08,956 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:13:08,961 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:13:08,962 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:13:08,963 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:14:39,109 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:39,113 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:14:39,116 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:39,116 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:14:44,227 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:44,228 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:14:44,229 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:44,229 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:14:46,304 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:46,305 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:14:46,306 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:46,306 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:14:55,287 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:55,290 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:14:55,294 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:14:55,294 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:16:27,030 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:16:27,031 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:16:27,032 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:16:27,032 [Worker-236] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:17:46,579 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:17:46,579 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:17:46,580 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:17:46,581 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:17:56,964 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:17:56,966 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:17:56,967 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:17:56,967 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:18:04,280 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:18:04,281 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:18:04,281 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:18:04,281 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:18:20,800 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:18:20,801 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:18:20,801 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:18:20,801 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:18:32,417 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:18:32,417 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:18:32,418 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:18:32,418 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:19:47,980 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:19:47,981 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:19:47,982 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:19:47,982 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:21:01,035 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:21:01,035 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:21:01,036 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:21:01,036 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:21:20,560 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:21:20,560 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:21:20,561 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:21:20,561 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:21:41,436 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:21:41,436 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:21:41,437 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:21:41,437 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:23:29,800 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:23:29,801 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:23:29,802 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:23:29,802 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:23:36,181 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:23:36,181 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:23:36,182 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:23:36,182 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:23:48,631 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:23:48,631 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:23:48,632 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:23:48,632 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:24:05,684 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:05,685 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:24:05,686 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:05,686 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:24:31,820 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:31,820 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:24:31,821 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:31,821 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:24:38,049 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:38,049 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:24:38,050 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:38,051 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:24:46,762 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:46,763 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:24:46,764 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:46,764 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:24:56,951 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:56,952 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:24:56,953 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:24:56,953 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:13,583 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:13,583 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:13,585 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:13,585 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:21,151 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:21,151 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:21,152 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:21,152 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:29,380 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:29,380 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:29,381 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:29,381 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:36,240 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:36,240 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:36,241 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:36,241 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:40,015 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:40,016 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:40,017 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:40,017 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:42,589 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:42,589 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:42,590 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:42,590 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:25:56,355 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:56,355 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:25:56,356 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:25:56,356 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:27:30,355 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:27:30,355 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:27:30,356 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:27:30,356 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:27:59,810 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:27:59,811 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:27:59,811 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:27:59,811 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:28:30,036 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:28:30,037 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:28:30,038 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:28:30,038 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:28:37,146 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:28:37,146 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:28:37,147 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:28:37,147 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:29:07,869 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:29:07,870 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:29:07,870 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:29:07,871 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:29:30,226 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:29:30,227 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:29:30,227 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:29:30,227 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:30:28,446 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:30:28,446 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:30:28,447 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:30:28,447 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:30:55,265 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:30:55,265 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:30:55,266 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:30:55,266 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:31:18,845 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:31:18,845 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:31:18,846 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:31:18,847 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:31:36,858 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:31:36,859 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:31:36,860 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:31:36,860 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:32:17,362 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:32:17,363 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:32:17,364 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:32:17,364 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:32:35,122 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:32:35,122 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:32:35,123 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:32:35,123 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:32:50,746 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:32:50,747 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:32:50,747 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:32:50,747 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:33:42,823 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:33:42,824 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:33:42,825 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:33:42,825 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:33:46,129 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:33:46,130 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:33:46,130 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:33:46,131 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:34:28,151 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:34:28,152 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:34:28,153 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:34:28,153 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:34:38,490 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:34:38,491 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:34:38,491 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:34:38,491 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:34:48,824 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:34:48,824 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:34:48,824 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:34:48,824 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:35:00,698 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:35:00,699 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:35:00,700 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:35:00,700 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:35:07,178 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:35:07,178 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:35:07,179 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:35:07,179 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:35:27,928 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:35:27,928 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:35:27,929 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:35:27,929 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:36:26,243 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:36:26,243 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:36:26,244 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:36:26,244 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:36:32,577 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:36:32,577 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:36:32,578 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:36:32,578 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:36:45,940 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:36:45,940 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:36:45,941 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:36:45,941 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:37:02,188 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:37:02,188 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:37:02,189 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:37:02,189 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:37:53,288 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:37:53,288 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:37:53,289 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:37:53,289 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:38:21,908 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:38:21,909 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:38:21,910 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:38:21,910 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:38:54,394 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:38:54,394 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:38:54,395 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:38:54,395 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:39:44,573 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:39:44,574 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:39:44,574 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:39:44,574 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:39:50,782 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:39:50,783 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:39:50,783 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:39:50,783 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:40:04,799 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:40:04,799 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:40:04,800 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:40:04,800 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:40:42,716 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:40:42,716 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:40:42,717 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:40:42,717 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:41:00,875 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:41:00,875 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:41:00,876 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:41:00,876 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:41:33,036 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:41:33,036 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:41:33,037 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:41:33,037 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:41:52,987 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:41:52,987 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:41:52,988 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:41:52,988 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:42:24,015 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:42:24,015 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:42:24,016 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:42:24,016 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:43:08,543 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:08,544 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:43:08,545 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:08,545 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:43:16,565 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:16,565 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:43:16,566 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:16,566 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:43:47,910 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:47,911 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:43:47,911 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:47,911 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:43:52,270 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:52,270 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:43:52,272 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:43:52,272 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:44:16,112 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:16,112 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:44:16,113 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:16,113 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:44:31,804 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:31,805 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:44:31,806 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:31,806 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:44:42,469 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:42,469 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:44:42,471 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:42,471 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:44:50,328 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:50,329 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:44:50,329 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:44:50,329 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:45:01,805 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:01,805 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:45:01,806 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:01,806 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:45:10,437 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:10,437 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:45:10,438 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:10,438 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:45:17,563 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:17,563 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:45:17,563 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:17,563 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:45:32,926 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:32,927 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:45:32,928 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:32,928 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:45:48,919 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:48,919 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:45:48,920 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:45:48,920 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:46:01,749 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:46:01,749 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:46:01,750 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:46:01,750 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:48:05,997 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:48:05,998 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:48:06,000 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:48:06,000 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:48:17,496 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:48:17,496 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:48:17,497 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:48:17,497 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:50:27,660 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:27,664 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:50:27,665 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:27,665 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:50:32,698 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:32,698 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:50:32,699 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:32,699 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:50:46,162 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:46,163 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:50:46,163 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:46,163 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:50:53,414 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:53,414 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:50:53,415 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:50:53,415 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:51:18,204 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:51:18,204 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:51:18,205 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:51:18,205 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:51:20,267 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:51:20,268 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:51:20,270 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:51:20,271 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:51:28,340 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:51:28,340 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:51:28,341 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:51:28,341 [Worker-241] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:54:51,445 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:54:51,447 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:54:51,448 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:54:51,448 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:55:03,417 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:55:03,417 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:55:03,418 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:55:03,418 [Worker-245] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-06 23:58:10,998 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:58:11,003 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-06 23:58:11,004 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-06 23:58:11,004 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:00:05,416 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:00:05,418 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:00:05,419 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:00:05,419 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:00:14,081 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:00:14,081 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:00:14,082 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:00:14,082 [Worker-247] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:01:09,001 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:01:09,010 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:01:09,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:01:09,021 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:06:32,376 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:06:32,387 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:06:32,399 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:06:32,400 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:09:38,931 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:09:38,970 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:09:38,972 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:09:38,972 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:09:44,363 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:09:44,364 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:09:44,367 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:09:44,367 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:10:43,921 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:10:43,926 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:10:43,927 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:10:43,928 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:14:32,216 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:14:32,223 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:14:32,225 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:14:32,225 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:14:37,566 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:14:37,567 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:14:37,569 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:14:37,569 [Worker-16] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:16:58,662 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:16:58,663 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:16:58,665 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:16:58,665 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:17:07,124 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:07,125 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:17:07,129 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:07,129 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:17:23,484 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:23,486 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:17:23,489 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:23,489 [Worker-17] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:17:30,711 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:30,712 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:17:30,714 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:30,714 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:17:45,739 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:45,739 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:17:45,741 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:17:45,741 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:18:01,600 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:18:01,601 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:18:01,602 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:18:01,603 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:22:58,838 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:22:58,839 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:22:58,840 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:22:58,841 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:23:35,668 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:23:35,669 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:23:35,672 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:23:35,672 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:24:58,464 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:24:58,465 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:24:58,467 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:24:58,467 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:26:50,150 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:26:50,152 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:26:50,155 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:26:50,155 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:26:58,020 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:26:58,021 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:26:58,022 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:26:58,023 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:27:04,520 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:27:04,521 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:27:04,522 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:27:04,525 [Worker-24] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:27:11,930 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:27:11,930 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:27:11,932 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:27:11,932 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:27:16,168 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:27:16,169 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:27:16,171 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:27:16,171 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:44:02,914 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:02,917 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:44:02,919 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:02,920 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:44:20,162 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:20,163 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:44:20,165 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:20,166 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:44:40,370 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:40,372 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:44:40,374 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:40,374 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:44:45,261 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:45,262 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:44:45,264 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:45,264 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:44:56,715 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:56,716 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:44:56,718 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:44:56,718 [Worker-31] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:45:01,115 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:45:01,116 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:45:01,117 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:45:01,117 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 00:45:24,999 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:45:24,999 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 00:45:25,001 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 00:45:25,001 [Worker-32] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:46:42,380 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:46:42,418 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 12:46:42,438 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:46:42,438 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:48:07,837 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:48:07,874 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 12:48:07,877 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:48:07,877 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:48:17,805 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:48:17,806 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-05-07 12:48:17,809 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:48:17,809 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:52:23,902 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:52:23,903 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:52:23,908 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:52:23,908 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:53:06,287 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:53:06,292 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:53:06,295 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:53:06,295 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:53:44,148 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:53:44,148 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:53:44,150 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:53:44,150 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:54:15,082 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:54:15,083 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:54:15,084 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:54:15,084 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:54:35,086 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:54:35,086 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:54:35,090 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:54:35,090 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:55:00,287 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:55:00,287 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:55:00,291 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:55:00,292 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources
+2018-05-07 12:55:42,694 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:55:42,694 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-05-07 12:55:42,696 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-05-07 12:55:42,696 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zzy/Desktop/这是毕设/SpiderSystem/SpiderSystem/SpiderSystem-Web/src/test/resources

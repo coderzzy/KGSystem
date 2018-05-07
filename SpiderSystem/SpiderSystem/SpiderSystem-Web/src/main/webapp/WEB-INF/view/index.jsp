@@ -35,11 +35,11 @@
 <body>
 <div class="header">
 	<div class="am-g">
-		<h1>SpiderSystem知识图谱</h1>
+		<h1>SpiderSystem数据预处理系统</h1>
 		<p>
-			the System of News-Spider &amp; News-KnowledgeGraph based on ScriptSpider
+			the System of preDataProcess &amp; TextSimilarity Algorithm based on Relation-Matrix and Word-Frequency
 			<br/>
-			基于ScriptSpider开源框架的新闻类爬虫管理及知识图谱构建系统
+			基于关系矩阵和词频统计的算法——SpiderSystem数据预处理系统
 		</p>
 	</div>
 	<hr/>
